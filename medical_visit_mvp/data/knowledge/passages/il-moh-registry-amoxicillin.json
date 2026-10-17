@@ -1,0 +1,581 @@
+{
+ "id": "il-moh-registry-amoxicillin",
+ "title": "Amoxicillin — Israeli registered product leaflets (Ministry of Health medicines registry)",
+ "publisher": "משרד הבריאות — מאגר התרופות (Israel Ministry of Health, medicines registry)",
+ "jurisdiction": "Israel",
+ "population": "As stated in the leaflet of the registered product",
+ "medications": [
+  "amoxicillin"
+ ],
+ "type": "il_moh_registry",
+ "audience": null,
+ "language": null,
+ "version": "registry 132 01 31050 00 · leaflets updated 2025-10-17",
+ "effective_date": "2025-10-17",
+ "url": "https://registries.health.gov.il/Medicines/3105000",
+ "organization": "משרד הבריאות — מאגר התרופות (אגף הרוקחות)",
+ "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION",
+ "retrieved_at": "2026-10-17T11:33:36Z",
+ "raw_sha256": "8c4d94ae61c91aeb4919ce3e87cdeb9b20bc226be654a71e1f252745a2d0f653",
+ "passages_sha256": "b3fde720745faaf6edad810147ed4f9259ba20a31b7bef003869fbb2889154c2",
+ "passages": [
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-1",
+   "section": "עלון לצרכן · 1. WHAT IS THE MEDICINE INTENDED FOR?",
+   "section_code": "consumer_leaflet",
+   "text": "The medicine is intended for treatment of infections caused by bacteria sensitive to amoxicillin. In addition, the medicine is intended to prevent bacterial infection in patients at risk of developing bacterial endocarditis. Therapeutic class Penicillin antibiotic. Some infections are caused by viruses, such as the common cold. Moxypen Forte 250 mg Powder for Suspension does not harm viruses.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-2",
+   "section": "עלון לצרכן · 2. BEFORE USING THE MEDICINE",
+   "section_code": "consumer_leaflet",
+   "text": "Do not use the medicine if: • You are sensitive (allergic) to the active ingredient or to any of the additional components the medicine contains. • You are sensitive to the components of the package of the medicine. • You have a sensitivity to other medicines from the penicillin or cephalosporin group or to a similar antibiotic such as amoxicillin, ampicillin, cefalexin and others. • You have or are suspected to have infectious mononucleosis. Special warnings regarding the use of the medicine Before treatment with Moxypen Forte 250 mg Powder for Suspension, tell the doctor if: • You have suffered in the past from an allergic reaction to an antibiotic from the beta-lactam group (such as ampicillin, piperacillin). See section 4 – “Side effects”. • You are taking blood thinning medicines (such as warfarin, etc.).",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-3",
+   "section": "עלון לצרכן · 2. BEFORE USING THE MEDICINE",
+   "section_code": "consumer_leaflet",
+   "text": "• You have suffered in the past from diarrhea or inflammation of the colon (colitis) as a result of using antibiotics. • You have kidney problems. Drug interactions If you are taking, or have recently taken, other medicines, including non-prescription medicines and nutritional supplements, tell the doctor or the pharmacist. Especially if you are taking: • Medicines to treat cancer (such as methotrexate) • Medicines for heartburn or gout (probenecid or cimetidine) • Blood thinning medicines (such as warfarin) – may cause bleeding • Contraceptive pills – amoxicillin may decrease the effectiveness of the pills • Antibiotics (such as tetracyclines) – may decrease the effectiveness of amoxicillin Use of the medicine and food The medicine should be taken between meals with a glass of water. Pregnancy and breastfeeding",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-4",
+   "section": "עלון לצרכן · 2. BEFORE USING THE MEDICINE",
+   "section_code": "consumer_leaflet",
+   "text": "If you are pregnant or planning to become pregnant, consult the doctor before taking the medicine. If you are breastfeeding or planning to breastfeed, consult the doctor regarding how to breastfeed while using the medicine. Important information about some of the ingredients of the medicine • This medicine contains less than 23 mg of sodium per spoon (5 ml), and is therefore considered sodium-free. • This medicine contains sucrose (about 3 grams in 5 ml suspension). If you have been told by the doctor that you have an intolerance (sensitivity) to certain sugars, consult the doctor before taking this medicine. • The medicine contains red coloring agent FD&C red #40 (E129) which may cause allergic reactions. • This medicine contains sodium benzoate (E211) (2.79 mg in 5 ml suspension). Sodium benzoate may increase jaundice (yellowing of the skin and eyes) in newborns (up to 4 weeks of age).",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-5",
+   "section": "עלון לצרכן · 2. BEFORE USING THE MEDICINE",
+   "section_code": "consumer_leaflet",
+   "text": "• This medicine contains benzyl alcohol (about 1.5 mg in 5 ml suspension), which may cause allergic reactions. Benzyl alcohol is suspected to be a risk factor for severe side effects, including breathing problems in young children. Do not use in newborns (up to 4 weeks of age) unless recommended by the doctor. Do not use for more than one week in young children (under 3 years of age), unless recommended by the doctor, due to the increased risk of accumulation of the substance in their body.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-6",
+   "section": "עלון לצרכן · 4. SIDE EFFECTS",
+   "section_code": "consumer_leaflet",
+   "text": "As with any medicine, using Moxypen Forte 250 mg Powder for Suspension may cause side effects in some users. Do not be alarmed when reading the list of side effects. You may not experience any of them. Moxypen may affect the results of lab tests. Consult the doctor if needed. Stop the treatment and refer to a doctor immediately in the following cases: Uncommon side effects (effects that occur in 1-10 users out of 1,000): • Anaphylaxis (acute allergic reaction): swelling of the nose, eyes, throat, breathing difficulties, blisters on the skin, lumpy rash and skin peeling, fainting. • Angioneurotic edema: painful swelling of the face, eyes, lips, tongue and/or throat, of the hands or legs; itchy skin rash, skin redness, hives, abdominal pain, dizziness and difficulty breathing.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-7",
+   "section": "עלון לצרכן · 4. SIDE EFFECTS",
+   "section_code": "consumer_leaflet",
+   "text": "• Erythema multiforme (serious skin reaction): a skin rash which may appear as target-like blisters (circular spots with a dark center, surrounded by a lighter area with a dark ring around it). • Kidney problems: cloudy urine, blood in the urine which may be accompanied by rash, fever, joint pain; or decreased urination. • Liver problems: repeated nausea and vomiting, abdominal pain, abnormal tiredness, yellowing of the eyes or skin, dark urine. Rare side effects (effects that occur in 1-10 users out of 10,000): • Blood vessel inflammation due to an allergic reaction: rash, red spots, hives and blisters in the lower part of the body. • Acute skin reaction which may also affect other organs: - Peeling, scaling or blisters on the skin (with or without pus) which may also affect the eyes, mouth, nose or genitals, itch, acute",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-8",
+   "section": "עלון לצרכן · 4. SIDE EFFECTS",
+   "section_code": "consumer_leaflet",
+   "text": "rash, lumps under the skin, skin pain, skin discoloration (redness, yellowing or a purple color). - Swelling and redness of the eyes or face. - A flu-like feeling, fever, chills, body ache, swollen lymph nodes, cough. - Shortness of breath, pain or discomfort in the chest. - Feeling thirsty, urinating less frequently, decrease in urine volume. Side effects with unknown frequency: • Anemia: tiredness, headaches, pale skin, irregular heartbeat, chest pain, cold hands, dizziness, leg muscle cramps. • Aseptic meningitis (not caused by bacteria): confusion, fever, nausea, tiredness, sudden headaches or stiffness of the neck, sensitivity to light, vomiting. • Inflammation of the colon (colitis due to Clostridium difficile infection): severe (watery or bloody) diarrhea, with or without fever, abdominal pain or abdominal tenderness.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-9",
+   "section": "עלון לצרכן · 4. SIDE EFFECTS",
+   "section_code": "consumer_leaflet",
+   "text": "• Seizures: uncontrollable shaking with or without loss of consciousness. • Drug-induced bowel inflammation syndrome (enterocolitis): repeated vomiting (1-4 hours after taking the medicine), abdominal pain, abnormal drowsiness, diarrhea and low blood pressure. These effects may indicate a severe allergic reaction. • Hemolytic anemia: pale skin, weakness, tiredness, shortness of breath, yellowing of the skin and/or the eyes, fever. • Kounis syndrome (heart problems caused by an allergic reaction): chest pain, a sensation of pressure or discomfort in the chest, palpitations, nausea or vomiting, sweating, shortness of breath, tiredness, cold and clammy skin, feeling of anxiety or tendency to faint, confusion, abdominal discomfort. • Leukopenia, neutropenia, agranulocytosis (low levels of white blood cells): fever, chills, sore throat, rapid heartbeat and",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-10",
+   "section": "עלון לצרכן · 4. SIDE EFFECTS",
+   "section_code": "consumer_leaflet",
+   "text": "breathing rate, other signs indicating an infection. • Thrombocytopenia (a decrease in platelet levels): subcutaneous hematoma or bleeding that lasts longer than usual, tiredness and weakness. Consult a doctor if the following side effects occur: Common side effects (effects that occur in 1-10 users out of 100): Inflammation of the tongue (a black and hairy looking tongue), tooth discoloration in children (brown, yellow or gray stains), dizziness. Rare side effects (effects that occur in 1-10 users out of 10,000): Difficulty falling asleep (insomnia), confusion or behavioral changes. Side effects with unknown frequency: • Eosinophilia (an increase in the number of white blood cells): abdominal pain, rash, weight loss, wheezing. • Linear IgA disease: a rash with blisters arranged in the shape of a ring with a central scab or with an appearance that resembles a string of pearls.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#consumer_leaflet-en-11",
+   "section": "עלון לצרכן · 4. SIDE EFFECTS",
+   "section_code": "consumer_leaflet",
+   "text": "• A fungal infection that affects the mouth, stomach, urinary tract or vagina: thick white patches in the mouth, on the tongue or in the throat, sore throat. Vaginal itching, burning, rash, pain, discomfort or discharge. If a side effect occurs, if one of the side effects worsens, or if you suffer from a side effect not mentioned in this leaflet, consult the doctor. Reporting side effects Side effects may be reported to the Ministry of Health by clicking on the link “Report side effects due to medicinal treatment” found on the Ministry of Health website homepage (www.health.gov.il), which will direct you to the online form for reporting side effects, or by clicking on the following link: https://sideeffects.health.gov.il",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_25_386606925.pdf",
+    "updated_at": "2025-10-17",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-12",
+   "section": "עלון לרופא · 1. THERAPEUTIC INDICATIONS",
+   "section_code": "doctor_leaflet",
+   "text": "Infections caused by amoxicillin ‐ susceptible organisms. Prevention of bacteremia in patients at risk of developing bacterial endocarditis. THERAPEUTIC CLASSIFICATION Antibiotic",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-13",
+   "section": "עלון לרופא · 2 CONTRAINDICATIONS",
+   "section_code": "doctor_leaflet",
+   "text": "Moxypen Forte is contraindicated in:  patients who are hypersensitive to this drug or to any ingredient in the formulation or component of the container. • patients with a history of a previous hypersensitivity reaction to any of the penicillins or cephalosporins. • in cases where infectious mononucleosis is either suspected or confirmed.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-14",
+   "section": "עלון לרופא · 3 SERIOUS WARNINGS AND PRECAUTIONS BOX",
+   "section_code": "doctor_leaflet",
+   "text": "Serious Warnings and Precautions Box Hypersensitivity: Serious and occasionally fatal hypersensitivity (anaphylactic) and severe cutaneous adverse reactions (SCAR) have been reported in patients receiving therapy with beta‐lactams, including amoxicillin. (See 7 WARNINGS AND PRECAUTIONS, Hypersensitivity and 7 WARNINGS AND PRECAUTIONS, Skin). Moxypen forte 500mg capsules & 250mg powder for suspension SPC, TN 06/2025 2",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-15",
+   "section": "עלון לרופא · 7 WARNINGS AND PRECAUTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "General If superinfections with mycotic or bacterial pathogens occur (usually involving Aerobacter, Pseudomonas or Candida) treatment with Moxypen Forte should be discontinued and appropriate therapy instituted. Moxypen Forte is contraindicated in cases where infectious mononucleosis is either suspected or confirmed (see 2 CONTRAINDICATIONS). A morbilliform rash following the use of ampicillin in patients with infectious mononucleosis has been well documented and has also been reported to occur following the use of amoxicillin. Cardiovascular Kounis syndrome, a serious allergic reaction that can result in myocardial infarction, can occur as chest pain in association with an allergic reaction to amoxicillin. Gastrointestinal Clostridium difficile‐associated disease Clostridium difficile‐associated disease (CDAD) has been reported with use of many antibacterial",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-16",
+   "section": "עלון לרופא · 7 WARNINGS AND PRECAUTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "agents, including amoxicillin (see 8 ADVERSE REACTIONS). CDAD may range in severity from mild diarrhea to fatal colitis. It is important to consider this diagnosis in patients who present with diarrhea, or symptoms of colitis, pseudomembranous colitis, toxic megacolon, or perforation of colon subsequent to the administration of any antibacterial agent. CDAD has been reported to occur over 2 months after the administration of antibacterial agents. Treatment with antibacterial agents may alter the normal flora of the colon and may permit overgrowth of Clostridium difficile. C. difficile produces toxins A and B, which contribute to the development of CDAD. CDAD may cause significant morbidity and mortality. CDAD can be refractory to antimicrobial therapy. If the diagnosis of CDAD is suspected or confirmed, appropriate therapeutic measures should be",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-17",
+   "section": "עלון לרופא · 7 WARNINGS AND PRECAUTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "initiated. Mild cases of CDAD usually respond to discontinuation of antibacterial agents not directed against Clostridium difficile. In moderate to severe cases, consideration should be given to management with fluids and electrolytes, protein supplementation, and treatment with an antibacterial agent clinically effective against Clostridium difficile. Surgical evaluation should be instituted as clinically indicated, as surgical intervention may be required in certain severe cases. Hematologic Periodic assessment of hematopoietic function should be made during prolonged therapy with Moxypen Forte (amoxicillin). Moxypen forte 500mg capsules & 250mg powder for suspension SPC, TN 06/2025 6 Hepatic/Biliary/Pancreatic A moderate rise in serum glutamic oxaloacetic transaminase (SGOT) has been noted. Periodic",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-18",
+   "section": "עלון לרופא · 7 WARNINGS AND PRECAUTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "assessment of hepatic function should be made during prolonged therapy with Moxypen Forte (amoxicillin). (See 7.1.2 Pediatrics; 8.2 Clinical Trial Adverse Reactions) Susceptibility/Resistance Development of Drug Resistant Bacteria Prescribing Moxypen Forte in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and risks the development of drug‐resistant bacteria. Immune Hypersensitivity Serious and occasionally fatal hypersensitivity (anaphylactoid) reactions have been reported in patients on penicillin therapy. Hypersensitivity reactions can also progress to Kounis syndrome, a serious allergic reaction that can result in myocardial infarction (see section 8.3 POST‐MARKET ADVERSE REACTIONS). Although anaphylaxis is more frequent following parenteral therapy, it",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-19",
+   "section": "עלון לרופא · 7 WARNINGS AND PRECAUTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "has occurred in patients following oral dosing of penicillins. These reactions are more likely to occur in patients with a history of hypersensitivity to beta‐lactams and individuals with a history of sensitivity to multiple allergens. There have been well‐documented reports of individuals with a history of penicillin hypersensitivity reactions who have experienced severe hypersensitivity reactions when treated with cephalosporins. Before initiating therapy with a penicillin, careful inquiry should be made concerning previous hypersensitivity reactions to penicillins, cephalosporins and other allergens. If an allergic reaction occurs, administration of Moxypen Forte (amoxicillin) should be discontinued and appropriate therapy instituted. Serious anaphylactoid reactions require immediate emergency treatment with epinephrine.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-20",
+   "section": "עלון לרופא · 7 WARNINGS AND PRECAUTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "Oxygen, intravenous steroids, and airway management, including intubation, should also be administered as indicated. Drug‐induced enterocolitis syndrome (DIES) Drug‐induced enterocolitis syndrome (DIES) has been reported mainly in children receiving amoxicillin (see section 8.3 POST‐MARKET ADVERSE REACTIONS). DIES is an allergic reaction with the leading symptom of protracted vomiting (1‐4 hours after drug intake) in the absence of allergic skin or respiratory symptoms. Further symptoms could comprise abdominal pain, diarrhea, hypotension or leukocytosis with neutrophilia. There have been severe cases including progression to shock. Monitoring and Laboratory Tests Periodic assessment of renal, hepatic and hematopoietic functions should be made during prolonged therapy with Moxypen Forte (amoxicillin). Moxypen forte 500mg capsules & 250mg powder for suspension SPC, TN 06/2025 7",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-21",
+   "section": "עלון לרופא · 7 WARNINGS AND PRECAUTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "Abnormal prolongation of prothrombin time (increased international normalized ratio (INR)) has been reported in patients receiving amoxicillin and oral anticoagulants. Appropriate monitoring should be undertaken when amoxicillin and oral anticoagulants are prescribed concurrently, particularly upon initiation or cessation of concurrent administration. Adjustments in the dose of oral anticoagulants may be necessary to maintain the desired level of anticoagulation. Renal Because amoxicillin is excreted mostly by the kidney, the dosage for patients with renal impairment should be reduced in proportion to the degree of loss of renal function Periodic assessment of renal function should be made during prolonged therapy with Moxypen Forte (amoxicillin). Skin Severe Cutaneous Adverse Reactions Severe cutaneous adverse reactions (SCAR) such as acute generalized exanthematous pustulosis",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-22",
+   "section": "עלון לרופא · 7 WARNINGS AND PRECAUTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "(AGEP), drug reaction with eosinophilia and systemic symptoms (DRESS), Stevens‐Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN) have been reported in association with beta‐lactam treatment. When SCAR is suspected, Moxypen Forte should be discontinued and appropriate therapy and/or measures should be taken.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-23",
+   "section": "עלון לרופא · 7.1 Special Populations",
+   "section_code": "doctor_leaflet",
+   "text": "7.1.1 Pregnant Women The safety of Moxypen Forte in the treatment of infections during pregnancy has not been established. If the administration of Moxypen Forte to pregnant patients is considered to be necessary, its use requires that the potential benefits be weighed against the possible hazards to the fetus. 7.1.2 Pediatrics Pediatrics (<18): A moderate rise in serum glutamic oxaloacetic transaminase (SGOT) has been noted, particularly in infants, but the significance of this finding is not known. 7.1.3 Geriatrics Use in the Elderly: There are no known specific precautions for the use of amoxicillin in the elderly. Amoxicillin is known to be substantially excreted by the kidney, and the risk of toxic reactions to this Moxypen Forte may be greater in patients with impaired renal function. Because elderly",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-24",
+   "section": "עלון לרופא · 7.1 Special Populations",
+   "section_code": "doctor_leaflet",
+   "text": "patients are more likely to have decreased renal function, care should be taken in dose selection Moxypen forte 500mg capsules & 250mg powder for suspension SPC, TN 06/2025 8 and it may be useful to monitor renal function. 7.2 Important information about some of the excipients‐ Moxypen Forte 250 Suspension: Moxypen Forte 250 Suspension contains about 3 g sucrose per 5 ml. Therefore, patients with rare hereditary problems of fructose intolerance, glucose‐galactose malabsorption or sucrase‐ isomaltase insufficiency should not take this medicine. Moxypen Forte 250 mg Powder for Suspension contains 2.79 mg sodium benzoate (E211) in each 5 ml. Sodium benzoate may increase jaundice (yellowing of the skin and eyes) in newborn babies (up to 4 weeks old). Moxypen Forte 250 mg Powder for Suspension contains about 1.5mg benzyl alcohol, which may",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-25",
+   "section": "עלון לרופא · 7.1 Special Populations",
+   "section_code": "doctor_leaflet",
+   "text": "cause allergic reactions. Benzyl alcohol has been linked with the risk of severe side effects including breathing problems (called “gasping syndrome”) in young children. Do not give to newborn baby (up to 4 weeks old), unless recommended by the doctor. Do not use for more than a week in young children (less than 3 years old), unless advised by the doctor. Ask your doctor or pharmacist for advice if you have a liver or kidney disease. This is because large amounts of benzyl alcohol can build‐up in your body and may cause side effects (called “metabolic acidosis”). Ask your doctor or pharmacist for advice if you are pregnant or breast-feeding. This is because large amounts of benzyl alcohol can build‐up in your body and may cause side effects (called “metabolic acidosis”). Moxypen Forte 250 Suspension contains FD&C red #40 (E129) which may cause allergic reactions.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-26",
+   "section": "עלון לרופא · 7.1 Special Populations",
+   "section_code": "doctor_leaflet",
+   "text": "Moxypen Forte 250 mg Powder for Suspension contains 3.20 mg per 5 ml, less than 1 mmol sodium (23 mg) per 5 ml, that is to say essentially \"sodium‐free\".",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-27",
+   "section": "עלון לרופא · 8.1 Adverse Reaction Overview",
+   "section_code": "doctor_leaflet",
+   "text": "As with other penicillins, it may be expected that untoward reactions will be related to sensitivity phenomena. They are more likely to occur in individuals who have previously demonstrated hypersensitivity to penicillins and cephalosporins and in those with a history of allergy, asthma, hay fever or urticaria.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-28",
+   "section": "עלון לרופא · 8.4 Reporting of suspected adverse reactions",
+   "section_code": "doctor_leaflet",
+   "text": "Reporting suspected adverse reactions after authorisation of the medicinal product is important. It allows continued monitoring of the benefit/risk balance of the medicinal product. Any suspected adverse events should be reported to the Ministry of Health according to the National Regulation by using an online form: https://sideeffects.health.gov.il",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-29",
+   "section": "עלון לרופא · 9 DRUG INTERACTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "9.1 Drug‐Drug Interactions Methotrexate: Penicillins compete with renal tubular secretion of methotrexate, resulting in decreased clearance of methotrexate. Concomitant use may increase methotrexate serum concentrations, with increased risk of toxicity. Probenecid: Probenecid inhibits the renal tubular excretion of amoxicillin. Concurrent use of amoxicillin and probenecid may result in increased and prolonged blood levels of amoxicillin. Warfarin: Abnormal prolongation of prothrombin time (increased international normalized ratio [INR]) has been reported in patients receiving amoxicillin and warfarin. Appropriate monitoring should be undertaken when warfarin is prescribed concurrently. Adjustments in the dose of oral anticoagulants may be necessary to maintain the desired level of anticoagulation. Oral Contraceptives: Moxypen Forte may affect the gut flora, leading to lower estrogen",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-30",
+   "section": "עלון לרופא · 9 DRUG INTERACTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "reabsorption and reduced efficacy of combined oral estrogen/progesterone contraceptives. Moxypen forte 500mg capsules & 250mg powder for suspension SPC, TN 06/2025 11 Tetracyclines: Bacteriostatic action of tetracyclines may inhibit bactericidal activity of penicillins. 9.2 Drug‐Food Interactions Amoxicillin is stable in the presence of gastric acid. Moxypen Forte is rapidly and well absorbed after oral administration to fasting subjects. It was found in a recent study that peak serum antibiotic levels were reduced by 50% in subjects receiving amoxicillin immediately following a standard meal. Reducing the dose‐water volume given with amoxicillin from 250 to 25 mL in fasted subjects also caused a significant reduction in serum amoxicillin levels. This may be due to the low water solubility of amoxicillin trihydrate (1 g in 370 mL water). In addition, food ingestion",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  },
+  {
+   "id": "il-moh-registry-amoxicillin#doctor_leaflet-en-31",
+   "section": "עלון לרופא · 9 DRUG INTERACTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "immediately before dosing also reduced the urinary excretion. 9.3 Drug‐Herb Interactions Interactions with herbal products have not been established. 9.4 Drug‐Laboratory Test Interactions Moxypen Forte may: • cause false‐positive reactions when testing for the presence of glucose in urine. • distort assay results for estriol in pregnant women.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_23_223232925.pdf",
+    "updated_at": "2025-06-11",
+    "created_at": "2025-06-30",
+    "product": "MOXYPEN ® FORTE 250 MG POWDER FOR SUSPENSION / מוקסיפן ®  פורטה 250 מ\"ג אבקה להרחפה",
+    "reg_number": "132 01 31050 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3105000"
+   }
+  }
+ ]
+}

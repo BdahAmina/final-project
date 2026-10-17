@@ -1,0 +1,18 @@
+[client]
+# Hide the "Deploy" button and developer menu items; this app runs locally only.
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#0f766e"
+backgroundColor = "#f7f9fa"
+secondaryBackgroundColor = "#eef3f4"
+textColor = "#1f2a33"
+borderColor = "#d9e2e5"
+font = "'Segoe UI', 'Noto Sans Hebrew', Arial, sans-serif"
+baseRadius = "8px"
+showWidgetBorder = true
+
+[theme.sidebar]
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f5f6"

@@ -1,0 +1,2534 @@
+{
+ "'{med}' אינה במפת המונחים; לא נבדקה מול התווית": {
+  "ar": "'{med}' غير موجود في خريطة المصطلحات؛ لم يُفحص مقابل النشرة",
+  "en": "'{med}' is not in the term map; not checked against the label"
+ },
+ "'לא ידוע' אינו זהה ל'אין'. שינוי כאן מסמן הצעות קודמות של העוזר כלא עדכניות.": {
+  "ar": "'غير معروف' ليس مثل 'لا يوجد'. التغيير هنا يجعل اقتراحات المساعد السابقة غير محدّثة.",
+  "en": "'Unknown' is not the same as 'none'. A change here marks earlier assistant suggestions as out of date."
+ },
+ "1. קלט: הקלטה, העלאה או הדבקת תמלול": {
+  "ar": "1. الإدخال: تسجيل أو رفع ملف أو لصق نص",
+  "en": "1. Input: record, upload or paste a transcript"
+ },
+ "PDF אינו זמין: {error}": {
+  "ar": "PDF غير متاح: {error}",
+  "en": "PDF not available: {error}"
+ },
+ "SHA-256 של התוכן החתום:": {
+  "ar": "SHA-256 للمحتوى الموقّع:",
+  "en": "SHA-256 of the signed content:"
+ },
+ "SHA-256 של התוכן החתום: {hash}": {
+  "ar": "SHA-256 للمحتوى الموقّع: {hash}",
+  "en": "SHA-256 of the signed content: {hash}"
+ },
+ "small קל יותר למחשב נייד. ההורדה הראשונה דורשת אינטרנט; זמן ודיוק משתנים.": {
+  "ar": "small أخف على الحاسوب المحمول. التنزيل الأول يتطلب إنترنت؛ الوقت والدقة متفاوتان.",
+  "en": "small is lighter for a laptop. The first download needs internet; speed and accuracy vary."
+ },
+ "{label} שאינן רשומות עוד: {items}": {
+  "ar": "{label} لم تعد مسجّلة: {items}",
+  "en": "{label} no longer listed: {items}"
+ },
+ "{label} שנוספו: {items}": {
+  "ar": "{label} التي أُضيفت: {items}",
+  "en": "{label} added: {items}"
+ },
+ "{label}: '{before}' ← עכשיו '{now}'": {
+  "ar": "{label}: '{before}' ← الآن '{now}'",
+  "en": "{label}: '{before}' → now '{now}'"
+ },
+ "{n} אפשרויות תרופתיות נמנעו עד להשלמת המידע החסר (ראו שאלות ההבהרה).": {
+  "ar": "تم حجب {n} خيارات دوائية حتى استكمال المعلومات الناقصة (انظر أسئلة التوضيح).",
+  "en": "{n} medication options were withheld until the missing information is completed (see the clarification questions)."
+ },
+ "{n} ממצאים מטיוטת הרופא לא נכללו כי הם מסומנים בבעיה חוסמת.": {
+  "ar": "لم تُدرج {n} نتائج من مسودة الطبيب لأنها مُعلَّمة بمشكلة مانعة.",
+  "en": "{n} findings from the doctor's draft were not included because they carry a blocking issue."
+ },
+ "{n} עובדות בטיוטת הרופא מסומנות בבעיה חוסמת (למשל ציטוט שלא נמצא או דובר שגוי) ולא נבדקו.": {
+  "ar": "{n} حقائق في مسودة الطبيب مُعلَّمة بمشكلة مانعة (مثل اقتباس غير موجود أو متحدث خاطئ) ولم تُفحص.",
+  "en": "{n} facts in the doctor's draft carry a blocking issue (e.g. quote not found or wrong speaker) and were not checked."
+ },
+ "{n} פריטים נוצרו לפני שינוי בנתוני הביקור או המטופל. בדקו אותם מחדש ואשרו את ההערכה לפני החתימה.": {
+  "ar": "{n} بنود أُنشئت قبل تغيير في بيانات الزيارة أو المريض. راجعها من جديد وأكّد إعادة التقييم قبل التوقيع.",
+  "en": "{n} items were created before the visit or patient data changed. Review them again and confirm the reassessment before signing."
+ },
+ "{organ} פגוע: התווית כוללת אזהרות רלוונטיות": {
+  "ar": "{organ} متضرر: النشرة تتضمن تحذيرات ذات صلة",
+  "en": "{organ} impaired: the label contains relevant warnings"
+ },
+ "{total} אירועים · עמוד {page} מתוך {pages}": {
+  "ar": "{total} أحداث · صفحة {page} من {pages}",
+  "en": "{total} events · page {page} of {pages}"
+ },
+ "אב־טיפוס לימודי שנבחן עם מטופלים בדויים · אינו מכשיר רפואי מאושר · כל העיבוד מקומי במחשב זה": {
+  "ar": "نموذج أولي تعليمي جُرِّب على مرضى وهميين · ليس جهازًا طبيًا معتمدًا · كل المعالجة محلية على هذا الحاسوب",
+  "en": "Educational prototype tested with fictional patients · not an approved medical device · all processing is local on this computer"
+ },
+ "אב־טיפוס לימודי שנבחן עם מטופלים בדויים. אינו מכשיר רפואי מאושר.": {
+  "ar": "نموذج أولي تعليمي جُرِّب على مرضى وهميين. ليس جهازًا طبيًا معتمدًا.",
+  "en": "Educational prototype tested with fictional patients. Not an approved medical device."
+ },
+ "אוסף המקורות כולל תוויות תרופה של ה־FDA (ארה״ב) ועלונים ממאגר התרופות של משרד הבריאות. הרישום והתוויות בישראל עשויים להיות שונים מהתוויות האמריקאיות.": {
+  "ar": "تشمل مجموعة المصادر نشرات أدوية من الـ FDA (الولايات المتحدة) ونشرات من مستودع الأدوية لوزارة الصحة. قد يختلف التسجيل والنشرات في إسرائيل عن النشرات الأمريكية.",
+  "en": "The source collection includes FDA (U.S.) drug labels and leaflets from the Ministry of Health medicines registry. Israeli registration and labels may differ from the U.S. labels."
+ },
+ "אופן החתימה: {method}": {
+  "ar": "طريقة التوقيع: {method}",
+  "en": "Signature method: {method}"
+ },
+ "אורך הקלטת WAV צריך להיות בין שנייה לעשר דקות.": {
+  "ar": "يجب أن تكون مدة تسجيل WAV بين ثانية وعشر دقائق.",
+  "en": "A WAV recording must be between one second and ten minutes long."
+ },
+ "אושר בגרסה קודמת של המערכת (ללא רכיבי חתימה) · {time}": {
+  "ar": "تمت المصادقة في نسخة سابقة من النظام (بدون مكوّنات توقيع) · {time}",
+  "en": "Approved in an earlier version of the system (no signature components) · {time}"
+ },
+ "אושרה גרסה חדשה יותר": {
+  "ar": "تمت المصادقة على نسخة أحدث",
+  "en": "A newer version was approved"
+ },
+ "אחר": {
+  "ar": "آخر",
+  "en": "Other"
+ },
+ "אי־ודאויות": {
+  "ar": "عدم يقين",
+  "en": "Uncertainties"
+ },
+ "אי־ודאות": {
+  "ar": "عدم يقين",
+  "en": "Uncertainty"
+ },
+ "אילו אזהרות בתווית של איבופרופן רלוונטיות למטופל/ת?": {
+  "ar": "أي تحذيرات في نشرة الإيبوبروفين ذات صلة بالمريض/ة؟",
+  "en": "Which warnings on the ibuprofen label are relevant to the patient?"
+ },
+ "אילו ממצאי בדיקה גופנית יש לתעד?": {
+  "ar": "ما نتائج الفحص الجسدي التي يجب توثيقها؟",
+  "en": "Which physical examination findings should be documented?"
+ },
+ "אילו נתונים חסרים כדי להעריך את החום?": {
+  "ar": "ما البيانات الناقصة لتقييم الحمى؟",
+  "en": "What data is missing to assess the fever?"
+ },
+ "אילו תרופות המטופל/ת נוטל/ת כעת? (כולל ללא מרשם; נדרש אישור גם אם אין)": {
+  "ar": "ما الأدوية التي يتناولها المريض/ة حاليًا؟ (بما فيها بدون وصفة؛ يلزم تأكيد حتى لو لا يوجد)",
+  "en": "Which medications is the patient taking now? (including over-the-counter; confirmation is required even if none)"
+ },
+ "אימות סיסמה חדשה": {
+  "ar": "تأكيد كلمة المرور الجديدة",
+  "en": "Confirm new password"
+ },
+ "אין (אושר)": {
+  "ar": "لا يوجد (مؤكَّد)",
+  "en": "None (confirmed)"
+ },
+ "אין אלרגיות ידועות (אושר ע״י הרופא)": {
+  "ar": "لا حساسية معروفة (أكّده الطبيب)",
+  "en": "No known allergies (confirmed by the doctor)"
+ },
+ "אין אלרגיות ידועות (אושר)": {
+  "ar": "لا حساسية معروفة (مؤكَّد)",
+  "en": "No known allergies (confirmed)"
+ },
+ "אין ביקורים קודמים מתועדים של מטופל/ת זה/ו אצלך.": {
+  "ar": "لا توجد زيارات سابقة موثّقة لهذا المريض/ة لديك.",
+  "en": "There are no earlier documented visits of this patient with you."
+ },
+ "אין גרסה מאושרת": {
+  "ar": "لا توجد نسخة مصادق عليها",
+  "en": "No approved version"
+ },
+ "אין המלצות מינון: המערכת אינה מחשבת מינונים.": {
+  "ar": "لا توصيات بالجرعات: النظام لا يحسب الجرعات.",
+  "en": "No dose recommendations: the system does not calculate doses."
+ },
+ "אין הערות": {
+  "ar": "لا ملاحظات",
+  "en": "No notes"
+ },
+ "אין טיוטת רופא עדכנית.": {
+  "ar": "لا توجد مسودة طبيب محدّثة.",
+  "en": "There is no current doctor's draft."
+ },
+ "אין עדיין טיוטת רופא עדכנית (שלב 3)": {
+  "ar": "لا توجد بعد مسودة طبيب محدّثة (المرحلة 3)",
+  "en": "There is no current doctor's draft yet (step 3)"
+ },
+ "אין עדיין מטופלים או ביקורים משויכים אליך. צרו ביקור בסרגל הצד כדי להתחיל.": {
+  "ar": "لا يوجد بعد مرضى أو زيارات مرتبطة بك. أنشئ زيارة في الشريط الجانبي للبدء.",
+  "en": "No patients or visits are assigned to you yet. Create a visit in the sidebar to start."
+ },
+ "אין עדיין מטופלים משויכים אליך. הוסיפו מטופל/ת חדש/ה למעלה.": {
+  "ar": "لا يوجد بعد مرضى مرتبطون بك. أضف مريضًا/مريضة جديدًا/ة في الأعلى.",
+  "en": "No patients are assigned to you yet. Add a new patient above."
+ },
+ "אין עדיין משתמשים. מנהל/ת המערכת הראשון/ה נוצר/ת משורת הפקודה:": {
+  "ar": "لا يوجد مستخدمون بعد. يُنشأ مدير/ة النظام الأول/ى من سطر الأوامر:",
+  "en": "There are no users yet. The first system administrator is created from the command line:"
+ },
+ "אין עדיין סיכומים מאושרים.": {
+  "ar": "لا توجد ملخصات مصادق عليها بعد.",
+  "en": "There are no approved summaries yet."
+ },
+ "אין עדיין פריטים בתוכנית הרופא. הוסיפו פריטים לתוכנית (לשונית 'תוכנית, חתימה והורדה') ואז נסחו הנחיות.": {
+  "ar": "لا توجد بعد بنود في خطة الطبيب. أضف بنودًا إلى الخطة (تبويب 'الخطة والتوقيع والتنزيل') ثم صِغ التعليمات.",
+  "en": "There are no items in the doctor's plan yet. Add items to the plan ('Plan, signature and download' tab) and then draft instructions."
+ },
+ "אין עדיין תמלול לביקור": {
+  "ar": "لا يوجد بعد نص مُفرَّغ للزيارة",
+  "en": "There is no transcript for the visit yet"
+ },
+ "אין עובדות ביקור מאושרות ({why}); הסיכום כולל רק נתוני מטופל שהוזנו.": {
+  "ar": "لا توجد حقائق زيارة مصادق عليها ({why})؛ يشمل الملخص بيانات المريض المُدخلة فقط.",
+  "en": "No approved visit facts ({why}); the summary includes only the patient data that was entered."
+ },
+ "אין עובדות ביקור מאושרות, ולכן השאלות הן לפי מידע חסר בלבד.": {
+  "ar": "لا توجد حقائق زيارة مصادق عليها، لذا الأسئلة مبنية على المعلومات الناقصة فقط.",
+  "en": "No approved visit facts, so the questions are based on missing information only."
+ },
+ "אין תמלול לביקור.": {
+  "ar": "لا يوجد نص مُفرَّغ للزيارة.",
+  "en": "There is no transcript for the visit."
+ },
+ "אין תרופות קבועות (אושר ע״י הרופא)": {
+  "ar": "لا أدوية دائمة (أكّده الطبيب)",
+  "en": "No regular medications (confirmed by the doctor)"
+ },
+ "אין תרופות קבועות (אושר)": {
+  "ar": "لا أدوية دائمة (مؤكَّد)",
+  "en": "No regular medications (confirmed)"
+ },
+ "איפוס סיסמה ושחרור נעילה": {
+  "ar": "إعادة تعيين كلمة المرور وفك القفل",
+  "en": "Reset password and unlock"
+ },
+ "אישור בדיקת ההשחרה": {
+  "ar": "تأكيد فحص الإخفاء",
+  "en": "Confirm the redaction review"
+ },
+ "אישור מגרסה קודמת (ללא רכיבי חתימה)": {
+  "ar": "مصادقة من نسخة سابقة (بدون مكوّنات توقيع)",
+  "en": "Approval from an earlier version (no signature components)"
+ },
+ "אישור מגרסה קודמת של המערכת (ללא רכיבי חתימה אלקטרונית), מועד (UTC): {time}": {
+  "ar": "مصادقة من نسخة سابقة من النظام (بدون مكوّنات توقيع إلكتروني)، الموعد (UTC): {time}",
+  "en": "Approval from an earlier version of the system (no electronic signature components), time (UTC): {time}"
+ },
+ "אישור: בדקתי ואני מאשר/ת את הסיכומים והתוכנית כמשקפים את הביקור (Reviewed and approved)": {
+  "ar": "مصادقة: راجعتُ وأصادق على أن الملخصات والخطة تعكس الزيارة (Reviewed and approved)",
+  "en": "Approval: I reviewed and approve the summaries and plan as reflecting the visit (Reviewed and approved)"
+ },
+ "איתור מקורות קליניים": {
+  "ar": "البحث عن مصادر سريرية",
+  "en": "Find clinical references"
+ },
+ "אלרגיה מתועדת התואמת לתרופה או למשפחתה:": {
+  "ar": "حساسية موثّقة مطابقة للدواء أو لعائلته:",
+  "en": "Documented allergy matching the medication or its class:"
+ },
+ "אלרגיות": {
+  "ar": "الحساسية",
+  "en": "Allergies"
+ },
+ "אלרגיות (מופרדות בפסיקים)": {
+  "ar": "الحساسية (مفصولة بفواصل)",
+  "en": "Allergies (comma-separated)"
+ },
+ "אלרגיות שאינן במפת המונחים ולא נבדקו:": {
+  "ar": "أنواع حساسية غير موجودة في خريطة المصطلحات ولم تُفحص:",
+  "en": "Allergies not in the term map and not checked:"
+ },
+ "אנגלית": {
+  "ar": "الإنجليزية",
+  "en": "English"
+ },
+ "אפשרות טיפול לשקילה": {
+  "ar": "خيار علاجي للنظر فيه",
+  "en": "Treatment option to consider"
+ },
+ "אפשרות לשקילת הרופא: {drug} — ההתוויה בתווית רלוונטית לתלונה (ראו ציטוט). אינה המלצה או מרשם.": {
+  "ar": "خيار ينظر فيه الطبيب: {drug} — دواعي الاستعمال في النشرة ذات صلة بالشكوى (انظر الاقتباس). ليس توصية أو وصفة.",
+  "en": "Option for the doctor to consider: {drug} — the label indication is relevant to the complaint (see quote). Not a recommendation or prescription."
+ },
+ "אפשרות תרופתית לשקילה": {
+  "ar": "خيار دوائي للنظر فيه",
+  "en": "Medication option to consider"
+ },
+ "אשרו הרשאת מיקרופון בדפדפן. עד עשר דקות בכל הקלטה.": {
+  "ar": "اسمح بالوصول إلى الميكروفون في المتصفح. حتى عشر دقائق لكل تسجيل.",
+  "en": "Allow microphone access in the browser. Up to ten minutes per recording."
+ },
+ "אשרו תחילה את שיוך הדוברים לרופא ולמטופל.": {
+  "ar": "أكّد أولًا ربط المتحدثين بالطبيب والمريض.",
+  "en": "First confirm the speaker assignment to doctor and patient."
+ },
+ "בדיקות בטיחות ({drug}):": {
+  "ar": "فحوص السلامة ({drug}):",
+  "en": "Safety checks ({drug}):"
+ },
+ "בדיקות דטרמיניסטיות מול נתוני ההקשר וטקסט התווית בלבד. אינן בדיקת אינטראקציות מאומתת ואינן מחליפות שיקול דעת קליני.": {
+  "ar": "فحوص حتمية مقابل بيانات السياق ونص النشرة فقط. ليست فحص تداخلات مُتحقَّقًا منه ولا تحل محل الحكم السريري.",
+  "en": "Deterministic checks against the context data and the label text only. They are not a validated interaction check and do not replace clinical judgement."
+ },
+ "בדיקת אינטראקציות בין תרופות: לא זמינה — אין במערכת מאגר אינטראקציות מאומת. מוצג רק אם התווית מזכירה את התרופה הקבועה.": {
+  "ar": "فحص التداخلات بين الأدوية: غير متاح — لا توجد في النظام قاعدة تداخلات مُتحقَّق منها. يُعرض فقط إن ذكرت النشرة الدواء الدائم.",
+  "en": "Drug interaction check: not available — the system has no validated interaction database. Shown only if the label mentions the regular medication."
+ },
+ "בדיקת ההשחרה אושרה.": {
+  "ar": "تم تأكيد فحص الإخفاء.",
+  "en": "Redaction review confirmed."
+ },
+ "בדיקת התמלול ושיוך הדוברים": {
+  "ar": "مراجعة النص المُفرَّغ وربط المتحدثين",
+  "en": "Transcript review and speaker assignment"
+ },
+ "בדיקת סתירות בתיעוד": {
+  "ar": "فحص التناقضات في التوثيق",
+  "en": "Check documentation contradictions"
+ },
+ "בדיקת שלמות שרשרת היומן": {
+  "ar": "فحص سلامة سلسلة السجل",
+  "en": "Verify the audit chain integrity"
+ },
+ "בדיקת תווית — {drug}": {
+  "ar": "فحص النشرة — {drug}",
+  "en": "Label check — {drug}"
+ },
+ "בדיקת תמלול": {
+  "ar": "مراجعة النص",
+  "en": "Transcript review"
+ },
+ "בדקו שכל הפרטים המזהים הוחלפו בממלאי מקום (PATIENT_1, PHONE_1…). שמות שנאמרו ללא הקשר אינם מזוהים אוטומטית; החליפו אותם ידנית. כללי ההשחרה ירוצו שוב על כל עריכה.": {
+  "ar": "تحقق من استبدال كل التفاصيل المُعرِّفة بعناصر نائبة (PATIENT_1, PHONE_1…). الأسماء التي ذُكرت دون سياق لا تُكتشف تلقائيًا؛ استبدلها يدويًا. تُعاد قواعد الإخفاء على كل تعديل.",
+  "en": "Check that all identifying details were replaced by placeholders (PATIENT_1, PHONE_1…). Names said without context are not detected automatically; replace them manually. The redaction rules run again on every edit."
+ },
+ "בדקתי את הטקסט ואת שיוך הדוברים לרופא ולמטופל": {
+  "ar": "راجعتُ النص وربط المتحدثين بالطبيب والمريض",
+  "en": "I checked the text and the speaker assignment to doctor and patient"
+ },
+ "בדקתי את הסיכומים והתוכנית מול התמלול": {
+  "ar": "راجعتُ الملخصات والخطة مقابل النص المُفرَّغ",
+  "en": "I checked the summaries and the plan against the transcript"
+ },
+ "בדקתי מחדש את כל פריטי התוכנית מול הנתונים העדכניים": {
+  "ar": "راجعتُ من جديد كل بنود الخطة مقابل البيانات المحدّثة",
+  "en": "I re-checked all plan items against the current data"
+ },
+ "בהריון": {
+  "ar": "حامل",
+  "en": "Pregnant"
+ },
+ "בוטל": {
+  "ar": "أُلغي",
+  "en": "Revoked"
+ },
+ "בחילוץ": {
+  "ar": "قيد الاستخراج",
+  "en": "Extracting"
+ },
+ "בחירת ביקור": {
+  "ar": "اختيار زيارة",
+  "en": "Choose a visit"
+ },
+ "בחרו קטגוריה לכל ממצא.": {
+  "ar": "اختر فئة لكل نتيجة.",
+  "en": "Choose a category for every finding."
+ },
+ "ביטול": {
+  "ar": "إلغاء",
+  "en": "Revoke"
+ },
+ "ביטול שיוך": {
+  "ar": "إلغاء الربط",
+  "en": "Revoke assignment"
+ },
+ "ביקור": {
+  "ar": "زيارة",
+  "en": "Visit"
+ },
+ "ביקור {id}": {
+  "ar": "زيارة {id}",
+  "en": "Visit {id}"
+ },
+ "ביקור חדש": {
+  "ar": "زيارة جديدة",
+  "en": "New visit"
+ },
+ "ביקור מ־{date}": {
+  "ar": "زيارة من {date}",
+  "en": "Visit of {date}"
+ },
+ "בעיות": {
+  "ar": "مشكلات",
+  "en": "Issues"
+ },
+ "בעמוד": {
+  "ar": "في الصفحة",
+  "en": "Per page"
+ },
+ "בתמלול": {
+  "ar": "قيد التفريغ",
+  "en": "Transcribing"
+ },
+ "גיל": {
+  "ar": "العمر",
+  "en": "Age"
+ },
+ "גיל (שנים)": {
+  "ar": "العمر (سنوات)",
+  "en": "Age (years)"
+ },
+ "גיל {age} (הוזן ע״י הרופא); בדקו התאמה לאוכלוסיית התווית": {
+  "ar": "العمر {age} (أدخله الطبيب)؛ تحقق من الملاءمة لفئة النشرة",
+  "en": "Age {age} (entered by the doctor); check suitability for the label population"
+ },
+ "גיל ידוע": {
+  "ar": "العمر معروف",
+  "en": "Age known"
+ },
+ "גישה מאובטחת לצוות הרפואי ולמטופלים": {
+  "ar": "وصول آمن للطاقم الطبي وللمرضى",
+  "en": "Secure access for medical staff and patients"
+ },
+ "גרסאות: סיכום רופא #{c} (גרסה {cv}), סיכום מטופל #{p} (גרסה {pv}), תמלול #{tr}": {
+  "ar": "النسخ: ملخص الطبيب #{c} (نسخة {cv})، ملخص المريض #{p} (نسخة {pv})، النص #{tr}",
+  "en": "Versions: doctor summary #{c} (version {cv}), patient summary #{p} (version {pv}), transcript #{tr}"
+ },
+ "גרסאות: סיכום רופא {c}, סיכום מטופל {p}": {
+  "ar": "النسخ: ملخص الطبيب {c}، ملخص المريض {p}",
+  "en": "Versions: doctor summary {c}, patient summary {p}"
+ },
+ "גרסה {version} · {origin}": {
+  "ar": "نسخة {version} · {origin}",
+  "en": "Version {version} · {origin}"
+ },
+ "גרסה {version} · {origin} · נשמרה {date}": {
+  "ar": "نسخة {version} · {origin} · حُفظت {date}",
+  "en": "Version {version} · {origin} · saved {date}"
+ },
+ "גרסה {version} · עודכן {date}": {
+  "ar": "نسخة {version} · حُدّثت {date}",
+  "en": "Version {version} · updated {date}"
+ },
+ "גרסת PyAV (חבילת av) אינה תואמת ל־faster-whisper. התקינו את requirements.txt מחדש, או הריצו: python -m pip install av==18.1.0": {
+  "ar": "نسخة PyAV (حزمة av) غير متوافقة مع faster-whisper. أعد تثبيت requirements.txt، أو نفّذ: python -m pip install av==18.1.0",
+  "en": "The PyAV version (av package) is not compatible with faster-whisper. Reinstall requirements.txt, or run: python -m pip install av==18.1.0"
+ },
+ "דובר": {
+  "ar": "المتحدث",
+  "en": "Speaker"
+ },
+ "דובר נוסף": {
+  "ar": "متحدث إضافي",
+  "en": "Other speaker"
+ },
+ "דחייה": {
+  "ar": "رفض",
+  "en": "Reject"
+ },
+ "דרך מתן": {
+  "ar": "طريقة الإعطاء",
+  "en": "Route"
+ },
+ "האודיו הזמני ומיפוי הפרטים נמחקו.": {
+  "ar": "حُذف الصوت المؤقت وربط التفاصيل.",
+  "en": "The temporary audio and the identifier mapping were deleted."
+ },
+ "האישור מ־{date} בוטל: {reason}. נדרשת חתימה מחדש.": {
+  "ar": "أُلغيت المصادقة من {date}: {reason}. يلزم توقيع جديد.",
+  "en": "The approval of {date} was revoked: {reason}. A new signature is required."
+ },
+ "האם אקמול מתאים להקלה על החום אצל המטופל/ת?": {
+  "ar": "هل الأكامول مناسب لتخفيف الحمى لدى المريض/ة؟",
+  "en": "Is Acamol (paracetamol) suitable to relieve the patient's fever?"
+ },
+ "האם המטופלת בהריון או עשויה להיות בהריון?": {
+  "ar": "هل المريضة حامل أو قد تكون حاملًا؟",
+  "en": "Is the patient pregnant or could she be pregnant?"
+ },
+ "האם המטופלת מניקה?": {
+  "ar": "هل المريضة مرضعة؟",
+  "en": "Is the patient breastfeeding?"
+ },
+ "האם ידוע על פגיעה בתפקוד הכבד?": {
+  "ar": "هل هناك ضعف معروف في وظائف الكبد؟",
+  "en": "Is there known impairment of liver function?"
+ },
+ "האם ידוע על פגיעה בתפקוד הכליות?": {
+  "ar": "هل هناك ضعف معروف في وظائف الكلى؟",
+  "en": "Is there known impairment of kidney function?"
+ },
+ "האם יש אינטראקציה בין התרופות הקבועות לאמוקסיצילין?": {
+  "ar": "هل هناك تداخل بين الأدوية الدائمة والأموكسيسيلين؟",
+  "en": "Is there an interaction between the regular medications and amoxicillin?"
+ },
+ "האם יש רקע רפואי, ניתוחים או אשפוזים קודמים רלוונטיים?": {
+  "ar": "هل توجد خلفية طبية أو عمليات أو دخول للمستشفى سابقة ذات صلة؟",
+  "en": "Is there relevant medical history, surgery or earlier hospitalisation?"
+ },
+ "האם למטופל/ת יש אלרגיות לתרופות? (נדרש אישור מפורש, גם אם אין)": {
+  "ar": "هل لدى المريض/ة حساسية من أدوية؟ (يلزم تأكيد صريح، حتى لو لا يوجد)",
+  "en": "Does the patient have drug allergies? (explicit confirmation is required, even if none)"
+ },
+ "האם ניתן או הומלץ טיפול בביקור?": {
+  "ar": "هل أُعطي أو أُوصي بعلاج في الزيارة؟",
+  "en": "Was treatment given or recommended in the visit?"
+ },
+ "הביקור לא נמצא": {
+  "ar": "الزيارة غير موجودة",
+  "en": "Visit not found"
+ },
+ "הביקור נוצר.": {
+  "ar": "أُنشئت الزيارة.",
+  "en": "The visit was created."
+ },
+ "הביקורים שלי": {
+  "ar": "زياراتي",
+  "en": "My visits"
+ },
+ "הבקשה כוללת הוראות לשינוי כללי העוזר ולכן נדחתה.": {
+  "ar": "يتضمن الطلب تعليمات لتغيير قواعد المساعد ولذلك رُفض.",
+  "en": "The request contains instructions to change the assistant's rules and was therefore refused."
+ },
+ "הגרסה שאושרה אינה הגרסה האחרונה. רעננו ובדקו שוב.": {
+  "ar": "النسخة التي صودق عليها ليست الأحدث. حدّث الصفحة وراجع من جديد.",
+  "en": "The approved version is not the latest. Refresh and check again."
+ },
+ "הדבקת תמלול": {
+  "ar": "لصق نص",
+  "en": "Paste a transcript"
+ },
+ "ההערכה מחדש נרשמה (גרסת תוכנית חדשה).": {
+  "ar": "سُجّلت إعادة التقييم (نسخة خطة جديدة).",
+  "en": "The reassessment was recorded (new plan version)."
+ },
+ "ההצעה אינה עדכנית: נתוני המטופל השתנו מאז שנוצרה. בקשו הערכה מחדש.": {
+  "ar": "الاقتراح غير محدّث: تغيّرت بيانات المريض منذ إنشائه. اطلب إعادة تقييم.",
+  "en": "The suggestion is out of date: the patient data changed since it was created. Ask for a reassessment."
+ },
+ "ההצעה לא נמצאה": {
+  "ar": "الاقتراح غير موجود",
+  "en": "Suggestion not found"
+ },
+ "ההצעה נדחתה.": {
+  "ar": "رُفض الاقتراح.",
+  "en": "The suggestion was rejected."
+ },
+ "ההצעה נוספה לתוכנית הרופא.": {
+  "ar": "أُضيف الاقتراح إلى خطة الطبيب.",
+  "en": "The suggestion was added to the doctor's plan."
+ },
+ "ההקלטה ארוכה מעשר דקות. פצלו אותה לפני ההעלאה.": {
+  "ar": "التسجيل أطول من عشر دقائق. قسّمه قبل الرفع.",
+  "en": "The recording is longer than ten minutes. Split it before uploading."
+ },
+ "ההקלטה שקטה לחלוטין. בדקו את המיקרופון והקליטו שוב.": {
+  "ar": "التسجيل صامت تمامًا. افحص الميكروفون وسجّل من جديد.",
+  "en": "The recording is completely silent. Check the microphone and record again."
+ },
+ "ההשחרה הורצה. בדקו את הטקסט ואשרו בטופס.": {
+  "ar": "نُفّذ الإخفاء. راجع النص وأكّد في النموذج.",
+  "en": "Redaction ran. Check the text and confirm in the form."
+ },
+ "ההתחברות הסתיימה (חוסר פעילות או תום תוקף). היכנסו שוב.": {
+  "ar": "انتهت الجلسة (عدم نشاط أو انتهاء الصلاحية). سجّل الدخول من جديد.",
+  "en": "The session ended (inactivity or expiry). Please sign in again."
+ },
+ "הודבק ידנית": {
+  "ar": "لُصق يدويًا",
+  "en": "Pasted manually"
+ },
+ "הוחלפו: {items}": {
+  "ar": "تم الاستبدال: {items}",
+  "en": "Replaced: {items}"
+ },
+ "הומלץ": {
+  "ar": "أُوصي به",
+  "en": "Recommended"
+ },
+ "הוספה": {
+  "ar": "إضافة",
+  "en": "Add"
+ },
+ "הוספה לתוכנית": {
+  "ar": "إضافة إلى الخطة",
+  "en": "Add to plan"
+ },
+ "הוספת מטופל/ת": {
+  "ar": "إضافة مريض/ة",
+  "en": "Add patient"
+ },
+ "הוספת פריט משלך לתוכנית": {
+  "ar": "إضافة بند خاص بك إلى الخطة",
+  "en": "Add your own item to the plan"
+ },
+ "הוסרו בבדיקה האוטומטית:": {
+  "ar": "أُزيل في الفحص التلقائي:",
+  "en": "Removed by the automatic check:"
+ },
+ "הורדה כ־PDF": {
+  "ar": "تنزيل PDF",
+  "en": "Download PDF"
+ },
+ "הורדה כטקסט": {
+  "ar": "تنزيل كنص",
+  "en": "Download as text"
+ },
+ "הורדת JSON": {
+  "ar": "تنزيل JSON",
+  "en": "Download JSON"
+ },
+ "הורדת {fmt}": {
+  "ar": "تنزيل {fmt}",
+  "en": "Download {fmt}"
+ },
+ "הזינו את שם המשתמש והסיסמה שקיבלתם ממנהל/ת המערכת": {
+  "ar": "أدخل اسم المستخدم وكلمة المرور اللذين تلقيتهما من مدير/ة النظام",
+  "en": "Enter the username and password you received from the system administrator"
+ },
+ "החילוץ והסיכום מתבצעים במודל מקומי (Ollama) במחשב זה.": {
+  "ar": "يجري الاستخراج والتلخيص بنموذج محلي (Ollama) على هذا الحاسوب.",
+  "en": "Extraction and summarisation run on a local model (Ollama) on this computer."
+ },
+ "החיפוש לקסיקלי ומוגבל לאוסף המקורות המאושר; מונחים שאינם במפת המונחים לא יימצאו.": {
+  "ar": "البحث معجمي ومحدود بمجموعة المصادر المعتمدة؛ المصطلحات غير الموجودة في خريطة المصطلحات لن تُوجد.",
+  "en": "The search is lexical and limited to the approved source collection; terms not in the term map will not be found."
+ },
+ "החלטה לא תקינה.": {
+  "ar": "قرار غير صالح.",
+  "en": "Invalid decision."
+ },
+ "החלפת סיסמה זמנית": {
+  "ar": "تغيير كلمة المرور المؤقتة",
+  "en": "Change the temporary password"
+ },
+ "החשבון נוצר.": {
+  "ar": "أُنشئ الحساب.",
+  "en": "The account was created."
+ },
+ "החשבון שלי": {
+  "ar": "حسابي",
+  "en": "My account"
+ },
+ "החשבונות נוצרים על ידי מנהל/ת המערכת בלבד · ההתחברות מסתיימת אחרי 15 דקות ללא פעילות · חמש סיסמאות שגויות נועלות את החשבון זמנית": {
+  "ar": "تُنشأ الحسابات من قِبل مدير/ة النظام فقط · تنتهي الجلسة بعد 15 دقيقة من عدم النشاط · خمس كلمات مرور خاطئة تقفل الحساب مؤقتًا",
+  "en": "Accounts are created by the system administrator only · the session ends after 15 minutes of inactivity · five wrong passwords lock the account temporarily"
+ },
+ "החתימה מחייבת הזנה מחדש של שם המשתמש והסיסמה שלך. היא תירשם עם שמך המלא, מועד UTC ותוכן הגרסאות החתומות.": {
+  "ar": "يتطلب التوقيع إعادة إدخال اسم المستخدم وكلمة المرور. سيُسجَّل باسمك الكامل وموعد UTC ومحتوى النسخ الموقّعة.",
+  "en": "Signing requires re-entering your username and password. It is recorded with your full name, the UTC time and the content of the signed versions."
+ },
+ "החתימה נכשלה: שם המשתמש או הסיסמה שגויים. החתימה דורשת את פרטי הכניסה שלך.": {
+  "ar": "فشل التوقيع: اسم المستخدم أو كلمة المرور خاطئة. يتطلب التوقيع بيانات الدخول الخاصة بك.",
+  "en": "Signing failed: wrong username or password. Signing requires your own login details."
+ },
+ "החתימה תתאפשר אחרי ששתי הטיוטות (רופא ומטופל) תואמות לגרסאות הנוכחיות.": {
+  "ar": "سيتاح التوقيع بعد أن تتطابق المسودتان (الطبيب والمريض) مع النسخ الحالية.",
+  "en": "Signing becomes available once both drafts (doctor and patient) match the current versions."
+ },
+ "הטיוטה הקודמת נוצרה מגרסת תמלול ישנה ולכן אינה בתוקף. צרו אותה מחדש.": {
+  "ar": "أُنشئت المسودة السابقة من نسخة نص قديمة ولذلك لم تعد سارية. أنشئها من جديد.",
+  "en": "The previous draft was created from an old transcript version and is no longer valid. Create it again."
+ },
+ "הטיוטות אינן מבוססות על הגרסאות הנוכחיות.": {
+  "ar": "المسودات لا تستند إلى النسخ الحالية.",
+  "en": "The drafts are not based on the current versions."
+ },
+ "הכל": {
+  "ar": "الكل",
+  "en": "All"
+ },
+ "הכנת JSON": {
+  "ar": "تحضير JSON",
+  "en": "Prepare JSON"
+ },
+ "הכנת JSON מלא (כל הגרסאות)": {
+  "ar": "تحضير JSON كامل (كل النسخ)",
+  "en": "Prepare full JSON (all versions)"
+ },
+ "הכנת ייצוא {fmt}": {
+  "ar": "تحضير تصدير {fmt}",
+  "en": "Prepare {fmt} export"
+ },
+ "המודל דיווח על סתירה בין המקורות; הצעות טיפול ותרופות לא יוצגו.": {
+  "ar": "أبلغ النموذج عن تناقض بين المصادر؛ لن تُعرض اقتراحات علاج وأدوية.",
+  "en": "The model reported a conflict between sources; treatment and medication suggestions will not be shown."
+ },
+ "המודל המקומי אינו זמין ({error}); לא נוצרו טיוטות הנחיות.": {
+  "ar": "النموذج المحلي غير متاح ({error})؛ لم تُنشأ مسودات تعليمات.",
+  "en": "The local model is not available ({error}); no instruction drafts were created."
+ },
+ "המודל המקומי אינו זמין ({error}); מוצגות רק שאלות לפי מידע חסר.": {
+  "ar": "النموذج المحلي غير متاح ({error})؛ تُعرض فقط أسئلة مبنية على المعلومات الناقصة.",
+  "en": "The local model is not available ({error}); only questions based on missing information are shown."
+ },
+ "המודל המקומי אינו זמין או החזיר פלט לא תקין: {error}": {
+  "ar": "النموذج المحلي غير متاح أو أعاد مخرجات غير صالحة: {error}",
+  "en": "The local model is not available or returned invalid output: {error}"
+ },
+ "המודל המקומי לא הגיב בזמן. נסו תמלול קצר יותר או מודל קטן יותר.": {
+  "ar": "لم يستجب النموذج المحلي في الوقت. جرّب نصًا أقصر أو نموذجًا أصغر.",
+  "en": "The local model did not respond in time. Try a shorter transcript or a smaller model."
+ },
+ "המודל המקומי מחלץ ממצאים מהתמלול…": {
+  "ar": "يستخرج النموذج المحلي النتائج من النص…",
+  "en": "The local model is extracting findings from the transcript…"
+ },
+ "המוצר המתועד במקור מיועד לילדים; המטופל/ת בגיל {age}. ודאו שהמידע חל על מבוגרים.": {
+  "ar": "المنتج الموثّق في المصدر مخصص للأطفال؛ عمر المريض/ة {age}. تأكد أن المعلومات تنطبق على البالغين.",
+  "en": "The product documented in the source is for children; the patient is {age}. Make sure the information applies to adults."
+ },
+ "המטופל/ת אינו/ה משויך/ת אליך. פנו למנהל/ת המערכת.": {
+  "ar": "المريض/ة غير مرتبط/ة بك. توجّه إلى مدير/ة النظام.",
+  "en": "The patient is not assigned to you. Contact the system administrator."
+ },
+ "המטופל/ת הסכים/ה להקלטה ולעיבוד השיחה": {
+  "ar": "وافق المريض/ة على التسجيل ومعالجة المحادثة",
+  "en": "The patient consented to recording and processing of the conversation"
+ },
+ "המטופל/ת ישויך/תשויך אליך ויחליף/תחליף את הסיסמה בכניסה הראשונה. מסרו אותה באופן אישי.": {
+  "ar": "سيُربط المريض/ة بك وسيغيّر/تغيّر كلمة المرور عند أول دخول. سلّمها له/ا شخصيًا.",
+  "en": "The patient will be assigned to you and must change the password at first login. Hand it over in person."
+ },
+ "המטופל/ת נוסף/ה ושויך/ה אליך.": {
+  "ar": "أُضيف المريض/ة ورُبط/ت بك.",
+  "en": "The patient was added and assigned to you."
+ },
+ "המטופלת בהריון: עיינו בסעיף ההריון בתווית": {
+  "ar": "المريضة حامل: راجع قسم الحمل في النشرة",
+  "en": "The patient is pregnant: see the pregnancy section of the label"
+ },
+ "המטופלת מניקה: עיינו בסעיף ההנקה בתווית": {
+  "ar": "المريضة مرضعة: راجع قسم الرضاعة في النشرة",
+  "en": "The patient is breastfeeding: see the lactation section of the label"
+ },
+ "המידע החסר מסומן כ'לא ידוע', ולא כממצא שלילי. שדות שאושרו כשליליים (למשל 'אין אלרגיות ידועות') אינם מופיעים כאן.": {
+  "ar": "المعلومات الناقصة مُعلَّمة كـ'غير معروف'، وليس كنتيجة سلبية. الحقول المؤكدة كسلبية (مثل 'لا حساسية معروفة') لا تظهر هنا.",
+  "en": "Missing information is marked 'unknown', not as a negative finding. Fields confirmed as negative (e.g. 'no known allergies') are not listed here."
+ },
+ "הממצא כולל מילים בכתב זר; נסחו אותו מחדש בשפת הסיכום.": {
+  "ar": "تتضمن النتيجة كلمات بأبجدية أخرى؛ أعد صياغتها بلغة الملخص.",
+  "en": "The finding contains words in another alphabet; rephrase it in the summary language."
+ },
+ "הממצא מפנה למקטע שאינו קיים בתמלול שנבדק.": {
+  "ar": "تشير النتيجة إلى مقطع غير موجود في النص الذي رُوجع.",
+  "en": "The finding refers to a segment that is not in the reviewed transcript."
+ },
+ "המסמך הופק בסיוע מערכת אוטומטית, נבדק ואושר בחתימה אלקטרונית של הרופא/ה.": {
+  "ar": "أُنتجت الوثيقة بمساعدة نظام آلي، ورُوجعت وصودق عليها بتوقيع إلكتروني من الطبيب/ة.",
+  "en": "This document was produced with the help of an automated system, reviewed and approved by the doctor's electronic signature."
+ },
+ "המסמך נחתם ואושר.": {
+  "ar": "وُقّعت الوثيقة وصودق عليها.",
+  "en": "The document was signed and approved."
+ },
+ "המקור": {
+  "ar": "المصدر",
+  "en": "the source"
+ },
+ "המקור כולל דובר שתפקידו לא אושר או דובר נוסף.": {
+  "ar": "يتضمن المصدر متحدثًا لم يُؤكَّد دوره أو متحدثًا إضافيًا.",
+  "en": "The source includes a speaker whose role was not confirmed, or an extra speaker."
+ },
+ "המקור כולל דיבור חופף או דובר שלישי; בדקו מול ההקלטה.": {
+  "ar": "يتضمن المصدر كلامًا متداخلًا أو متحدثًا ثالثًا؛ راجع التسجيل.",
+  "en": "The source includes overlapping speech or a third speaker; check against the recording."
+ },
+ "המקור עודכן לאחרונה ב־{year}; ייתכן שאינו עדכני.": {
+  "ar": "حُدّث المصدر آخر مرة في {year}؛ قد لا يكون محدّثًا.",
+  "en": "The source was last updated in {year}; it may be out of date."
+ },
+ "המשימה לא נמצאה": {
+  "ar": "المهمة غير موجودة",
+  "en": "Job not found"
+ },
+ "המשפט מבוסס על טיפול קודם ואינו הוראה חדשה.": {
+  "ar": "الجملة مبنية على علاج سابق وليست تعليمات جديدة.",
+  "en": "The sentence is based on a previous treatment and is not a new instruction."
+ },
+ "המשפט מבוסס על ממצא שעדיין מסומן כבעייתי בטיוטת הרופא.": {
+  "ar": "الجملة مبنية على نتيجة ما زالت مُعلَّمة كإشكالية في مسودة الطبيب.",
+  "en": "The sentence is based on a finding still marked as problematic in the doctor's draft."
+ },
+ "המשתמש/ת יחויב/ו להחליף את הסיסמה בכניסה הראשונה. מסרו אותה באופן אישי. ודאו את זהות האדם לפני יצירת החשבון.": {
+  "ar": "سيُطلب من المستخدم/ة تغيير كلمة المرور عند أول دخول. سلّمها شخصيًا. تحقّق من هوية الشخص قبل إنشاء الحساب.",
+  "en": "The user must change the password at first login. Hand it over in person. Verify the person's identity before creating the account."
+ },
+ "הנוסח הערוך נוסף לתוכנית.": {
+  "ar": "أُضيفت الصياغة المعدّلة إلى الخطة.",
+  "en": "The edited wording was added to the plan."
+ },
+ "הנחיות להמשך": {
+  "ar": "تعليمات المتابعة",
+  "en": "Follow-up instructions"
+ },
+ "הנקה": {
+  "ar": "الرضاعة",
+  "en": "Lactation"
+ },
+ "הסבת נתונים": {
+  "ar": "ترحيل بيانات",
+  "en": "Data migration"
+ },
+ "הסטטוס עודכן.": {
+  "ar": "حُدّثت الحالة.",
+  "en": "Status updated."
+ },
+ "הסיכום כולל רק את מה שנאמר בביקור; הצעות העוזר נשמרות בנפרד בתוכנית הרופא.": {
+  "ar": "يشمل الملخص ما قيل في الزيارة فقط؛ تُحفظ اقتراحات المساعد بشكل منفصل في خطة الطبيب.",
+  "en": "The summary includes only what was said in the visit; assistant suggestions are kept separately in the doctor's plan."
+ },
+ "הסיכומים שלי": {
+  "ar": "ملخصاتي",
+  "en": "My summaries"
+ },
+ "הסיסמאות החדשות אינן זהות.": {
+  "ar": "كلمتا المرور الجديدتان غير متطابقتين.",
+  "en": "The new passwords do not match."
+ },
+ "הסיסמה אופסה; נדרשת החלפה בכניסה הבאה.": {
+  "ar": "أُعيد تعيين كلمة المرور؛ يلزم تغييرها عند الدخول التالي.",
+  "en": "The password was reset; it must be changed at the next login."
+ },
+ "הסיסמה החדשה חייבת להיות שונה מהקודמת.": {
+  "ar": "يجب أن تختلف كلمة المرور الجديدة عن السابقة.",
+  "en": "The new password must differ from the previous one."
+ },
+ "הסיסמה הנוכחית שגויה.": {
+  "ar": "كلمة المرور الحالية خاطئة.",
+  "en": "The current password is wrong."
+ },
+ "הסיסמה שונתה. היכנסו שוב עם הסיסמה החדשה.": {
+  "ar": "تم تغيير كلمة المرور. سجّل الدخول من جديد بكلمة المرور الجديدة.",
+  "en": "The password was changed. Sign in again with the new password."
+ },
+ "הסרה מהתוכנית": {
+  "ar": "إزالة من الخطة",
+  "en": "Remove from plan"
+ },
+ "העוזר הקליני לרופא נפתח מהכפתור 'עוזר קליני' בפינת המסך, לכל מטופל/ת וביקור שלך.": {
+  "ar": "يُفتح المساعد السريري للطبيب من زر 'مساعد سريري' في زاوية الشاشة، لكل مريض/ة وزيارة لديك.",
+  "en": "The doctor's clinical assistant opens from the 'Clinical assistant' button in the corner of the screen, for any of your patients and visits."
+ },
+ "העוזר עונה רק על הביקור הנוכחי.": {
+  "ar": "يجيب المساعد عن الزيارة الحالية فقط.",
+  "en": "The assistant answers only about the current visit."
+ },
+ "העוזר עונה רק על המטופל/ת של הביקור הנוכחי.": {
+  "ar": "يجيب المساعد عن مريض/ة الزيارة الحالية فقط.",
+  "en": "The assistant answers only about the patient of the current visit."
+ },
+ "העוזר עונה רק על שאלות הקשורות לטיפול במטופל/ת של ביקור זה.": {
+  "ar": "يجيب المساعد فقط عن الأسئلة المتعلقة بعلاج مريض/ة هذه الزيارة.",
+  "en": "The assistant answers only questions related to the care of this visit's patient."
+ },
+ "העלאת הקלטה": {
+  "ar": "رفع تسجيل",
+  "en": "Upload a recording"
+ },
+ "הערכת הרופא כפי שנאמרה": {
+  "ar": "تقييم الطبيب كما قيل",
+  "en": "Doctor's assessment as stated"
+ },
+ "הפרדת דוברים אוטומטית": {
+  "ar": "فصل المتحدثين تلقائيًا",
+  "en": "Automatic speaker separation"
+ },
+ "הפרדת דוברים אוטומטית אינה מותקנת במחשב זה, ולכן תשייכו את הדוברים בטבלה בשלב 2.": {
+  "ar": "فصل المتحدثين التلقائي غير مثبّت على هذا الحاسوب، لذا عيّن المتحدثين في الجدول في المرحلة 2.",
+  "en": "Automatic speaker separation is not installed on this computer, so assign the speakers in the table in step 2."
+ },
+ "הפריט הוסר (גרסת תוכנית חדשה).": {
+  "ar": "أُزيل البند (نسخة خطة جديدة).",
+  "en": "The item was removed (new plan version)."
+ },
+ "הפריט נוסף.": {
+  "ar": "أُضيف البند.",
+  "en": "The item was added."
+ },
+ "הציטוט אינו מופיע במקטעים שצוינו.": {
+  "ar": "الاقتباس غير موجود في المقاطع المحددة.",
+  "en": "The quote does not appear in the cited segments."
+ },
+ "הציטוט כולל אי־ודאות; ודאו שהממצא משקף אותה.": {
+  "ar": "يتضمن الاقتباس عدم يقين؛ تأكد أن النتيجة تعكسه.",
+  "en": "The quote expresses uncertainty; make sure the finding reflects it."
+ },
+ "הציטוט כולל שלילה; ודאו שהממצא משקף אותה.": {
+  "ar": "يتضمن الاقتباس نفيًا؛ تأكد أن النتيجة تعكسه.",
+  "en": "The quote contains a negation; make sure the finding reflects it."
+ },
+ "הצלחה": {
+  "ar": "نجاح",
+  "en": "Success"
+ },
+ "הצעה #{id}": {
+  "ar": "اقتراح #{id}",
+  "en": "Suggestion #{id}"
+ },
+ "הצעת שאלות המשך": {
+  "ar": "اقتراح أسئلة متابعة",
+  "en": "Suggest follow-up questions"
+ },
+ "הקטגוריה אינה מתאימה לדובר (רופא/מטופל).": {
+  "ar": "الفئة لا تناسب المتحدث (طبيب/مريض).",
+  "en": "The category does not match the speaker (doctor/patient)."
+ },
+ "הקשר מטופל גרסה {v} (הוזן ע״י הרופא)": {
+  "ar": "سياق المريض نسخة {v} (أدخله الطبيب)",
+  "en": "Patient context version {v} (entered by the doctor)"
+ },
+ "הקשר מטופל: לא הוזן (כל השדות לא ידועים)": {
+  "ar": "سياق المريض: لم يُدخل (كل الحقول غير معروفة)",
+  "en": "Patient context: not entered (all fields unknown)"
+ },
+ "הריון": {
+  "ar": "الحمل",
+  "en": "Pregnancy"
+ },
+ "הרצת השחרת פרטים מזהים": {
+  "ar": "تشغيل إخفاء التفاصيل المُعرِّفة",
+  "en": "Run redaction of identifying details"
+ },
+ "הרשומה לא נמצאה או שאין לך הרשאה אליה.": {
+  "ar": "السجل غير موجود أو ليس لديك صلاحية للوصول إليه.",
+  "en": "The record was not found or you do not have access to it."
+ },
+ "השוואה בין עובדות מתועדות בלבד. 'הוזכר רק בביקור הקודם' אינו אומר שהבעיה חלפה — רק שלא תועדה עכשיו.": {
+  "ar": "مقارنة بين الحقائق الموثّقة فقط. 'ذُكر في الزيارة السابقة فقط' لا يعني أن المشكلة زالت — فقط أنها لم تُوثّق الآن.",
+  "en": "Comparison of documented facts only. 'Mentioned only in the earlier visit' does not mean the problem resolved — only that it was not documented now."
+ },
+ "השוואה לביקור מ־{date}": {
+  "ar": "مقارنة بالزيارة من {date}",
+  "en": "Comparison with the visit of {date}"
+ },
+ "השוואה לביקורים קודמים": {
+  "ar": "مقارنة بالزيارات السابقة",
+  "en": "Compare previous visits"
+ },
+ "השיוך בוטל.": {
+  "ar": "أُلغي الربط.",
+  "en": "The assignment was revoked."
+ },
+ "השיוך כבר קיים.": {
+  "ar": "الربط موجود مسبقًا.",
+  "en": "The assignment already exists."
+ },
+ "השיוך לא נמצא": {
+  "ar": "الربط غير موجود",
+  "en": "Assignment not found"
+ },
+ "השיוך נוסף.": {
+  "ar": "أُضيف الربط.",
+  "en": "The assignment was added."
+ },
+ "השיחה לא נמצאה": {
+  "ar": "المحادثة غير موجودة",
+  "en": "Conversation not found"
+ },
+ "התווית אינה מזכירה את '{med}'. היעדר אזכור אינו שולל אינטראקציה; לא בוצעה בדיקה במאגר אינטראקציות.": {
+  "ar": "النشرة لا تذكر '{med}'. غياب الذكر لا ينفي وجود تداخل؛ لم يُجرَ فحص في قاعدة تداخلات.",
+  "en": "The label does not mention '{med}'. Absence of a mention does not rule out an interaction; no interaction database was checked."
+ },
+ "התווית מזכירה את '{med}' ({terms}). זהו אזכור בטקסט התווית, לא בדיקה במאגר אינטראקציות מאומת.": {
+  "ar": "النشرة تذكر '{med}' ({terms}). هذا ذكر في نص النشرة، وليس فحصًا في قاعدة تداخلات مُتحقَّق منها.",
+  "en": "The label mentions '{med}' ({terms}). This is a mention in the label text, not a check in a validated interaction database."
+ },
+ "התוכנית השתנתה": {
+  "ar": "تغيّرت الخطة",
+  "en": "The plan changed"
+ },
+ "התוכנית עודכנה במקום אחר. רעננו לפני השמירה.": {
+  "ar": "حُدّثت الخطة في مكان آخر. حدّث الصفحة قبل الحفظ.",
+  "en": "The plan was updated elsewhere. Refresh before saving."
+ },
+ "התחברות לחשבון": {
+  "ar": "تسجيل الدخول إلى الحساب",
+  "en": "Sign in to your account"
+ },
+ "התחילו הקלטה ועצרו כשסיימתם": {
+  "ar": "ابدأ التسجيل وأوقفه عند الانتهاء",
+  "en": "Start recording and stop when you are done"
+ },
+ "התחלה": {
+  "ar": "البداية",
+  "en": "Start"
+ },
+ "התמלול השתנה מאז שהטיוטה נוצרה. צרו אותה מחדש מהגרסה הנוכחית.": {
+  "ar": "تغيّر النص منذ إنشاء المسودة. أنشئها من جديد من النسخة الحالية.",
+  "en": "The transcript changed since the draft was created. Create it again from the current version."
+ },
+ "התמלול מתבצע במחשב זה בלבד (faster-whisper). האודיו אינו נשמר במסד הנתונים ואינו נשלח לשירות חיצוני.": {
+  "ar": "يجري التفريغ على هذا الحاسوب فقط (faster-whisper). لا يُحفظ الصوت في قاعدة البيانات ولا يُرسل إلى خدمة خارجية.",
+  "en": "Transcription runs on this computer only (faster-whisper). Audio is not stored in the database and not sent to any external service."
+ },
+ "התמלול נערך": {
+  "ar": "عُدّل النص",
+  "en": "The transcript was edited"
+ },
+ "התמלול נשמר. בדקו אותו בשלב 2.": {
+  "ar": "حُفظ النص. راجعه في المرحلة 2.",
+  "en": "The transcript was saved. Review it in step 2."
+ },
+ "התמלול עוד לא עבר אישור דוברים ובדיקת השחרה (שלב 2)": {
+  "ar": "لم يمر النص بعد بتأكيد المتحدثين وفحص الإخفاء (المرحلة 2)",
+  "en": "The transcript has not yet passed speaker confirmation and redaction review (step 2)"
+ },
+ "התמלול עודכן במקום אחר. רעננו לפני השמירה.": {
+  "ar": "حُدّث النص في مكان آخر. حدّث الصفحة قبل الحفظ.",
+  "en": "The transcript was updated elsewhere. Refresh before saving."
+ },
+ "התמלול ריק.": {
+  "ar": "النص فارغ.",
+  "en": "The transcript is empty."
+ },
+ "התפקיד נקבע כאן בלבד; אין הרשמה עצמית.": {
+  "ar": "يُحدَّد الدور هنا فقط؛ لا يوجد تسجيل ذاتي.",
+  "en": "The role is set here only; there is no self-registration."
+ },
+ "התפקיד עודכן; כל ההתחברויות של המשתמש/ת הסתיימו.": {
+  "ar": "حُدّث الدور؛ انتهت كل جلسات المستخدم/ة.",
+  "en": "The role was updated; all of the user's sessions ended."
+ },
+ "התקבל": {
+  "ar": "مُستلَم",
+  "en": "Received"
+ },
+ "התקבלה כלשונה": {
+  "ar": "قُبل كما هو",
+  "en": "Accepted as written"
+ },
+ "התרופה": {
+  "ar": "الدواء",
+  "en": "the medication"
+ },
+ "התשובה אינה עדכנית: נתוני הביקור או המטופל השתנו מאז. בקשו הערכה מחדש.": {
+  "ar": "الإجابة غير محدّثة: تغيّرت بيانات الزيارة أو المريض منذئذ. اطلب إعادة تقييم.",
+  "en": "This answer is out of date: the visit or patient data changed since. Ask for a reassessment."
+ },
+ "התשובות בשפה:": {
+  "ar": "الإجابات باللغة:",
+  "en": "Answers in:"
+ },
+ "זיהוי אוטומטי / שיחה מעורבת": {
+  "ar": "كشف تلقائي / محادثة مختلطة",
+  "en": "Automatic detection / mixed conversation"
+ },
+ "זיהוי מידע חסר": {
+  "ar": "تحديد المعلومات الناقصة",
+  "en": "Identify missing information"
+ },
+ "זכר": {
+  "ar": "ذكر",
+  "en": "Male"
+ },
+ "חושב… (מודל מקומי, עד כחצי דקה)": {
+  "ar": "أفكّر… (نموذج محلي، حتى نصف دقيقة تقريبًا)",
+  "en": "Thinking… (local model, up to about half a minute)"
+ },
+ "חייב/ת להחליף סיסמה": {
+  "ar": "يجب تغيير كلمة المرور",
+  "en": "Must change password"
+ },
+ "חילוץ ממצאים מהתמלול": {
+  "ar": "استخراج النتائج من النص",
+  "en": "Extract findings from the transcript"
+ },
+ "חסר טקסט לממצא.": {
+  "ar": "نص النتيجة مفقود.",
+  "en": "The finding text is missing."
+ },
+ "חסר לבדיקה:": {
+  "ar": "ناقص للفحص:",
+  "en": "Missing for the check:"
+ },
+ "חסרה חבילת faster-whisper. התקינו את requirements.txt עם ה־python של venv.": {
+  "ar": "حزمة faster-whisper مفقودة. ثبّت requirements.txt باستخدام python الخاص بالـ venv.",
+  "en": "The faster-whisper package is missing. Install requirements.txt with the venv's python."
+ },
+ "חתימה אלקטרונית": {
+  "ar": "التوقيع الإلكتروني",
+  "en": "Electronic signature"
+ },
+ "חתימה אלקטרונית והורדה": {
+  "ar": "التوقيع الإلكتروني والتنزيل",
+  "en": "Electronic signature and download"
+ },
+ "חתימה אלקטרונית: {name} ({id})": {
+  "ar": "التوقيع الإلكتروني: {name} ({id})",
+  "en": "Electronic signature: {name} ({id})"
+ },
+ "חתימה ואישור": {
+  "ar": "توقيع ومصادقة",
+  "en": "Sign and approve"
+ },
+ "טיוטה": {
+  "ar": "مسودة",
+  "en": "Draft"
+ },
+ "טיוטה לבדיקת הרופא · אינה אבחנה או מרשם": {
+  "ar": "مسودة لمراجعة الطبيب · ليست تشخيصًا أو وصفة",
+  "en": "Draft for doctor review · not a diagnosis or prescription"
+ },
+ "טיוטה לבדיקת הרופא בלבד. אין לראות בה אבחנה, מרשם או הוראה; ההחלטה הקלינית בידי הרופא/ה.": {
+  "ar": "مسودة لمراجعة الطبيب فقط. لا تُعدّ تشخيصًا أو وصفة أو تعليمات؛ القرار السريري بيد الطبيب/ة.",
+  "en": "Draft for doctor review only. It is not a diagnosis, prescription or order; the clinical decision rests with the doctor."
+ },
+ "טיוטה לרופא": {
+  "ar": "مسودة للطبيب",
+  "en": "Doctor's draft"
+ },
+ "טיוטות הנחיות למטופל/ת מתוך התוכנית שלך. הן נכנסות לתוכנית רק אם תאשר/י אותן, והמטופל/ת יראה אותן רק אחרי חתימה.": {
+  "ar": "مسودات تعليمات للمريض/ة من خطتك. تدخل الخطة فقط إن صادقت عليها، ولن يراها المريض/ة إلا بعد التوقيع.",
+  "en": "Patient instruction drafts from your plan. They enter the plan only if you approve them, and the patient sees them only after signing."
+ },
+ "טיוטות — עובדות שנאמרו בביקור": {
+  "ar": "المسودات — حقائق قيلت في الزيارة",
+  "en": "Drafts — facts stated in the visit"
+ },
+ "טיוטת הנחיה למטופל/ת": {
+  "ar": "مسودة تعليمات للمريض/ة",
+  "en": "Patient instruction draft"
+ },
+ "טיוטת הנחיות למטופל/ת": {
+  "ar": "مسودة تعليمات للمريض/ة",
+  "en": "Draft patient instructions"
+ },
+ "טיוטת הרופא השתנתה": {
+  "ar": "تغيّرت مسودة الطبيب",
+  "en": "The doctor's draft changed"
+ },
+ "טיוטת הרופא השתנתה. צרו את סיכום המטופל מחדש.": {
+  "ar": "تغيّرت مسودة الطبيب. أنشئ ملخص المريض من جديد.",
+  "en": "The doctor's draft changed. Create the patient summary again."
+ },
+ "טיוטת הרופא נוצרה על ידי המודל ועדיין לא נערכה על ידי הרופא; העובדות אומתו מול ציטוטים בלבד.": {
+  "ar": "أنشأ النموذج مسودة الطبيب ولم يعدّلها الطبيب بعد؛ تم التحقق من الحقائق مقابل الاقتباسات فقط.",
+  "en": "The doctor's draft was created by the model and has not been edited by the doctor yet; facts were checked against quotes only."
+ },
+ "טיוטת הרופא נוצרה. בדקו כל ממצא מול הציטוט.": {
+  "ar": "أُنشئت مسودة الطبيب. راجع كل نتيجة مقابل الاقتباس.",
+  "en": "The doctor's draft was created. Check every finding against its quote."
+ },
+ "טיוטת הרופא נשמרה ונבדקה מחדש. האישור הקודם, אם היה, בוטל.": {
+  "ar": "حُفظت مسودة الطبيب وأُعيد فحصها. أُلغيت المصادقة السابقة إن وُجدت.",
+  "en": "The doctor's draft was saved and re-checked. Any previous approval was revoked."
+ },
+ "טיוטת רופא גרסה {v} · {category} · מקטעים {segments}": {
+  "ar": "مسودة الطبيب نسخة {v} · {category} · المقاطع {segments}",
+  "en": "Doctor's draft version {v} · {category} · segments {segments}"
+ },
+ "טיפול שנאמר בביקור": {
+  "ar": "العلاج الذي ذُكر في الزيارة",
+  "en": "Treatment mentioned in the visit"
+ },
+ "טיפול שניתן או הומלץ": {
+  "ar": "العلاج الذي أُعطي أو أُوصي به",
+  "en": "Treatment given or recommended"
+ },
+ "טעינת מודל הפרדת הדוברים נכשלה. ודאו שה־HF_TOKEN תקף, שאישרתם את תנאי המודל בדף שלו ושיש חיבור אינטרנט בהורדה הראשונה.": {
+  "ar": "فشل تحميل نموذج فصل المتحدثين. تأكد أن HF_TOKEN صالح، وأنك قبلت شروط النموذج في صفحته، وأن هناك اتصالًا بالإنترنت في التنزيل الأول.",
+  "en": "Loading the speaker-separation model failed. Make sure HF_TOKEN is valid, that you accepted the model terms on its page, and that there is internet access for the first download."
+ },
+ "טקסט": {
+  "ar": "النص",
+  "en": "Text"
+ },
+ "טקסט הביקור כולל ניסוח שנראה כהוראה למערכת; הוא טופל כנתונים בלבד.": {
+  "ar": "يتضمن نص الزيارة صياغة تبدو كتعليمات للنظام؛ عولجت كبيانات فقط.",
+  "en": "The visit text contains wording that looks like an instruction to the system; it was treated as data only."
+ },
+ "יומן ביקורת": {
+  "ar": "سجل التدقيق",
+  "en": "Audit log"
+ },
+ "יומן הוספה בלבד: לרופאים ולמטופלים אין גישה אליו, ואין במערכת פעולה לעריכה או מחיקה של אירועים. כל אירוע משורשר בגיבוב לקודמו; בדיקת השרשרת מזהה עריכות. קובץ SQLite רגיל אינו חסין מפני מי שיש לו גישת כתיבה לקובץ.": {
+  "ar": "سجل إضافة فقط: لا يصل إليه الأطباء والمرضى، ولا يوجد في النظام إجراء لتعديل الأحداث أو حذفها. كل حدث مرتبط ببصمة بالحدث السابق؛ فحص السلسلة يكشف التعديلات. ملف SQLite عادي ليس محصنًا ممن لديه صلاحية كتابة على الملف.",
+  "en": "Append-only log: doctors and patients have no access to it, and the system has no action to edit or delete events. Each event is hash-chained to the previous one; verifying the chain detects edits. A plain SQLite file is not protected from someone with write access to the file."
+ },
+ "יוצרים סיכום בשפה פשוטה…": {
+  "ar": "نُنشئ ملخصًا بلغة بسيطة…",
+  "en": "Creating a plain-language summary…"
+ },
+ "יחידה": {
+  "ar": "الوحدة",
+  "en": "Unit"
+ },
+ "ייצוא PDF אינו זמין: {error}": {
+  "ar": "تصدير PDF غير متاح: {error}",
+  "en": "PDF export not available: {error}"
+ },
+ "ייצוא PDF בעברית דורש את החבילה uharfbuzz. התקינו את requirements.txt או ייצאו כטקסט.": {
+  "ar": "يتطلب تصدير PDF بالعبرية حزمة uharfbuzz. ثبّت requirements.txt أو صدّر كنص.",
+  "en": "PDF export in Hebrew requires the uharfbuzz package. Install requirements.txt or export as text."
+ },
+ "יציאה": {
+  "ar": "خروج",
+  "en": "Sign out"
+ },
+ "יציאה מהמערכת": {
+  "ar": "الخروج من النظام",
+  "en": "Sign out of the system"
+ },
+ "יצירת ביקור": {
+  "ar": "إنشاء زيارة",
+  "en": "Create visit"
+ },
+ "יצירת חשבון": {
+  "ar": "إنشاء حساب",
+  "en": "Create account"
+ },
+ "יצירת סיכום למטופל": {
+  "ar": "إنشاء ملخص للمريض",
+  "en": "Create patient summary"
+ },
+ "יש אלרגיות (פרטו)": {
+  "ar": "توجد حساسية (فصّل)",
+  "en": "Has allergies (specify)"
+ },
+ "יש בטיוטה בעיות חוסמות (⛔). תקנו אותן לפני יצירת סיכום למטופל.": {
+  "ar": "في المسودة مشكلات مانعة (⛔). صحّحها قبل إنشاء ملخص للمريض.",
+  "en": "The draft has blocking issues (⛔). Fix them before creating a patient summary."
+ },
+ "יש בסיכום המטופל בעיות חוסמות (⛔).": {
+  "ar": "في ملخص المريض مشكلات مانعة (⛔).",
+  "en": "The patient summary has blocking issues (⛔)."
+ },
+ "יש בעיות חוסמות שלא תוקנו. לא ניתן לאשר.": {
+  "ar": "توجد مشكلات مانعة لم تُصحَّح. لا يمكن المصادقة.",
+  "en": "There are unresolved blocking issues. Approval is not possible."
+ },
+ "יש לבחור רופא/ה ומטופל/ת קיימים.": {
+  "ar": "يجب اختيار طبيب/ة ومريض/ة موجودين.",
+  "en": "Choose an existing doctor and patient."
+ },
+ "יש להחליף את הסיסמה הזמנית לפני השימוש במערכת.": {
+  "ar": "يجب تغيير كلمة المرور المؤقتة قبل استخدام النظام.",
+  "en": "You must change the temporary password before using the system."
+ },
+ "יש להריץ השחרה על הגרסה הנוכחית לפני האישור.": {
+  "ar": "يجب تشغيل الإخفاء على النسخة الحالية قبل المصادقة.",
+  "en": "Redaction must run on the current version before approval."
+ },
+ "יש לסמן אם הטיפול קודם, ניתן בביקור, הומלץ או מתוכנן.": {
+  "ar": "حدّد إن كان العلاج سابقًا أو أُعطي في الزيارة أو أُوصي به أو مخططًا.",
+  "en": "Mark whether the treatment was previous, given in the visit, recommended or planned."
+ },
+ "יש לסמן שבדקת את התוכן לפני החתימה.": {
+  "ar": "يجب التأشير على أنك راجعت المحتوى قبل التوقيع.",
+  "en": "Tick that you reviewed the content before signing."
+ },
+ "יש לתקן את הבעיות החוסמות בטיוטת הרופא לפני יצירת סיכום למטופל.": {
+  "ar": "يجب تصحيح المشكلات المانعة في مسودة الطبيب قبل إنشاء ملخص للمريض.",
+  "en": "Fix the blocking issues in the doctor's draft before creating a patient summary."
+ },
+ "כבר התקבלה החלטה על הצעה זו.": {
+  "ar": "سبق اتخاذ قرار بشأن هذا الاقتراح.",
+  "en": "A decision was already made on this suggestion."
+ },
+ "כבר קיים חשבון מנהל/ת. משתמשים נוספים נוצרים מתוך המערכת.": {
+  "ar": "يوجد حساب مدير/ة بالفعل. يُنشأ المستخدمون الإضافيون من داخل النظام.",
+  "en": "An administrator account already exists. Additional users are created from within the system."
+ },
+ "כיצד השאלה קשורה לטיפול במטופל/ת של ביקור זה? נסחו אותה ביחס למצבו/ה.": {
+  "ar": "كيف يتعلق السؤال بعلاج مريض/ة هذه الزيارة؟ صِغه بالنسبة لحالته/ا.",
+  "en": "How does the question relate to the care of this visit's patient? Phrase it in terms of their condition."
+ },
+ "כישלון": {
+  "ar": "فشل",
+  "en": "Failure"
+ },
+ "כן": {
+  "ar": "نعم",
+  "en": "Yes"
+ },
+ "כניסה": {
+  "ar": "دخول",
+  "en": "Sign in"
+ },
+ "כניסה למערכת": {
+  "ar": "الدخول إلى النظام",
+  "en": "Sign in to the system"
+ },
+ "כניסות כושלות": {
+  "ar": "محاولات دخول فاشلة",
+  "en": "Failed logins"
+ },
+ "לא (אושר)": {
+  "ar": "لا (مؤكَّد)",
+  "en": "No (confirmed)"
+ },
+ "לא בהריון (אושר)": {
+  "ar": "ليست حاملًا (مؤكَّد)",
+  "en": "Not pregnant (confirmed)"
+ },
+ "לא בוצעו שינויים.": {
+  "ar": "لم تُجرَ تغييرات.",
+  "en": "No changes were made."
+ },
+ "לא הוזנו": {
+  "ar": "لم تُدخل",
+  "en": "Not entered"
+ },
+ "לא הוזנו נתונים: כל השדות 'לא ידוע'.": {
+  "ar": "لم تُدخل بيانات: كل الحقول 'غير معروفة'.",
+  "en": "No data entered: all fields are 'unknown'."
+ },
+ "לא זוהה דיבור. נסו הקלטה ברורה יותר ובדקו הרשאת מיקרופון.": {
+  "ar": "لم يُكتشف كلام. جرّب تسجيلًا أوضح وتحقق من صلاحية الميكروفون.",
+  "en": "No speech detected. Try a clearer recording and check the microphone permission."
+ },
+ "לא ידוע": {
+  "ar": "غير معروف",
+  "en": "Unknown"
+ },
+ "לא ידוע (לא נבדק/לא אושר — אינו שלילה)": {
+  "ar": "غير معروف (لم يُفحص/لم يُؤكَّد — ليس نفيًا)",
+  "en": "Unknown (not checked/not confirmed — not a negative)"
+ },
+ "לא מניקה (אושר)": {
+  "ar": "ليست مرضعة (مؤكَّد)",
+  "en": "Not breastfeeding (confirmed)"
+ },
+ "לא מצאתי במקורות הצעה ספציפית לשאלה בניסוח הזה. ריכזתי למטה את מה שידוע מהביקור; שאלה על תרופה או בדיקה מסוימת תאפשר בדיקת תווית ממוקדת.": {
+  "ar": "لم أجد في المصادر اقتراحًا محددًا للسؤال بهذه الصياغة. جمعتُ أدناه ما هو معروف من الزيارة؛ سؤال عن دواء أو فحص معيّن يتيح فحصًا مركّزًا للنشرة.",
+  "en": "I did not find a specific suggestion in the sources for the question as phrased. Below is what is known from the visit; a question about a specific medication or test allows a focused label check."
+ },
+ "לא נאמר בביקור": {
+  "ar": "لم يُذكر في الزيارة",
+  "en": "Not stated in the visit"
+ },
+ "לא נאמרו בביקור הנחיות טיפול או המשך.": {
+  "ar": "لم تُذكر في الزيارة تعليمات علاج أو متابعة.",
+  "en": "No treatment or follow-up instructions were given in the visit."
+ },
+ "לא נוצרו טיוטות שעברו את הבדיקה; ראו פרטים.": {
+  "ar": "لم تُنشأ مسودات اجتازت الفحص؛ انظر التفاصيل.",
+  "en": "No drafts passed the check; see details."
+ },
+ "לא ניתן להסיר את מנהל/ת המערכת האחרון/ה.": {
+  "ar": "لا يمكن إزالة آخر مدير/ة للنظام.",
+  "en": "The last system administrator cannot be removed."
+ },
+ "לא ניתן להשבית את מנהל/ת המערכת האחרון/ה.": {
+  "ar": "لا يمكن تعطيل آخر مدير/ة للنظام.",
+  "en": "The last system administrator cannot be deactivated."
+ },
+ "לא ניתן להתחבר ל־Ollama המקומי. ודאו שהוא פועל (ollama serve).": {
+  "ar": "لا يمكن الاتصال بـ Ollama المحلي. تأكد أنه يعمل (ollama serve).",
+  "en": "Cannot connect to the local Ollama. Make sure it is running (ollama serve)."
+ },
+ "לא ניתן לחתום: יש בעיות חוסמות או פריטי תוכנית שלא הוערכו מחדש.": {
+  "ar": "لا يمكن التوقيع: توجد مشكلات مانعة أو بنود خطة لم يُعَد تقييمها.",
+  "en": "Cannot sign: there are blocking issues or plan items that were not reassessed."
+ },
+ "לא ניתן לשמור: {error}": {
+  "ar": "لا يمكن الحفظ: {error}",
+  "en": "Cannot save: {error}"
+ },
+ "לא נמצא בתמלול:": {
+  "ar": "لم يوجد في النص:",
+  "en": "Not found in the transcript:"
+ },
+ "לא נמצא גופן התומך בעברית ובערבית לייצוא PDF. הגדירו EXPORT_FONT לנתיב קובץ TTF, או ייצאו כטקסט.": {
+  "ar": "لم يُعثر على خط يدعم العبرية والعربية لتصدير PDF. عيّن EXPORT_FONT لمسار ملف TTF، أو صدّر كنص.",
+  "en": "No font supporting Hebrew and Arabic was found for PDF export. Set EXPORT_FONT to a TTF file path, or export as text."
+ },
+ "לא נמצא מידע מתועד לפעולה זו.": {
+  "ar": "لا توجد معلومات موثّقة لهذا الإجراء.",
+  "en": "No documented information for this action."
+ },
+ "לא נמצאה התאמה בין האלרגיות הרשומות לתרופה או למשפחתה במפת המונחים": {
+  "ar": "لم يوجد تطابق بين الحساسيات المسجّلة والدواء أو عائلته في خريطة المصطلحات",
+  "en": "No match between the listed allergies and the medication or its class in the term map"
+ },
+ "לא נמצאו הבדלים בעובדות המתועדות.": {
+  "ar": "لم توجد فروق في الحقائق الموثّقة.",
+  "en": "No differences found in the documented facts."
+ },
+ "לא נמצאו מקורות רלוונטיים באוסף המקורות המאושר עבור מונחי הרשומה.": {
+  "ar": "لم توجد مصادر ذات صلة في مجموعة المصادر المعتمدة لمصطلحات السجل.",
+  "en": "No relevant sources were found in the approved collection for the record's terms."
+ },
+ "לא נמצאו סתירות בבדיקות שבוצעו. הבדיקה כוללת: סתירות שזוהו בחילוץ, אלרגיות ותרופות מול נתוני המטופל, חיוב ושלילה של אותו מונח. היא אינה בדיקה מלאה.": {
+  "ar": "لم توجد تناقضات في الفحوص التي أُجريت. يشمل الفحص: تناقضات اكتُشفت في الاستخراج، الحساسية والأدوية مقابل بيانات المريض، وإثبات ونفي المصطلح نفسه. ليس فحصًا كاملًا.",
+  "en": "No contradictions were found in the checks performed. They cover: contradictions found during extraction, allergies and medications against the patient data, and the same term stated both positively and negatively. This is not a complete check."
+ },
+ "לא נמצאו פרטים מזהים בכללים האוטומטיים. בדקו ידנית.": {
+  "ar": "لم توجد تفاصيل مُعرِّفة بالقواعد التلقائية. افحص يدويًا.",
+  "en": "No identifying details found by the automatic rules. Check manually."
+ },
+ "לא נמצאו קטעי מקור רלוונטיים באוסף המקורות המאושר; לא יוצגו המלצות טיפוליות.": {
+  "ar": "لم توجد مقاطع مصادر ذات صلة في المجموعة المعتمدة؛ لن تُعرض توصيات علاجية.",
+  "en": "No relevant source passages were found in the approved collection; no treatment recommendations will be shown."
+ },
+ "לא נרשמו": {
+  "ar": "لم تُسجَّل",
+  "en": "None listed"
+ },
+ "לא עדכני": {
+  "ar": "غير محدّث",
+  "en": "Out of date"
+ },
+ "לא עדכנית — נתוני המטופל השתנו; לא ניתן לקבל אותה. בקשו הערכה מחדש.": {
+  "ar": "غير محدّث — تغيّرت بيانات المريض؛ لا يمكن قبوله. اطلب إعادة تقييم.",
+  "en": "Out of date — the patient data changed; it cannot be accepted. Ask for a reassessment."
+ },
+ "לא צוין": {
+  "ar": "غير مذكور",
+  "en": "Not stated"
+ },
+ "לא צוין בתמלול.": {
+  "ar": "لم يُذكر في النص.",
+  "en": "Not stated in the transcript."
+ },
+ "לא רלוונטי": {
+  "ar": "غير ذي صلة",
+  "en": "Not applicable"
+ },
+ "לאחר השחרה": {
+  "ar": "بعد الإخفاء",
+  "en": "After redaction"
+ },
+ "לבדוק אינטראקציה המוזכרת בתווית של {drug} מול התרופות הקבועות (ראו ציטוט).": {
+  "ar": "افحص تداخلًا مذكورًا في نشرة {drug} مقابل الأدوية الدائمة (انظر الاقتباس).",
+  "en": "Check an interaction mentioned on the {drug} label against the regular medications (see quote)."
+ },
+ "לבדוק את התאמת {drug} לתפקוד הכבד לפי התווית (ראו ציטוט).": {
+  "ar": "افحص ملاءمة {drug} لوظائف الكبد وفق النشرة (انظر الاقتباس).",
+  "en": "Check the suitability of {drug} for liver function according to the label (see quote)."
+ },
+ "לבדוק את התאמת {drug} לתפקוד הכליות לפי התווית (ראו ציטוט).": {
+  "ar": "افحص ملاءمة {drug} لوظائف الكلى وفق النشرة (انظر الاقتباس).",
+  "en": "Check the suitability of {drug} for kidney function according to the label (see quote)."
+ },
+ "לבדוק את סעיף ההריון/ההנקה בתווית של {drug} ביחס למטופלת (ראו ציטוט).": {
+  "ar": "راجع قسم الحمل/الرضاعة في نشرة {drug} بالنسبة للمريضة (انظر الاقتباس).",
+  "en": "Review the pregnancy/lactation section of the {drug} label for the patient (see quote)."
+ },
+ "לביקור זה אין טיוטת רופא עדכנית; לא ניתן להשוות עובדות.": {
+  "ar": "لا توجد لهذه الزيارة مسودة طبيب محدّثة؛ لا يمكن مقارنة الحقائق.",
+  "en": "This visit has no current doctor's draft; facts cannot be compared."
+ },
+ "להסביר ולעקוב אחר תופעות הלוואי של {drug} המפורטות בתווית (ראו ציטוט).": {
+  "ar": "اشرح وتابع الأعراض الجانبية لـ {drug} المذكورة في النشرة (انظر الاقتباس).",
+  "en": "Explain and monitor the side effects of {drug} listed on the label (see quote)."
+ },
+ "ללא": {
+  "ar": "بدون",
+  "en": "None"
+ },
+ "למטופלים שלך אין עדיין ביקורים. צרו ביקור בסרגל הצד כדי להתחיל.": {
+  "ar": "لا توجد بعد زيارات لمرضاك. أنشئ زيارة في الشريط الجانبي للبدء.",
+  "en": "Your patients have no visits yet. Create a visit in the sidebar to start."
+ },
+ "לעיין בקטע הרלוונטי מהתווית של {drug} (ראו ציטוט).": {
+  "ar": "راجع القسم ذا الصلة من نشرة {drug} (انظر الاقتباس).",
+  "en": "Review the relevant section of the {drug} label (see quote)."
+ },
+ "לפני הכניסה הראשונה יש לבחור סיסמה אישית": {
+  "ar": "قبل الدخول الأول يجب اختيار كلمة مرور شخصية",
+  "en": "Before the first login you must choose a personal password"
+ },
+ "לפני חילוץ הממצאים:": {
+  "ar": "قبل استخراج النتائج:",
+  "en": "Before extracting findings:"
+ },
+ "לפני שקילת {drug}: בתווית יש אזהרה מודגשת (Boxed Warning). עיינו בציטוט.": {
+  "ar": "قبل النظر في {drug}: تحتوي النشرة على تحذير بارز (Boxed Warning). راجع الاقتباس.",
+  "en": "Before considering {drug}: the label has a boxed warning. See the quote."
+ },
+ "לפני שקילת {drug}: לוודא שאין התוויית נגד המופיעה בתווית (ראו ציטוט).": {
+  "ar": "قبل النظر في {drug}: تأكد من عدم وجود موانع استعمال مذكورة في النشرة (انظر الاقتباس).",
+  "en": "Before considering {drug}: make sure there is no contraindication listed on the label (see quote)."
+ },
+ "לפני שקילת {drug}: לעבור על האזהרות בתווית הרלוונטיות למטופל/ת (ראו ציטוט).": {
+  "ar": "قبل النظر في {drug}: راجع تحذيرات النشرة ذات الصلة بالمريض/ة (انظر الاقتباس).",
+  "en": "Before considering {drug}: review the label warnings relevant to the patient (see quote)."
+ },
+ "לרופא בלבד": {
+  "ar": "للطبيب فقط",
+  "en": "Doctor only"
+ },
+ "לרופא בלבד. התשובות הן טיוטות לבדיקה: העוזר אינו מאבחן, אינו רושם, אינו קובע מינונים ואינו מזמין בדיקות, ושום דבר ממנו אינו מגיע למטופל/ת ללא החלטה וחתימה שלך.": {
+  "ar": "للطبيب فقط. الإجابات مسودات للمراجعة: المساعد لا يشخّص ولا يصف ولا يحدد جرعات ولا يطلب فحوصًا، ولا يصل شيء منه إلى المريض/ة دون قرارك وتوقيعك.",
+  "en": "Doctor only. Answers are drafts for review: the assistant does not diagnose, prescribe, set doses or order tests, and nothing from it reaches the patient without your decision and signature."
+ },
+ "מ־(UTC, 2026-10-17)": {
+  "ar": "من (UTC، 2026-10-17)",
+  "en": "From (UTC, 2026-10-17)"
+ },
+ "מאושר": {
+  "ar": "مصادق عليه",
+  "en": "Approved"
+ },
+ "מאושר וחתום": {
+  "ar": "مصادق عليه وموقّع",
+  "en": "Approved and signed"
+ },
+ "מגבלות ופרטים": {
+  "ar": "القيود والتفاصيل",
+  "en": "Limitations and details"
+ },
+ "מה גיל המטופל/ת?": {
+  "ar": "ما عمر المريض/ة؟",
+  "en": "What is the patient's age?"
+ },
+ "מה ייחתם": {
+  "ar": "ما سيتم توقيعه",
+  "en": "What will be signed"
+ },
+ "מה נאמר בביקור": {
+  "ar": "ما قيل في الزيارة",
+  "en": "What was said in the visit"
+ },
+ "מה נאמר על מצבך": {
+  "ar": "ما قيل عن حالتك",
+  "en": "What was said about your condition"
+ },
+ "מהי הערכת הרופא/ה כפי שתיעשה בביקור?": {
+  "ar": "ما تقييم الطبيب/ة كما سيُقال في الزيارة؟",
+  "en": "What is the doctor's assessment as it will be stated in the visit?"
+ },
+ "מהי התלונה העיקרית ומתי החלה?": {
+  "ar": "ما الشكوى الرئيسية ومتى بدأت؟",
+  "en": "What is the main complaint and when did it start?"
+ },
+ "מהמודל": {
+  "ar": "من النموذج",
+  "en": "From the model"
+ },
+ "מהן ההנחיות להמשך ומתי ביקור הביקורת?": {
+  "ar": "ما تعليمات المتابعة ومتى زيارة المراجعة؟",
+  "en": "What are the follow-up instructions and when is the check-up visit?"
+ },
+ "מודל מקומי": {
+  "ar": "نموذج محلي",
+  "en": "Local model"
+ },
+ "מוזנים ומאושרים על ידי הרופא": {
+  "ar": "يُدخلها ويصادق عليها الطبيب",
+  "en": "Entered and confirmed by the doctor"
+ },
+ "מוחק אודיו זמני ואת מיפוי ממלאי המקום לפרטים המקוריים של ביקור זה. התמלול והטיוטות נשמרים. לא ניתן לבטל.": {
+  "ar": "يحذف الصوت المؤقت وربط العناصر النائبة بالتفاصيل الأصلية لهذه الزيارة. يُحفظ النص والمسودات. لا يمكن التراجع.",
+  "en": "Deletes the temporary audio and the mapping of placeholders to the original details of this visit. The transcript and drafts are kept. This cannot be undone."
+ },
+ "מועד האישור": {
+  "ar": "موعد المصادقة",
+  "en": "Approval time"
+ },
+ "מועד הביקור": {
+  "ar": "موعد الزيارة",
+  "en": "Visit time"
+ },
+ "מועד החתימה (UTC): {time}": {
+  "ar": "موعد التوقيع (UTC): {time}",
+  "en": "Signing time (UTC): {time}"
+ },
+ "מועד החתימה: {local} (UTC {utc})": {
+  "ar": "موعد التوقيع: {local} (UTC {utc})",
+  "en": "Signing time: {local} (UTC {utc})"
+ },
+ "מושבת": {
+  "ar": "معطَّل",
+  "en": "Inactive"
+ },
+ "מזהה": {
+  "ar": "المعرّف",
+  "en": "ID"
+ },
+ "מזהה אישור": {
+  "ar": "معرّف المصادقة",
+  "en": "Approval ID"
+ },
+ "מזהה ביקור": {
+  "ar": "معرّف الزيارة",
+  "en": "Visit ID"
+ },
+ "מזהה ביקור: {id}": {
+  "ar": "معرّف الزيارة: {id}",
+  "en": "Visit ID: {id}"
+ },
+ "מזהה רשומה": {
+  "ar": "معرّف السجل",
+  "en": "Record ID"
+ },
+ "מחיקת אודיו זמני ומיפוי פרטים מזהים": {
+  "ar": "حذف الصوت المؤقت وربط التفاصيل المُعرِّفة",
+  "en": "Delete temporary audio and identifier mapping"
+ },
+ "מחיקת כל הטקסט של מקטע מסירה אותו. SPEAKER_DOCTOR / SPEAKER_PATIENT משויכים אוטומטית לרופא / למטופל.": {
+  "ar": "حذف كل نص المقطع يزيله. يُربط SPEAKER_DOCTOR / SPEAKER_PATIENT تلقائيًا بالطبيب / بالمريض.",
+  "en": "Clearing all the text of a segment removes it. SPEAKER_DOCTOR / SPEAKER_PATIENT are assigned automatically to doctor / patient."
+ },
+ "מחלות רקע ידועות": {
+  "ar": "أمراض خلفية معروفة",
+  "en": "Known conditions"
+ },
+ "מחלות רקע ידועות (מופרדות בפסיקים)": {
+  "ar": "أمراض خلفية معروفة (مفصولة بفواصل)",
+  "en": "Known conditions (comma-separated)"
+ },
+ "מטופל": {
+  "ar": "مريض",
+  "en": "Patient"
+ },
+ "מטופל/ת": {
+  "ar": "المريض/ة",
+  "en": "Patient"
+ },
+ "מטופל/ת חדש/ה": {
+  "ar": "مريض/ة جديد/ة",
+  "en": "New patient"
+ },
+ "מידע חסר": {
+  "ar": "معلومات ناقصة",
+  "en": "Missing information"
+ },
+ "מין": {
+  "ar": "الجنس",
+  "en": "Sex"
+ },
+ "מינון": {
+  "ar": "الجرعة",
+  "en": "Dose"
+ },
+ "מיקרופון המחשב": {
+  "ar": "ميكروفون الحاسوب",
+  "en": "Computer microphone"
+ },
+ "מכין במודל המקומי… (עד כחצי דקה)": {
+  "ar": "يُحضَّر بالنموذج المحلي… (حتى نصف دقيقة تقريبًا)",
+  "en": "Preparing with the local model… (up to about half a minute)"
+ },
+ "מכין…": {
+  "ar": "يُحضَّر…",
+  "en": "Preparing…"
+ },
+ "ממצא": {
+  "ar": "النتيجة",
+  "en": "Finding"
+ },
+ "ממצאי בדיקה שנאמרו": {
+  "ar": "نتائج الفحص التي قيلت",
+  "en": "Examination findings stated"
+ },
+ "ממצאים (F1, F2…)": {
+  "ar": "النتائج (F1، F2…)",
+  "en": "Findings (F1, F2…)"
+ },
+ "מנהל/ת מערכת": {
+  "ar": "مدير/ة النظام",
+  "en": "System administrator"
+ },
+ "מניקה": {
+  "ar": "مرضعة",
+  "en": "Breastfeeding"
+ },
+ "מספרים שאינם מופיעים בציטוט.": {
+  "ar": "أرقام غير موجودة في الاقتباس.",
+  "en": "Numbers that do not appear in the quote."
+ },
+ "מערכת סיכום ביקורים רפואיים": {
+  "ar": "نظام تلخيص الزيارات الطبية",
+  "en": "Medical Visit Summary System"
+ },
+ "מצב הביקור": {
+  "ar": "حالة الزيارة",
+  "en": "Visit status"
+ },
+ "מקור": {
+  "ar": "المصدر",
+  "en": "Source"
+ },
+ "מקור ({role}, {start}–{end} ש׳):": {
+  "ar": "المصدر ({role}، {start}–{end} ث):",
+  "en": "Source ({role}, {start}–{end} s):"
+ },
+ "מקור השיחה": {
+  "ar": "مصدر المحادثة",
+  "en": "Conversation source"
+ },
+ "מקור לא זמין ({status}): {title}. אין במערכת הנחיות קליניות למצבים — רק מידע מתוויות תרופה.": {
+  "ar": "مصدر غير متاح ({status}): {title}. لا توجد في النظام إرشادات سريرية للحالات — فقط معلومات من نشرات الأدوية.",
+  "en": "Source not available ({status}): {title}. The system has no clinical guidelines for conditions — only information from drug labels."
+ },
+ "מקור מחוץ לישראל ({where}): הרישום והתווית בישראל עשויים להיות שונים.": {
+  "ar": "مصدر من خارج إسرائيل ({where}): قد يختلف التسجيل والنشرة في إسرائيل.",
+  "en": "Source from outside Israel ({where}): Israeli registration and labeling may differ."
+ },
+ "מקור: הצעת העוזר #{id}": {
+  "ar": "المصدر: اقتراح المساعد #{id}",
+  "en": "Source: assistant suggestion #{id}"
+ },
+ "מקור: הצעת העוזר הקליני": {
+  "ar": "المصدر: اقتراح المساعد السريري",
+  "en": "Source: clinical assistant suggestion"
+ },
+ "מקורות": {
+  "ar": "المصادر",
+  "en": "Sources"
+ },
+ "מקורות שאינם זמינים כעת (לא נקלטו או נחסמו):": {
+  "ar": "مصادر غير متاحة حاليًا (لم تُستورد أو حُجبت):",
+  "en": "Sources not currently available (not ingested or blocked):"
+ },
+ "מקורות:": {
+  "ar": "المصادر:",
+  "en": "Sources:"
+ },
+ "מקטע": {
+  "ar": "المقطع",
+  "en": "Segment"
+ },
+ "מקטעים": {
+  "ar": "المقاطع",
+  "en": "Segments"
+ },
+ "משך": {
+  "ar": "المدة",
+  "en": "Duration"
+ },
+ "משמעות החתימה: {meaning}": {
+  "ar": "معنى التوقيع: {meaning}",
+  "en": "Signature meaning: {meaning}"
+ },
+ "משמעות:": {
+  "ar": "المعنى:",
+  "en": "Meaning:"
+ },
+ "משמעות: {meaning} · כל עריכה תבטל את האישור.": {
+  "ar": "المعنى: {meaning} · أي تعديل سيلغي المصادقة.",
+  "en": "Meaning: {meaning} · any edit revokes the approval."
+ },
+ "משפט למטופל": {
+  "ar": "جملة للمريض",
+  "en": "Sentence for the patient"
+ },
+ "משתמש לא קיים": {
+  "ar": "المستخدم غير موجود",
+  "en": "User does not exist"
+ },
+ "משתמש/ת": {
+  "ar": "المستخدم/ة",
+  "en": "User"
+ },
+ "משתמש/ת חדש/ה": {
+  "ar": "مستخدم/ة جديد/ة",
+  "en": "New user"
+ },
+ "משתמשים ותפקידים": {
+  "ar": "المستخدمون والأدوار",
+  "en": "Users and roles"
+ },
+ "משתמשים, הרשאות, שיוכי רופא–מטופל ויומן ביקורת · ללא גישה לתוכן קליני": {
+  "ar": "المستخدمون والصلاحيات وروابط الطبيب–المريض وسجل التدقيق · دون وصول إلى المحتوى السريري",
+  "en": "Users, permissions, doctor–patient assignments and audit log · no access to clinical content"
+ },
+ "מתוך תווית {drug}, סעיף {section}": {
+  "ar": "من نشرة {drug}، القسم {section}",
+  "en": "From the {drug} label, section {section}"
+ },
+ "מתוכנן": {
+  "ar": "مخطط",
+  "en": "Planned"
+ },
+ "מתמללים… טעינת מודל מקומי עשויה לקחת זמן בפעם הראשונה.": {
+  "ar": "جارٍ التفريغ… قد يستغرق تحميل النموذج المحلي وقتًا في المرة الأولى.",
+  "en": "Transcribing… loading the local model may take a while the first time."
+ },
+ "נאמר באי־ודאות": {
+  "ar": "قيل بعدم يقين",
+  "en": "stated with uncertainty"
+ },
+ "נאמר גם בחיוב וגם בשלילה —": {
+  "ar": "قيل إثباتًا ونفيًا —",
+  "en": "stated both positively and negatively —"
+ },
+ "נבדקו {n} אירועים": {
+  "ar": "فُحص {n} حدثًا",
+  "en": "{n} events checked"
+ },
+ "נדחה": {
+  "ar": "مرفوض",
+  "en": "Denied"
+ },
+ "נדרש נוסח ערוך.": {
+  "ar": "يلزم نص معدّل.",
+  "en": "An edited wording is required."
+ },
+ "נדרש שם מלא.": {
+  "ar": "يلزم الاسم الكامل.",
+  "en": "A full name is required."
+ },
+ "נדרש תמלול שאינו ריק, עד 30,000 תווים.": {
+  "ar": "يلزم نص غير فارغ، حتى 30,000 حرف.",
+  "en": "A non-empty transcript of up to 30,000 characters is required."
+ },
+ "נדרשת הסכמת המטופל/ת להקלטה ולעיבוד השיחה.": {
+  "ar": "تلزم موافقة المريض/ة على التسجيل ومعالجة المحادثة.",
+  "en": "The patient's consent to recording and processing the conversation is required."
+ },
+ "נדרשת הקלטה עד 24MB. הקליטו שיחה קצרה יותר.": {
+  "ar": "يلزم تسجيل حتى 24MB. سجّل محادثة أقصر.",
+  "en": "A recording of up to 24MB is required. Record a shorter conversation."
+ },
+ "נדרשת סיבה לשיוך.": {
+  "ar": "يلزم سبب للربط.",
+  "en": "A reason for the assignment is required."
+ },
+ "נוטל/ת תרופות (פרטו)": {
+  "ar": "يتناول أدوية (فصّل)",
+  "en": "Takes medications (specify)"
+ },
+ "נוסח מקורי: {text}": {
+  "ar": "الصياغة الأصلية: {text}",
+  "en": "Original wording: {text}"
+ },
+ "נוצר": {
+  "ar": "أُنشئ",
+  "en": "Created"
+ },
+ "נחתם על ידי {name} · {time} UTC · SHA-256 {hash}…": {
+  "ar": "وقّعه {name} · {time} UTC · SHA-256 {hash}…",
+  "en": "Signed by {name} · {time} UTC · SHA-256 {hash}…"
+ },
+ "נחתם על ידי {name} · {time} UTC · מזהה אישור {id}": {
+  "ar": "وقّعه {name} · {time} UTC · معرّف المصادقة {id}",
+  "en": "Signed by {name} · {time} UTC · approval ID {id}"
+ },
+ "נחתם על ידי: {name} ({id})": {
+  "ar": "وقّعه: {name} ({id})",
+  "en": "Signed by: {name} ({id})"
+ },
+ "ניהול מערכת": {
+  "ar": "إدارة النظام",
+  "en": "System administration"
+ },
+ "ניסוח לשפה פשוטה של פריט התוכנית {id}:": {
+  "ar": "صياغة بلغة بسيطة لبند الخطة {id}:",
+  "en": "Plain-language wording of plan item {id}:"
+ },
+ "ניתן בביקור": {
+  "ar": "أُعطي في الزيارة",
+  "en": "Given in the visit"
+ },
+ "נכשל": {
+  "ar": "فشل",
+  "en": "Failed"
+ },
+ "נכתב על ידי הרופא": {
+  "ar": "كتبه الطبيب",
+  "en": "Written by the doctor"
+ },
+ "נכתבה ואושרה על ידי הרופא/ה לאחר הביקור; אינה חלק ממה שנאמר בביקור": {
+  "ar": "كتبها وصادق عليها الطبيب/ة بعد الزيارة؛ ليست جزءًا مما قيل في الزيارة",
+  "en": "Written and approved by the doctor after the visit; not part of what was said in the visit"
+ },
+ "נמצאה חריגה באירוע {seq}": {
+  "ar": "وُجد خلل في الحدث {seq}",
+  "en": "An anomaly was found at event {seq}"
+ },
+ "נמצאו {n} קטעים באוסף המקורות המאושר, לפי מונחים מהרשומה: {terms}.": {
+  "ar": "وُجدت {n} مقاطع في مجموعة المصادر المعتمدة، وفق مصطلحات من السجل: {terms}.",
+  "en": "Found {n} passages in the approved source collection, by terms from the record: {terms}."
+ },
+ "נמצאו פריטים לבדיקת הרופא.": {
+  "ar": "وُجدت بنود لمراجعة الطبيب.",
+  "en": "Items were found for the doctor to review."
+ },
+ "נעול": {
+  "ar": "مقفل",
+  "en": "Locked"
+ },
+ "נערך": {
+  "ar": "مُعدَّل",
+  "en": "Edited"
+ },
+ "נערכה": {
+  "ar": "مُعدَّلة",
+  "en": "Edited"
+ },
+ "נערכה על ידי הרופא": {
+  "ar": "عدّلها الطبيب",
+  "en": "Edited by the doctor"
+ },
+ "נפרדת מהעובדות שנאמרו בביקור. פריטים מהעוזר הקליני נכנסים לכאן רק לאחר קבלה או עריכה שלך, עם תיעוד המקור.": {
+  "ar": "منفصلة عن الحقائق التي قيلت في الزيارة. بنود المساعد السريري تدخل هنا فقط بعد قبولك أو تعديلك، مع توثيق المصدر.",
+  "en": "Separate from the facts stated in the visit. Items from the clinical assistant enter here only after you accept or edit them, with the source recorded."
+ },
+ "נפתח": {
+  "ar": "فُتحت",
+  "en": "Opened"
+ },
+ "נקבה": {
+  "ar": "أنثى",
+  "en": "Female"
+ },
+ "נשלף {date}": {
+  "ar": "استُرجع {date}",
+  "en": "retrieved {date}"
+ },
+ "נשמרה גרסת תמלול חדשה. טיוטות ואישור קודמים בוטלו.": {
+  "ar": "حُفظت نسخة نص جديدة. أُلغيت المسودات والمصادقة السابقة.",
+  "en": "A new transcript version was saved. Previous drafts and approval were revoked."
+ },
+ "נתוני המטופל השתנו": {
+  "ar": "تغيّرت بيانات المريض",
+  "en": "The patient data changed"
+ },
+ "נתוני המטופל נשמרו כגרסה חדשה.": {
+  "ar": "حُفظت بيانات المريض كنسخة جديدة.",
+  "en": "The patient data was saved as a new version."
+ },
+ "נתוני המטופל: 'אין אלרגיות ידועות', אך בביקור נאמר:": {
+  "ar": "بيانات المريض: 'لا حساسية معروفة'، لكن قيل في الزيارة:",
+  "en": "Patient data: 'no known allergies', but in the visit it was said:"
+ },
+ "נתוני המטופל: 'אין תרופות קבועות', אך בביקור תועד טיפול תרופתי קודם:": {
+  "ar": "بيانات المريض: 'لا أدوية دائمة'، لكن وُثّق في الزيارة علاج دوائي سابق:",
+  "en": "Patient data: 'no regular medications', but a previous drug treatment was documented in the visit:"
+ },
+ "נתוני המטופל: מין 'זכר' יחד עם 'בהריון'.": {
+  "ar": "بيانات المريض: الجنس 'ذكر' مع 'حامل'.",
+  "en": "Patient data: sex 'male' together with 'pregnant'."
+ },
+ "נתוני מטופל גרסה {v} (הוזנו ואושרו ע״י הרופא)": {
+  "ar": "بيانات المريض نسخة {v} (أدخلها وصادق عليها الطبيب)",
+  "en": "Patient data version {v} (entered and confirmed by the doctor)"
+ },
+ "נתוני מטופל לבדיקות בטיחות": {
+  "ar": "بيانات المريض لفحوص السلامة",
+  "en": "Patient data for safety checks"
+ },
+ "נתוני מטופל לבטיחות": {
+  "ar": "بيانات المريض للسلامة",
+  "en": "Patient safety data"
+ },
+ "נתוני מטופל: לא הוזנו": {
+  "ar": "بيانات المريض: لم تُدخل",
+  "en": "Patient data: not entered"
+ },
+ "סביבת עבודה קלינית": {
+  "ar": "بيئة العمل السريرية",
+  "en": "Clinical workspace"
+ },
+ "סוג קובץ לא נתמך. השתמשו ב־WAV, MP3, M4A, OGG, FLAC או WEBM.": {
+  "ar": "نوع ملف غير مدعوم. استخدم WAV أو MP3 أو M4A أو OGG أو FLAC أو WEBM.",
+  "en": "Unsupported file type. Use WAV, MP3, M4A, OGG, FLAC or WEBM."
+ },
+ "סוף": {
+  "ar": "النهاية",
+  "en": "End"
+ },
+ "סטטוס": {
+  "ar": "الحالة",
+  "en": "Status"
+ },
+ "סטטוס טיפול": {
+  "ar": "حالة العلاج",
+  "en": "Treatment status"
+ },
+ "סטטוס: מאושר | מזהה אישור: {id}": {
+  "ar": "الحالة: مصادق عليه | معرّف المصادقة: {id}",
+  "en": "Status: approved | approval ID: {id}"
+ },
+ "סיבה": {
+  "ar": "السبب",
+  "en": "Reason"
+ },
+ "סיבה (חובה)": {
+  "ar": "السبب (إلزامي)",
+  "en": "Reason (required)"
+ },
+ "סיום הפעלה": {
+  "ar": "إنهاء الجلسة",
+  "en": "End session"
+ },
+ "סיכום ביקור מאושר": {
+  "ar": "ملخص زيارة مصادق عليه",
+  "en": "Approved visit summary"
+ },
+ "סיכום ביקור רפואי": {
+  "ar": "ملخص زيارة طبية",
+  "en": "Medical visit summary"
+ },
+ "סיכום ביקור — הופק בסיוע מערכת אוטומטית, נבדק ואושר בחתימה אלקטרונית של הרופא/ה": {
+  "ar": "ملخص زيارة — أُنتج بمساعدة نظام آلي، ورُوجع وصودق عليه بتوقيع إلكتروني من الطبيب/ة",
+  "en": "Visit summary — produced with the help of an automated system, reviewed and approved by the doctor's electronic signature"
+ },
+ "סיכום המטופל הקודם נוצר מגרסה ישנה של טיוטת הרופא. צרו אותו מחדש.": {
+  "ar": "أُنشئ ملخص المريض السابق من نسخة قديمة من مسودة الطبيب. أنشئه من جديد.",
+  "en": "The previous patient summary was created from an old version of the doctor's draft. Create it again."
+ },
+ "סיכום המטופל השתנה": {
+  "ar": "تغيّر ملخص المريض",
+  "en": "The patient summary changed"
+ },
+ "סיכום המטופל חייב להיווצר מגרסת טיוטת הרופא הנוכחית.": {
+  "ar": "يجب إنشاء ملخص المريض من النسخة الحالية لمسودة الطبيب.",
+  "en": "The patient summary must be created from the current version of the doctor's draft."
+ },
+ "סיכום המטופל מוגבל להערכה, לטיפול ולהנחיות שנאמרו.": {
+  "ar": "يقتصر ملخص المريض على التقييم والعلاج والتعليمات التي قيلت.",
+  "en": "The patient summary is limited to the assessment, treatment and instructions that were stated."
+ },
+ "סיכום המטופל נוצר.": {
+  "ar": "أُنشئ ملخص المريض.",
+  "en": "The patient summary was created."
+ },
+ "סיכום המטופל נשמר ונבדק מחדש. האישור הקודם, אם היה, בוטל.": {
+  "ar": "حُفظ ملخص المريض وأُعيد فحصه. أُلغيت المصادقة السابقة إن وُجدت.",
+  "en": "The patient summary was saved and re-checked. Any previous approval was revoked."
+ },
+ "סיכום המטופל/ת": {
+  "ar": "ملخص المريض/ة",
+  "en": "Summarize this patient"
+ },
+ "סיכום למטופל": {
+  "ar": "ملخص للمريض",
+  "en": "Patient summary"
+ },
+ "סיכום למטופל — מה שנאמר בביקור": {
+  "ar": "ملخص للمريض — ما قيل في الزيارة",
+  "en": "Patient summary — what was said in the visit"
+ },
+ "סיכום למטופל/ת — מה שנאמר בביקור": {
+  "ar": "ملخص للمريض/ة — ما قيل في الزيارة",
+  "en": "Patient summary — what was said in the visit"
+ },
+ "סיכום לרופא — עובדות שנאמרו בביקור": {
+  "ar": "ملخص للطبيب — حقائق قيلت في الزيارة",
+  "en": "Doctor summary — facts stated in the visit"
+ },
+ "סיכום מתוך {n} עובדות בטיוטת הרופא (גרסה {v}) ונתוני המטופל שהוזנו. כל פריט מפנה לרשומה שלו.": {
+  "ar": "ملخص من {n} حقائق في مسودة الطبيب (نسخة {v}) وبيانات المريض المُدخلة. كل بند يشير إلى سجلّه.",
+  "en": "Summary of {n} facts from the doctor's draft (version {v}) and the patient data entered. Each item points to its record."
+ },
+ "סיכומי ביקור שנבדקו ונחתמו על ידי הרופא/ה": {
+  "ar": "ملخصات زيارات رُوجعت ووُقّعت من الطبيب/ة",
+  "en": "Visit summaries reviewed and signed by the doctor"
+ },
+ "סימונים": {
+  "ar": "علامات",
+  "en": "Flags"
+ },
+ "סינון": {
+  "ar": "تصفية",
+  "en": "Filter"
+ },
+ "סיסמה": {
+  "ar": "كلمة المرور",
+  "en": "Password"
+ },
+ "סיסמה זמנית": {
+  "ar": "كلمة مرور مؤقتة",
+  "en": "Temporary password"
+ },
+ "סיסמה זמנית חדשה (לאיפוס)": {
+  "ar": "كلمة مرور مؤقتة جديدة (لإعادة التعيين)",
+  "en": "New temporary password (for reset)"
+ },
+ "סיסמה חדשה": {
+  "ar": "كلمة مرور جديدة",
+  "en": "New password"
+ },
+ "סיסמה נוכחית": {
+  "ar": "كلمة المرور الحالية",
+  "en": "Current password"
+ },
+ "סתירה בתיעוד הביקור:": {
+  "ar": "تناقض في توثيق الزيارة:",
+  "en": "Contradiction in the visit documentation:"
+ },
+ "סתירה בתיעוד:": {
+  "ar": "تناقض في التوثيق:",
+  "en": "Documentation contradiction:"
+ },
+ "סתירה שזוהתה בחילוץ:": {
+  "ar": "تناقض اكتُشف في الاستخراج:",
+  "en": "Contradiction found during extraction:"
+ },
+ "סתירה:": {
+  "ar": "تناقض:",
+  "en": "Contradiction:"
+ },
+ "סתירות שזוהו": {
+  "ar": "تناقضات اكتُشفت",
+  "en": "Contradictions found"
+ },
+ "עברית": {
+  "ar": "العبرية",
+  "en": "Hebrew"
+ },
+ "עד (UTC)": {
+  "ar": "حتى (UTC)",
+  "en": "Until (UTC)"
+ },
+ "עדיין אין מנהל/ת מערכת. משתמשים קיימים יכולים להיכנס; ניהול משתמשים ושיוכים דורש מנהל/ת (python -m backend.manage create-admin).": {
+  "ar": "لا يوجد بعد مدير/ة للنظام. يمكن للمستخدمين الحاليين الدخول؛ إدارة المستخدمين والروابط تتطلب مديرًا/ة (python -m backend.manage create-admin).",
+  "en": "There is no system administrator yet. Existing users can sign in; managing users and assignments requires an administrator (python -m backend.manage create-admin)."
+ },
+ "עדכון סטטוס": {
+  "ar": "تحديث الحالة",
+  "en": "Update status"
+ },
+ "עדכון תפקיד": {
+  "ar": "تحديث الدور",
+  "en": "Update role"
+ },
+ "עובדות הביקור": {
+  "ar": "حقائق الزيارة",
+  "en": "Visit facts"
+ },
+ "עובדות הביקור לא שימשו בתשובה: {why}. התשובה מבוססת על נתוני המטופל שהוזנו ועל תוויות התרופה בלבד.": {
+  "ar": "لم تُستخدم حقائق الزيارة في الإجابة: {why}. تستند الإجابة إلى بيانات المريض المُدخلة ونشرات الأدوية فقط.",
+  "en": "The visit facts were not used in the answer: {why}. The answer is based only on the patient data entered and the drug labels."
+ },
+ "עובדות ידועות": {
+  "ar": "حقائق معروفة",
+  "en": "Relevant known facts"
+ },
+ "עודכן {date}": {
+  "ar": "حُدّث {date}",
+  "en": "updated {date}"
+ },
+ "עוזר קליני": {
+  "ar": "مساعد سريري",
+  "en": "Clinical assistant"
+ },
+ "עוזר קליני לרופא": {
+  "ar": "المساعد السريري للطبيب",
+  "en": "Clinical assistant for the doctor"
+ },
+ "עותק למטופל/ת": {
+  "ar": "نسخة للمريض/ة",
+  "en": "Patient copy"
+ },
+ "עותק לרופא/ה": {
+  "ar": "نسخة للطبيب/ة",
+  "en": "Doctor copy"
+ },
+ "עלון לצרכן: מידע לציבור, אינו הנחיה מקצועית למרשם.": {
+  "ar": "نشرة المستهلك: معلومات للجمهور، وليست إرشادًا مهنيًا للوصف.",
+  "en": "Consumer leaflet: public information, not professional prescribing guidance."
+ },
+ "עמוד": {
+  "ar": "صفحة",
+  "en": "Page"
+ },
+ "ערבית": {
+  "ar": "العربية",
+  "en": "Arabic"
+ },
+ "עריכה": {
+  "ar": "تعديل",
+  "en": "Edit"
+ },
+ "עריכה וקבלה לתוכנית": {
+  "ar": "تعديل وقبول في الخطة",
+  "en": "Edit and accept into the plan"
+ },
+ "פגוע": {
+  "ar": "متضرر",
+  "en": "Impaired"
+ },
+ "פורטל קליני לרופאים ולמטופלים": {
+  "ar": "بوابة سريرية للأطباء والمرضى",
+  "en": "Clinical portal for doctors and patients"
+ },
+ "פעולה (לדוגמה login)": {
+  "ar": "إجراء (مثال login)",
+  "en": "Action (e.g. login)"
+ },
+ "פעולה זמינה למנהל/ת מערכת בלבד": {
+  "ar": "إجراء متاح لمدير/ة النظام فقط",
+  "en": "Action available to the system administrator only"
+ },
+ "פעולה זמינה לרופא בלבד": {
+  "ar": "إجراء متاح للطبيب فقط",
+  "en": "Action available to the doctor only"
+ },
+ "פעולה זמינה לרופא/ה בלבד": {
+  "ar": "إجراء متاح للطبيب/ة فقط",
+  "en": "Action available to the doctor only"
+ },
+ "פעולה לא מוכרת.": {
+  "ar": "إجراء غير معروف.",
+  "en": "Unknown action."
+ },
+ "פעיל": {
+  "ar": "نشط",
+  "en": "Active"
+ },
+ "פרט תרופה שאינו מופיע בציטוט.": {
+  "ar": "تفصيل دواء غير موجود في الاقتباس.",
+  "en": "A medication detail that does not appear in the quote."
+ },
+ "פריטים בתוכנית נוצרו לפני שינוי בנתוני המטופל. בצעו הערכה מחדש של התוכנית לפני האישור.": {
+  "ar": "بنود في الخطة أُنشئت قبل تغيير بيانات المريض. أعد تقييم الخطة قبل المصادقة.",
+  "en": "Plan items were created before the patient data changed. Reassess the plan before approval."
+ },
+ "ציטוט מדויק": {
+  "ar": "الاقتباس الحرفي",
+  "en": "Exact quote"
+ },
+ "צעד הבא לשקילה": {
+  "ar": "خطوة تالية للنظر فيها",
+  "en": "Next step to consider"
+ },
+ "צרו ביקור חדש בסרגל הצד כדי להתחיל.": {
+  "ar": "أنشئ زيارة جديدة في الشريط الجانبي للبدء.",
+  "en": "Create a new visit in the sidebar to start."
+ },
+ "קובץ WAV אינו תקין. הקליטו מחדש או העלו קובץ נתמך.": {
+  "ar": "ملف WAV غير صالح. سجّل من جديد أو ارفع ملفًا مدعومًا.",
+  "en": "The WAV file is invalid. Record again or upload a supported file."
+ },
+ "קובץ אודיו עד 24MB ועד עשר דקות": {
+  "ar": "ملف صوتي حتى 24MB وحتى عشر دقائق",
+  "en": "Audio file up to 24MB and up to ten minutes"
+ },
+ "קטגוריה": {
+  "ar": "الفئة",
+  "en": "Category"
+ },
+ "קישור למקור": {
+  "ar": "رابط المصدر",
+  "en": "Link to source"
+ },
+ "קלט חדש יוצר גרסת תמלול חדשה ומבטל טיוטות ואישור קיימים.": {
+  "ar": "إدخال جديد يُنشئ نسخة نص جديدة ويلغي المسودات والمصادقة الحالية.",
+  "en": "New input creates a new transcript version and revokes existing drafts and approval."
+ },
+ "קשור למונחים מתוך הרשומה:": {
+  "ar": "مرتبط بمصطلحات من السجل:",
+  "en": "Related to terms from the record:"
+ },
+ "רופא": {
+  "ar": "طبيب",
+  "en": "Doctor"
+ },
+ "רופא/ה": {
+  "ar": "الطبيب/ة",
+  "en": "Doctor"
+ },
+ "רופא/ה ניגש/ת רק לביקורים של מטופלים המשויכים אליו/ה. שיוך עם סיבה הוא גם נוהל הגישה בחירום; כל שינוי נרשם ביומן.": {
+  "ar": "يصل الطبيب/ة فقط إلى زيارات المرضى المرتبطين به/ا. الربط مع سبب هو أيضًا إجراء الوصول في الطوارئ؛ كل تغيير يُسجَّل في السجل.",
+  "en": "A doctor can access only visits of patients assigned to them. An assignment with a reason is also the emergency-access procedure; every change is logged."
+ },
+ "רלוונטי לשאלה": {
+  "ar": "ذو صلة بالسؤال",
+  "en": "Relevant to the question"
+ },
+ "רקע רפואי שנמסר": {
+  "ar": "الخلفية الطبية التي ذُكرت",
+  "en": "Medical history reported"
+ },
+ "רשומות": {
+  "ar": "مسجّلة",
+  "en": "Listed"
+ },
+ "רשומת המאגר": {
+  "ar": "سجل المستودع",
+  "en": "Registry record"
+ },
+ "רשימת אלרגיות נדרשת רק כאשר הסטטוס הוא 'רשומות'.": {
+  "ar": "قائمة الحساسية مطلوبة فقط عندما تكون الحالة 'مسجّلة'.",
+  "en": "An allergy list is required only when the status is 'listed'."
+ },
+ "רשימת תרופות נדרשת רק כאשר הסטטוס הוא 'רשומות'.": {
+  "ar": "قائمة الأدوية مطلوبة فقط عندما تكون الحالة 'مسجّلة'.",
+  "en": "A medication list is required only when the status is 'listed'."
+ },
+ "שאלה על המטופל/ת של הביקור שנבחר…": {
+  "ar": "سؤال عن مريض/ة الزيارة المختارة…",
+  "en": "Question about the patient of the selected visit…"
+ },
+ "שאלות המשך מוצעות לפי העובדות שתועדו. אלה טיוטות לשיקול הרופא.": {
+  "ar": "أسئلة متابعة مقترحة وفق الحقائق الموثّقة. هذه مسودات ينظر فيها الطبيب.",
+  "en": "Follow-up questions suggested from the documented facts. These are drafts for the doctor to consider."
+ },
+ "שאלות והצעות": {
+  "ar": "أسئلة واقتراحات",
+  "en": "Questions or suggestions"
+ },
+ "שויך": {
+  "ar": "رُبط",
+  "en": "Assigned"
+ },
+ "שויך על ידי": {
+  "ar": "رُبط بواسطة",
+  "en": "Assigned by"
+ },
+ "שיוך": {
+  "ar": "ربط",
+  "en": "Assign"
+ },
+ "שיוך דוברים לתפקידים": {
+  "ar": "ربط المتحدثين بالأدوار",
+  "en": "Assign speakers to roles"
+ },
+ "שיוכי רופא–מטופל": {
+  "ar": "روابط الطبيب–المريض",
+  "en": "Doctor–patient assignments"
+ },
+ "שיחה מעורבת": {
+  "ar": "محادثة مختلطة",
+  "en": "Mixed conversation"
+ },
+ "שינוי משתמש/ת קיים/ת": {
+  "ar": "تعديل مستخدم/ة موجود/ة",
+  "en": "Change an existing user"
+ },
+ "שינוי סיסמה": {
+  "ar": "تغيير كلمة المرور",
+  "en": "Change password"
+ },
+ "שלום! בחרו פעולה מהירה או שאלו על המטופל/ת של הביקור שנבחר, למשל:": {
+  "ar": "مرحبًا! اختر إجراءً سريعًا أو اسأل عن مريض/ة الزيارة المختارة، مثلًا:",
+  "en": "Hello! Choose a quick action or ask about the patient of the selected visit, for example:"
+ },
+ "שלילה": {
+  "ar": "نفي",
+  "en": "Negated"
+ },
+ "שם": {
+  "ar": "الاسم",
+  "en": "Name"
+ },
+ "שם המשתמש כבר קיים.": {
+  "ar": "اسم المستخدم موجود مسبقًا.",
+  "en": "The username already exists."
+ },
+ "שם מלא": {
+  "ar": "الاسم الكامل",
+  "en": "Full name"
+ },
+ "שם משתמש": {
+  "ar": "اسم المستخدم",
+  "en": "Username"
+ },
+ "שם משתמש (באנגלית)": {
+  "ar": "اسم المستخدم (بالإنجليزية)",
+  "en": "Username (English letters)"
+ },
+ "שם משתמש או סיסמה שגויים, או שהחשבון נעול זמנית.": {
+  "ar": "اسم المستخدم أو كلمة المرور خاطئة، أو الحساب مقفل مؤقتًا.",
+  "en": "Wrong username or password, or the account is temporarily locked."
+ },
+ "שמירת הנוסח הערוך": {
+  "ar": "حفظ الصياغة المعدّلة",
+  "en": "Save the edited wording"
+ },
+ "שמירת התמלול": {
+  "ar": "حفظ النص",
+  "en": "Save the transcript"
+ },
+ "שמירת התמלול המודבק": {
+  "ar": "حفظ النص الملصوق",
+  "en": "Save the pasted transcript"
+ },
+ "שמירת טיוטת הרופא": {
+  "ar": "حفظ مسودة الطبيب",
+  "en": "Save the doctor's draft"
+ },
+ "שמירת נתוני המטופל": {
+  "ar": "حفظ بيانات المريض",
+  "en": "Save patient data"
+ },
+ "שמירת סיכום המטופל": {
+  "ar": "حفظ ملخص المريض",
+  "en": "Save the patient summary"
+ },
+ "שמירת שינויים תחייב הרצת השחרה ובדיקה מחדש.": {
+  "ar": "حفظ التغييرات سيتطلب تشغيل الإخفاء والمراجعة من جديد.",
+  "en": "Saving changes will require running redaction and review again."
+ },
+ "שפת הדיבור": {
+  "ar": "لغة الكلام",
+  "en": "Spoken language"
+ },
+ "שפת הסיכום": {
+  "ar": "لغة الملخص",
+  "en": "Summary language"
+ },
+ "שפת השיחה": {
+  "ar": "لغة المحادثة",
+  "en": "Conversation language"
+ },
+ "שפת סיכום אינה נתמכת.": {
+  "ar": "لغة الملخص غير مدعومة.",
+  "en": "The summary language is not supported."
+ },
+ "תדירות": {
+  "ar": "التكرار",
+  "en": "Frequency"
+ },
+ "תווית {drug}": {
+  "ar": "نشرة {drug}",
+  "en": "{drug} label"
+ },
+ "תוכן הטיוטות השתנה מאז הבדיקה. בדקו שוב לפני האישור.": {
+  "ar": "تغيّر محتوى المسودات منذ المراجعة. راجعها من جديد قبل المصادقة.",
+  "en": "The content of the drafts changed since review. Check again before approval."
+ },
+ "תוכנית #{id} (גרסה {v})": {
+  "ar": "الخطة #{id} (نسخة {v})",
+  "en": "Plan #{id} (version {v})"
+ },
+ "תוכנית {v}": {
+  "ar": "الخطة {v}",
+  "en": "plan {v}"
+ },
+ "תוכנית הרופא גרסה {v}": {
+  "ar": "خطة الطبيب نسخة {v}",
+  "en": "Doctor's plan version {v}"
+ },
+ "תוכנית הרופא לאחר הביקור": {
+  "ar": "خطة الطبيب بعد الزيارة",
+  "en": "Doctor's plan after the visit"
+ },
+ "תוכנית הרופא/ה לאחר הביקור": {
+  "ar": "خطة الطبيب/ة بعد الزيارة",
+  "en": "Doctor's plan after the visit"
+ },
+ "תוכנית שהרופא/ה הוסיף/ה לאחר הביקור": {
+  "ar": "الخطة التي أضافها الطبيب/ة بعد الزيارة",
+  "en": "Plan the doctor added after the visit"
+ },
+ "תוכנית, חתימה והורדה": {
+  "ar": "الخطة والتوقيع والتنزيل",
+  "en": "Plan, signature and download"
+ },
+ "תוצאה": {
+  "ar": "النتيجة",
+  "en": "Outcome"
+ },
+ "תוצאות בדיקות מעבדה/הדמיה: אין במערכת שדה מובנה; מוצג רק מה שנאמר בביקור ותועד כעובדה.": {
+  "ar": "نتائج فحوص المختبر/التصوير: لا يوجد في النظام حقل منظّم؛ يُعرض فقط ما قيل في الزيارة ووُثّق كحقيقة.",
+  "en": "Lab/imaging results: the system has no structured field; only what was said in the visit and documented as a fact is shown."
+ },
+ "תיעוד ביקור, בדיקת טיוטות, עוזר קליני וחתימה": {
+  "ar": "توثيق الزيارة ومراجعة المسودات والمساعد السريري والتوقيع",
+  "en": "Visit documentation, draft review, clinical assistant and signature"
+ },
+ "תלונה שמקורה בדברי הרופא; ודאו שהיא משקפת את דברי המטופל.": {
+  "ar": "شكوى مصدرها كلام الطبيب؛ تأكد أنها تعكس كلام المريض.",
+  "en": "A complaint taken from the doctor's words; make sure it reflects what the patient said."
+ },
+ "תלונות המטופל": {
+  "ar": "شكاوى المريض",
+  "en": "Patient complaints"
+ },
+ "תמלול אוטומטי": {
+  "ar": "تفريغ تلقائي",
+  "en": "Automatic transcription"
+ },
+ "תמלול גרסה {t} · טיוטת רופא גרסה {c} · נתוני מטופל גרסה {p} · מודל {m}": {
+  "ar": "النص نسخة {t} · مسودة الطبيب نسخة {c} · بيانات المريض نسخة {p} · النموذج {m}",
+  "en": "Transcript version {t} · doctor's draft version {c} · patient data version {p} · model {m}"
+ },
+ "תמלול ההקלטה": {
+  "ar": "تفريغ التسجيل",
+  "en": "Transcribe the recording"
+ },
+ "תמלול וטיוטות": {
+  "ar": "التفريغ والمسودات",
+  "en": "Transcript and drafts"
+ },
+ "תמלול, עם \"רופא:\" או \"מטופל:\" בתחילת כל תור דיבור": {
+  "ar": "نص، مع \"طبيب:\" أو \"مريض:\" في بداية كل دور كلام",
+  "en": "Transcript, with \"Doctor:\" or \"Patient:\" at the start of each turn"
+ },
+ "תפקוד כבד": {
+  "ar": "وظائف الكبد",
+  "en": "Liver function"
+ },
+ "תפקוד כליות": {
+  "ar": "وظائف الكلى",
+  "en": "Kidney function"
+ },
+ "תפקיד": {
+  "ar": "الدور",
+  "en": "Role"
+ },
+ "תפקיד חדש": {
+  "ar": "دور جديد",
+  "en": "New role"
+ },
+ "תפקיד לא תקין.": {
+  "ar": "دور غير صالح.",
+  "en": "Invalid role."
+ },
+ "תצוגת טיוטת הרופא": {
+  "ar": "عرض مسودة الطبيب",
+  "en": "View the doctor's draft"
+ },
+ "תקין (אושר)": {
+  "ar": "سليم (مؤكَّد)",
+  "en": "Normal (confirmed)"
+ },
+ "תקינה": {
+  "ar": "سليمة",
+  "en": "Intact"
+ },
+ "תרופה": {
+  "ar": "الدواء",
+  "en": "Medication"
+ },
+ "תרופה/טיפול קודם": {
+  "ar": "دواء/علاج سابق",
+  "en": "Previous medication/treatment"
+ },
+ "תרופות קבועות": {
+  "ar": "الأدوية الدائمة",
+  "en": "Regular medications"
+ },
+ "תרופות קבועות (מופרדות בפסיקים)": {
+  "ar": "الأدوية الدائمة (مفصولة بفواصل)",
+  "en": "Regular medications (comma-separated)"
+ },
+ "תשובה מיידית מהמקורות ומהרשומה (ללא מודל שפה).": {
+  "ar": "إجابة فورية من المصادر والسجل (دون نموذج لغوي).",
+  "en": "Instant answer from the sources and the record (no language model)."
+ },
+ "תשובת המודל נקטעה. קצרו את התמלול ונסו שוב.": {
+  "ar": "قُطعت إجابة النموذج. قصّر النص وحاول من جديد.",
+  "en": "The model's answer was cut off. Shorten the transcript and try again."
+ },
+ "⏸ נמנע — חסר מידע": {
+  "ar": "⏸ محجوب — معلومات ناقصة",
+  "en": "⏸ Withheld — missing information"
+ },
+ "⚠️ דורש בדיקה": {
+  "ar": "⚠️ يتطلب مراجعة",
+  "en": "⚠️ Needs review"
+ },
+ "⛔ חסום": {
+  "ar": "⛔ محظور",
+  "en": "⛔ Blocked"
+ },
+ "✓ התקבלה לתוכנית": {
+  "ar": "✓ قُبل في الخطة",
+  "en": "✓ Accepted into the plan"
+ },
+ "✓ לא נמצאו התראות במקורות שנבדקו (אינו אישור בטיחות)": {
+  "ar": "✓ لم توجد تنبيهات في المصادر التي فُحصت (ليس تأكيد سلامة)",
+  "en": "✓ No flags in the checked sources (not a safety confirmation)"
+ },
+ "✓ נערכה והתקבלה לתוכנית": {
+  "ar": "✓ عُدّل وقُبل في الخطة",
+  "en": "✓ Edited and accepted into the plan"
+ },
+ "✗ נדחתה": {
+  "ar": "✗ رُفض",
+  "en": "✗ Rejected"
+ }
+}

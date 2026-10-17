@@ -1,0 +1,78 @@
+{
+ "sources": {
+  "dailymed-amoxicillin-capsule": {
+   "title": "Amoxicillin capsules — prescribing information (FDA-submitted labeling)",
+   "attempted_at": "2026-10-16T21:05:23Z",
+   "status": "active",
+   "version": "SPL version 10",
+   "effective_date": "2026-10-06",
+   "retrieved_at": "2026-10-16T21:05:25Z",
+   "passages": 31,
+   "raw_sha256": "e137bf1ffc8fcd0a7b687d266b7e27d5fb57f5fb9ef2688e72ef9e46d5da9e12",
+   "passages_sha256": "397dfaec2ab5edff1f57609f2bf68ae92a65b20f735b9c75ddc940470576ab94"
+  },
+  "dailymed-ibuprofen-tablet": {
+   "title": "Ibuprofen tablets (prescription) — prescribing information (FDA-submitted labeling)",
+   "attempted_at": "2026-10-16T21:05:25Z",
+   "status": "active",
+   "version": "SPL version 25",
+   "effective_date": "2026-10-07",
+   "retrieved_at": "2026-10-16T21:05:27Z",
+   "passages": 65,
+   "raw_sha256": "c5d78fa0e43ceca15ef1b6a8d4b91fae7968f8019b65cd7746f75d811ce5c0f9",
+   "passages_sha256": "3c99ce95f4863460277faa760c4281316e004d2d1d5f9dc3ede5898e78f98681"
+  },
+  "dailymed-acetaminophen-otc-500": {
+   "title": "Acetaminophen 500 mg tablets (over-the-counter) — Drug Facts label",
+   "attempted_at": "2026-10-16T21:05:27Z",
+   "status": "active",
+   "version": "SPL version 5",
+   "effective_date": "2026-10-07",
+   "retrieved_at": "2026-10-16T21:05:28Z",
+   "passages": 8,
+   "raw_sha256": "a3bb309b38e6e6049273ee82230a3003209c9ce6ed232ef6095238b19918331f",
+   "passages_sha256": "fa2863cf217f9a5c2caf3acbcc97209ddac092c5a3ddb486aaa6982d82107b54"
+  },
+  "cdc-adult-outpatient-antibiotic-use": {
+   "title": "Adult Outpatient Treatment Recommendations (antibiotic stewardship)",
+   "attempted_at": "2026-10-16T21:05:29Z",
+   "status": "blocked",
+   "reason": "HTTP 403"
+  },
+  "il-moh-registry-amoxicillin": {
+   "title": "Amoxicillin — Israeli registered product leaflets (Ministry of Health medicines registry)",
+   "attempted_at": "2026-10-17T11:33:23Z",
+   "status": "active",
+   "version": "registry 132 01 31050 00 · leaflets updated 2025-10-17",
+   "effective_date": "2025-10-17",
+   "retrieved_at": "2026-10-17T11:33:36Z",
+   "passages": 31,
+   "raw_sha256": "8c4d94ae61c91aeb4919ce3e87cdeb9b20bc226be654a71e1f252745a2d0f653",
+   "passages_sha256": "b3fde720745faaf6edad810147ed4f9259ba20a31b7bef003869fbb2889154c2"
+  },
+  "il-moh-registry-ibuprofen": {
+   "title": "Ibuprofen — Israeli registered product leaflets (Ministry of Health medicines registry)",
+   "attempted_at": "2026-10-17T11:33:36Z",
+   "status": "active",
+   "version": "registry 145 20 32014 00 · leaflets updated 2026-07-13",
+   "effective_date": "2026-07-13",
+   "retrieved_at": "2026-10-17T11:33:45Z",
+   "passages": 68,
+   "raw_sha256": "46dbad756cf27fccc48db96e91bfab97a26c93d7cd494a543f256cdbb208a4fd",
+   "passages_sha256": "bd34cf8e3ddabf7d1e92dbd8207b19bc111e8d7d15d358eb3326c687c47481d9"
+  },
+  "il-moh-registry-acetaminophen": {
+   "title": "Paracetamol — Israeli registered product leaflets (Ministry of Health medicines registry)",
+   "attempted_at": "2026-10-17T11:33:46Z",
+   "status": "active",
+   "version": "registry 181 53 38471 99 · leaflets updated 2026-06-02",
+   "effective_date": "2026-06-02",
+   "retrieved_at": "2026-10-17T11:33:54Z",
+   "passages": 30,
+   "raw_sha256": "b59817d8bf0ae219fed7849a0bf1ee4341fa1d0d51a2ce48b469134942a16926",
+   "passages_sha256": "75457945aadba7591d22e5b3e4a11bddbbf38456095d93795888bfefe6167714"
+  }
+ },
+ "collection_version": "49474d68c257",
+ "updated_at": "2026-10-17T11:33:55Z"
+}

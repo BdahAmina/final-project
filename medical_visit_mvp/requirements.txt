@@ -1,0 +1,21 @@
+streamlit>=1.44,<2
+faster-whisper>=1.1,<2
+# faster-whisper 1.2.1 passes metadata_errors to av.open(); PyAV 19 rejects it.
+av>=18.1,<19
+# HTTP to the local Ollama server and the knowledge-ingest tool only.
+requests>=2.32,<3
+python-dotenv>=1,<2
+# Storage (SQLite via SQLAlchemy 2.x ORM), schema migrations and shared schemas.
+sqlalchemy>=2.0,<3
+alembic>=1.13,<2
+pydantic>=2,<3
+# Local API service (backend/api.py); httpx is needed by FastAPI's TestClient.
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+httpx>=0.27
+# PDF export with Hebrew/Arabic shaping (backend/export.py).
+fpdf2>=2.7
+uharfbuzz>=0.39
+# Text of official PDF leaflets (Israeli medicines registry) in the knowledge ingest.
+pypdf>=5,<7

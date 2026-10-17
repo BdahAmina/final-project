@@ -1,0 +1,1247 @@
+{
+ "id": "il-moh-registry-ibuprofen",
+ "title": "Ibuprofen — Israeli registered product leaflets (Ministry of Health medicines registry)",
+ "publisher": "משרד הבריאות — מאגר התרופות (Israel Ministry of Health, medicines registry)",
+ "jurisdiction": "Israel",
+ "population": "As stated in the leaflet of the registered product",
+ "medications": [
+  "ibuprofen"
+ ],
+ "type": "il_moh_registry",
+ "audience": null,
+ "language": null,
+ "version": "registry 145 20 32014 00 · leaflets updated 2026-07-13",
+ "effective_date": "2026-07-13",
+ "url": "https://registries.health.gov.il/Medicines/3201400",
+ "organization": "משרד הבריאות — מאגר התרופות (אגף הרוקחות)",
+ "product": "ADVIL FORTE 400",
+ "retrieved_at": "2026-10-17T11:33:45Z",
+ "raw_sha256": "46dbad756cf27fccc48db96e91bfab97a26c93d7cd494a543f256cdbb208a4fd",
+ "passages_sha256": "bd34cf8e3ddabf7d1e92dbd8207b19bc111e8d7d15d358eb3326c687c47481d9",
+ "passages": [
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-1",
+   "section": "עלון לצרכן · 1. لأي غرض مخصص هذا الدواء؟",
+   "section_code": "consumer_leaflet",
+   "text": "● لتسكين الآلام الخفيفة إلى المتوسطة المرتبطة بالصداع، آلام الأسنان، آلام الظهر، آلام العضلات وآلام الدورة الشهرية ● لخفض الحرارة ● مضاد للالتهابات في الأمراض الروماتيزمية ● لعلاج الآلام المرتبطة بالصداع النصفي(الميچرينا). الفصيلة العلاجية: ينتمي إيبوپروفين لفصيلة الأدوية المسماة مضادات الالتهاب اللاستيرويدية (NSAIDs)، والتي تعمل عن طريق تسكين الألم وتخفيف الالتهاب، الانتفاخ والحمى.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-2",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "لا يجوز استعمال الدواء إذا: • كانت لديك حساسية (أرجية) لإيبوپروفين، أو لأي من المركّبات الإضافية التي يحتوي عليها هذا الدواء (انظر الفصل 6 .) • كانت لديك حساسية (أرجية) للأسپيرين، أو كنت تعاني من تضيق في المسالك التنفسية، من ربو، من التهاب في الأنف، من وذمة وعائية أو من شرى مرتبطة بتناول أدوية من فصيلة الأدوية المضادة للالتهاب اللاستيرويدية (NSAIDs .) • كنتتعاني من قرحة أو من نزيف دموي في المعدة أو كان لديك في الماضي حدثان أو أكثر من قروح المعدة أو النزيف الدموي في المعدة . • عانيت في الماضي من نزيف دموي أو من انثقاب في الجهاز الهضمي بسبب علاج بأدوية من فصيلة الأدوية المضادة للالتهاب اللاستيرويدية (NSAIDs .) • كنت تعاني من حالات من النزيف الدموي في الدماغ، حالات أخرى من النزيف الدموي النشط أو من مرض في الدم. • كنت تعاني من قصور خطير في الكبد، الكليتين أو القلب . • كنتِ في الثلث الأخير من الحمل. تحذيرات خاصة تتعلق باستعمال الدواء كلم الصيدلي أو الطبيب إذا كنت:",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-3",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "● لأمصابًا بالربو أو تعاني من حمى الك ● تعاني من مشاكل في الكبد أو في الكليتين ● تعاني من أمراض مناعية ذاتية، بما في ذلك الذئبة الحمامية المجموعية (SLE ) - وهي حالة تصيب الجهاز المناعي وتؤثر على النسيج الضام وتسبب ألمًا في المفاصل، تغيرات في الجلد واضطرابات في الأعضاء الأخرى ● تعاني الآن أو عانيت في الماضي من اضطرابات في الجهاز الهضمي، مثل الالتهاب التقرحي في الأمعاء الغليظة (التهاب القولون التقرحي) أو داء كرون، لأن أدوية مثل إيبوپروفين قد تفاقم هذه الحالات ● في الأشهرالـ 6 الأولى من الحمل ● تعاني من مشاكل القلب التي تشمل قصور القلب، الذبحة الصدرية (الألم في الصدر) أو إذا أصبت بنوبة قلبية، خضعت لجراحة المجازة، كان لديك مرض في الشرايين المحيطية (مشكلة في الدورة الدموية في الرجلين أو في القدمين نتيجةً لتضيق أو انسداد الشرايين)، أو أي نوع من السكتة الدماغية (بما في ذلك \"السكتة الدماغية المصغرة\" أو الحادث",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-4",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "الدماغي العابر – \"TIA )\"● تعاني من ضغط دم مرتفع، سكري، كوليسترول مرتفع، سوابق عائلية لمرض قلبي أو لسكتة دماغية، أو أنك مدخن ● تعاني من تلوث- انظر رجاءً البند \"التلوثات\" في هذا الفصل. يجب إيقاف العلاج فورًا بأدڤيل ليكوي-جِلس 200 وأدڤيل فورتي400 والتوجه فورًا إلى الطبيب أو إلى المستشفى إذا لاحظت وجود أعراض لرد فعل تحسسي بما في ذلك مشاكل في التنفس، انتفاخ منطقة الوجه والرقبة ( وذمة وعائية)، أو آلام في الصدر (انظر الفصل 4 .) ردود الفعل الجلدية- تم الإبلاغ عن ردود فعل جلدية خطيرة، بما في ذلك التهاب جلدي يشمل تقشرات جلدية واسعة النطاق، حمامى متعددة الأشكال (إيريثيما مولتي فورمة)، متلازمة ستيڤينس-جونسون، تقشر الأنسجة المتموتة البشروية التسممي ( toxic epidermal necrolysis)، متلازمة رد الفعل الدوائي مع كثرة اليوزينيات والأعراض الجهازية (متلازمة DRESS)، البثار الطفحي المعمم الحاد (AGEP)، بأنها مرتبطة باستعمال أدڤيل ليكوي - جِلس 200 وأدڤيل فورتي400 . يجب التوقف عن استعمال",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-5",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "الدواء والتوجه لتلقّي المشورة الطبية الفورية إذا نشأ أي نوع من الطفح الجلدي، أو الجروح في الأنسجة المخاطية أو الحويصلات، لأنها قد تكون مرتبطة بالحالات التي ذُكرت . قد ترتبط أدوية مثل أدڤيل ليكوي- جِلس 200 وأدڤيل فورتي400 بارتفاع طفيف في خطر الإصابة بنوبة قلبية(احتشاء عضلة القلب) أو بسكتة دماغية. تتزايد احتمالية أي خطر في الجرعات الدوائية العالية وعند العلاج المطول. يُمنع تجاوز الجرعة الموصى بها أو مدة العلاج الموصى بها. انظر الفصل 3 . التلوثات- قد يخفي أدڤيل ليكوي- جِلس 200 وأدڤيل فورتي400 علامات التلوث مثل الحمّى والألم. بناءً على ذلك، قد يؤخر هذان الدواءان العلاج المناسب للتلوثات، مما قد يؤدي إلى ازدياد احتمال حدوث مضاعفات. شوهدت حالات كهذه في حالات التهاب الرئتين التي مصدرها تلوث جرثومي وفي حالات تلوثات الجلد الجرثومية المرتبطة بجدري الماء (الحماق ). إذا كنت تستعمل هذا",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-6",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "الدواء في الوقت الذي تعاني فيه من تلوث، وكانت أعراض التلوث مستمرة أو آخذة في التفاقم، فيجب التوجه لتلقّي المشورة الطبية بشكل فوري . الأولاد والمراهقون • لا يجوز إعطاء المستحضر للأولاد دون سن الـ 12، إلا بأمر صريح من الطبيب. • إذا كان الولد أو المراهق الذي يبلغ 18-12 عامًا من العمر لا يشرب السوائل أو قد فَقَدَ السوائل نتيجةً للتقيؤات أو حالات الإسهال المتواصلة، فاسأل الطبيب قبل استعمال المستحضر، لأن هناك خطر لتضرر كلوي . التفاعلات بين الأدوية لا يجوز استعمال هذا الدواء إذا كنت تستعمل الأسپيرين/حمض الأسيتيل ساليسيليك بجرعة دوائية يومية أعلى من 75 ملغ، أو أدوية أخرى لتسكين الألم من فصيلة مضادات الالتهاب اللاستيرويدية (NSAIDs .) إذا كنت تستعمل الآن، أو قد استعملت مؤخرًا أدوية أخرى بما في ذلك أدوية بدون وصفة طبيب وإضافات غذائية، فأخبر الطبيب أو الصيدلي بذلك. خاصةً إذا كنت تستعمل: • أدوية مضادة للتخثر (يعني مميعات الدم/مانعات التخثر، مثل أسپيرين/حمض الأسيتيل ساليسيليك، وارفارين، تيكلوپيدين)،",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-7",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "أدوية مدرّة للبول (تزيد من كمية البول التي ينتجها جسمك(. • أدوية خافضة لضغط الدم المرتفع ( مثبطات ACE مثل كاپتوپريل، حاصرات بيتا مثل أتينولول، مناهضات مستقبِل أنچيوتنسين-II مثل لوسارتان)، أو أدوية أخرى، لأنها قد تؤثر على العلاج بإيبوپروفين أو تتأثر منه. • أدوية أخرى مثل الكورتيكوستيرويدات (المستعملة لإدارة الربو ولعلاج أمراض جلدية وحالات أخرى)، مستحضرات مضادة للصفائح الدموية (المستعملة عادة للمساهمة في منع السكتة الدماغية أو مشاكل القلب)، الچليكوزيدات القلبية (المستعملة لدى متلقي العلاج الذين لديهم مشاكل في القلب )، مثبطات استرداد السيروتونين الانتقائية (SSRIs( )المستعملة لعلاج الاكتئاب ) أو الليثيوم (المستعمل لعلاج الاكتئاب الهوسي)، ميثوتريكسات (المستعمل لعلاج أنواع معينة من السرطان، ولعلاج الصدفية أو التهاب المفاصل الروماتويدي)، سيكلوسپورين أو تاكروليموس (المستعملان لدى متلقي العلاج الخاضعين لزراعة الأعضاء،",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-8",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "ولعلاج اضطرابات معينة في الجلد) ، زيدوڤودين (المستعمل لعلاج تلوث HIV)، مضادات حيوية من فصيلة الكوينولونات (نوع من المضادات الحيوية المستعملة لعلاج تلوثات معينة)، فينيتوئين (يستعمل لعلاج الصرع) أو أدوية مضادة للحمض (تستعمل لعلاج اضطرابات الهضم ). قد تؤثر أيضًا أدوية معينة أخرى على العلاج بأدڤيل ليكوي- جِلس 200 وبأدڤيل فورتي400 أو قد تتأثر منه. بناءً على ذلك، عليك دائمًا أن تستشير طبيبًا أو صيدليًا قبل استعمال أدڤيل ليكوي- جِلس 200 أو أدڤيل فورتي400 سويًا مع أدوية أخرى. الخصوبة، الحمل والإرضاع لا يجوز استعمال أدڤيل ليكوي -جِلس 200 أو أدڤيل فورتي400 إذا كنتِفي الأشهر الـ 3 الأخيرة من الحمل. استعمال المستحضر قد يسبب مشاكل في الكليتين والقلب لدى الجنين. قد يؤثر المستحضر على ميلك وميل الجنين إلى نشوء نزيف دموي ويؤدي إلى ولادة متأخرة أو أطول من المتوقع. لا يجوز استعمال أدڤيل ليكوي -جِلس 200 وأدڤيل فورتي400 خلال الأشهرالـ 6 الأولى من",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-9",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "الحمل إلا إذا كان الأمر لازمًا وأوصى به الطبيب. إذا تم الاستعمال لأكثر من بضعة أيام ابتداءً من الأسبوع الـ 20 من الحمل، فيمكن أن يسبب أدڤيل ليكوي- جِلس 200 وأدڤيل فورتي 400 مشاكل في الكليتينلدى الجنين، مما قد يؤدي إلى قلة السائل السلوي (الأمنيوسي) أو إلى تضيق وعاء دموي في قلب الجنين. إذا احتجتِ إلى علاج لمِا يزيد عن بضعة أيام، فيُحتمل أن يوصيك الطبيب بمراقبة إضافية . يظهر إيبوپروفين في حليب الأم بتراكيز منخفضة جدًا، لكن من غير المرجح أن يؤثر الدواء بشكل سلبي على الطفل الرضيع. ينتمي إيبوپروفين لفصيلة الأدوية المسماة NSAIDs، التي قد تخلّ بالخصوبة لدى النساء. هذا التأثير قابل للانعكاس بعد إيقاف استعمال الدواء. ليس من المرجح أن يؤثر استعمال إيبوپروفين من حين إلى آخر على احتمالات الحمل لديك. مع ذلك، إذا واجهتِ صعوبات في إحداث حمل أو إذا كنت تحاولين أن تحملي، فاستشيري الطبيب قبل استعمال الدواء.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-10",
+   "section": "עלון לצרכן · 2. قبل استعمال الدواء",
+   "section_code": "consumer_leaflet",
+   "text": "إذا كنتِ مرضعًا، حاملاً، تظنين أنك حامل أو تخططين للحمل، فاستشيري الطبيب أو الصيدلي قبل استعمال الدواء . معلومات هامّة عن بعض مركّبات الدواء يحتوي أدڤيل ليكوي- جِلس 200 على50.1 ملغ من السوربيتول في كل كبسولة مملوءة بالسائل. يحتوي أدڤيل فورتي 400 على79.9 ملغ من السوربيتول في كل كبسولة. السوربيتول عبارة عن مصدر للفروكتوز. إذا أخبرك طبيبك بأن لديك ( أو لدى ولدك) عدم تحمّل لسكريات معينة أو إذا شُخص لديك عدم تحمّل وراثي للفروكتوز (HFI)، وهو اضطراب جيني نادر يجعل الشخص غير قادر على تفكيك الفروكتوز، فكلّم طبيبك قبل أن تقوم (أو يقوم ولدك ) بتناول أو بتلقّي هذا الدواء. تحتوي كبسولات أدڤيل ليكوي -جِلس 200 وأدڤيل فورتي400 على ليسيثين الصويا. إذا كانت لديك أرجية للفول السوداني أو للصويا، فلا تستعمل هذا الدواء .",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-11",
+   "section": "עלון לצרכן · 4. الأعراض الجانبية",
+   "section_code": "consumer_leaflet",
+   "text": "مثل أي دواء، قد يؤدي استعمال أدڤيل ليكوي -جِلس 200 وأدڤيل فورتي400 لا .إلى نشوء أعراض جانبية لدى بعض المستعملين تقلق عند قراءة قائمة الأعراض الجانبية. قد لا تعاني من أي واحد منها. الأعراض التالية نادرة جدًا (very rare ) – أعراض تظهر عند أقل من مستعمل واحد من بين10,000، لكن إذا شعرت بأحدها، فتوقف عن تناول هذا الدواء وراجع الطبيب فورًا : • قرحة أو ثقب في المعدة: قد تشتمل الأعراض على ألم شديد في البطن، قيء دموي (أو سائل شبيه بالقهوة الحبيبية)، دم في البراز أو براز أسود اللون. • التهاب السحايا الدماغية (مينينجيتيس) : قد تشتمل الأعراض على رقبة متصلبة، صداع، غثيان، تقيؤ، حمّى أو إحساس بالارتباك. • ردود فعل تحسسية خطيرة ( قد تشكّل خطرًا على الحياة ) . قد تشتمل الأعراض على أعراض فجائية للحساسية مثل الطفح الجلدي، الحكة أو الشرى الجلدي، الإغماء، نقص ضغط الدم، النبض المتسارع، انتفاخ الوجه، اللسان والحنجرة، ضيق التنفس، الأزيز أو صعوبات في التنفس . • الربو/تفاقم الربو وصعوبات أخرى في التنفس.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-12",
+   "section": "עלון לצרכן · 4. الأعراض الجانبية",
+   "section_code": "consumer_leaflet",
+   "text": "• مشاكل في الكبد: قد تشتمل الأعراض على اصفرار الجلد أو بياض العينين. • آلام في الصدر، قد تكون علامة لرد فعل تحسسي شديد يسمى متلازمة كونيس (Kounis syndrome .) • أعراض في الجلد مثل احمرار دون انتفاخ الجلد، آفات شبيهة بالهدف أو مستديرة على جذع الجسم، أحيانًا مع حويصلات مركزية، تقشّر الجلد، قروح في الفم، في الحلق، في الأنف، في الأعضاء التناسلية وفي العينين. هذه الطفوح الخطيرة في الجلد يمكن أن تكون مصحوبة بالحمى وبأعراض شبيهة بالإنفلونزا (التهاب الجلد التقشري [exfoliative dermatitis]، حمامى متعددة الأشكال [erythema multiforme]، متلازمة ستيڤينس-جونسون، تقشر الأنسجة المتموتة البشروية التسممي [toxic epidermal necrolysis .)] • طفح جلدي واسع النطاق، حرارة جسم مرتفعة وغدد ليمفاوية متضخمة(متلازمة DRESS .) • طفح جلدي أحمر مع قشرة، نتوءات تحت الجلد وحويصلات، بصحبة حمى. تظهر الأعراض عادةً في بداية العلاج (AGEP – البثار الطفحي المعمم الحاد).",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-13",
+   "section": "עלון לצרכן · 4. الأعراض الجانبية",
+   "section_code": "consumer_leaflet",
+   "text": "قد ترتبط أدوية مثل إيبوپروفين بارتفاع طفيف في خطر الإصابة بنوبة قلبية (احتشاء عضلة القلب ) أو بسكتة دماغية . أعراض جانبية إضافية أعراض جانبية غير شائعة (uncommon ) - أعراض تظهر عند 10-1 مستعملين من بين 1,000 ● ردود فعل تحسسية مثل الشرى، الطفح الجلديوالحكة الجلدية )أو الذئبة الحمامية المجموعية - SLE )● ألم في البطن، مشاكل في الهضم، حرقة المعدة والغثيان ● صداع أو دوار. أعراض جانبية نادرة (rare )- أعراض تظهر عند 10-1 مستعملين من بين10,000 ● إسهال، غازات، إمساك وتقيؤات. أعراض جانبية نادرة جدًا (very rare ) - أعراض تظهر عند أقل من مستعمل واحد من بين 10,000 ● انخفاض في خلايا الدم، مما قد يؤدي إلى شحوب أو اصفرار الجلد، ارتفاع الحرارة، ألم في الحنجرة، قروح سطحية في الفم، أعراض شبيهة بالإنفلونزا، إرهاق أو ضعف، ميل إلى التكدم أو النزيف الدموي من الجلد أو من الأنف ● ضغط دم مرتفع، قصور القلب أو ألم في الصدر ● عصبية، اضطراب الرؤية، طنين في الأذنين ودوار ● مشاكل في الكليتين: قد تشتمل الأعراض على",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-14",
+   "section": "עלון לצרכן · 4. الأعراض الجانبية",
+   "section_code": "consumer_leaflet",
+   "text": "انتفاخ في الكاحلين ● ردود فعل جلدية خطيرة: قد تشتمل الأعراض على الحويصلات ● دم في البول، أو مظهر رغوي للبول. أعراض جانبية مدى شيوعها غير معروف ( أعراض لم يتم تحديد مدى شيوعها بعد ( ● تفاقم أعراض التهاب الأمعاء الغليظة وداء كرون ● تحسس الجلد للضوء ● قد يحدث رد فعل جلدي خطير يعرف باسم متلازمة DRESS . تشتمل أعراض DRESS على: طفح جلدي، حمّى، انتفاخ العقد الليمفاوية وارتفاع في اليوزينيات (نوع من خلايا الدم البيضاء) ● طفح جلدي أحمر حرشفي واسع النطاق مع نتوءات تحت الجلد وحويصلات تتواجد تحديدًا في ثنايا الجلد، في جذع الجسم وفي الطرفين العلويين للجسم وبصحبة حمى، يظهر في بداية العلاج. توقف عن استعمال الدواء إذا نشأت لديك هذه الأعراض وتوجه فورًا إلى الطبيب )انظر الفصل 2 .) إذا ظهر عرض جانبي، إذا تفاقم أحد الأعراض الجانبية، أو إذا كنت تعاني من عرض جانبي لم يذكر في النشرة، فعليك استشارة الطبيب . التبليغ عن الأعراض الجانبية",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-ar-15",
+   "section": "עלון לצרכן · 4. الأعراض الجانبية",
+   "section_code": "consumer_leaflet",
+   "text": "بالإمكان التبليغ عن أعراض جانبية لوزارة الصحة بواسطة الضغط على الرابط \"التبليغ عن أعراض جانبية عقب العلاج الدوائي\" الموجود في الصفحة الرئيسية لموقع وزارة الصحة (www.health.gov.il ) والذي يوجه إلى الاستمارة المتصلة للتبليغ عن أعراض جانبية، أو عن طريق الدخول إلى الرابط: https://sideeffects.health.gov.il",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "ar",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700126.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-16",
+   "section": "עלון לצרכן · 1. What is the medicine intended for?",
+   "section_code": "consumer_leaflet",
+   "text": "● For the relief of mild to moderate pain associated with headache, toothache, back pain, muscle pain and menstrual pain ● For the reduction of fever ● Anti-inflammatory in rheumatic diseases ● For the treatment of migraine-related pain. Therapeutic class: ibuprofen belongs to a class of medicines called non-steroidal anti- inflammatory drugs (NSAIDs), that work by relieving pain and reducing inflammation, swelling and fever.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-17",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "Do not use this medicine if: • You are sensitive (allergic) to ibuprofen, or to any of the other ingredients this medicine contains (see section 6). • You are sensitive (allergic) to aspirin, or suffer from narrowing of the airways, asthma, rhinitis, angioedema or urticaria associated with the use of medicines from the class of non-steroidal anti-inflammatory drugs (NSAIDs). • You suffer from a stomach ulcer or stomach bleeding or you have had two or more incidents of stomach ulcers or bleeding in the past. • You have suffered in the past from gastrointestinal bleeding or perforation because of treatment with medicines from the class of non-steroidal anti-inflammatory drugs (NSAIDs). • You suffer from conditions of cerebral hemorrhage, other active bleeding or blood disease. • You suffer from severe liver, kidney or heart failure. • You are in the last trimester of pregnancy.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-18",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "Special warnings regarding the use of the medicine Talk to the pharmacist or doctor if you: ● Are asthmatic or suffer from hay fever ● Suffer from liver or kidney problems ● Suffer from autoimmune diseases, including systemic lupus erythematosus (SLE) – a condition of the immune system which affects the connective tissue, causing joint pain, skin changes and disorders in other organs ● Suffer or have suffered in the past from gastrointestinal disorders, such as ulcerative inflammation of the large intestine (ulcerative colitis) or Crohn’s disease, because medicines such as ibuprofen may make these conditions worse ● Are in the first 6 months of pregnancy ● Suffer from heart problems including heart failure, angina (chest pain) or if you have had a heart attack, bypass surgery, peripheral artery disease (a",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-19",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "problem with blood circulation in the legs or feet due to narrowing or blockage of arteries), or any kind of stroke (including \"mini-stroke\" or transient ischemic attack – \"TIA\") ● Suffer from high blood pressure, diabetes, high cholesterol, a family history of heart disease or stroke, or if you are a smoker ● Have an infection – please see subsection \"Infections\" in this section. Immediately stop the treatment with Advil Liqui-Gels 200 and Advil Forte 400 and refer immediately to a doctor or a hospital if you notice symptoms of an allergic reaction, including breathing problems, swelling of the face and neck area (angioedema), or chest pain (see section 4). Skin reactions – severe skin reactions, including skin inflammation that includes extensive peeling of the skin, erythema multiforme, Stevens-Johnson syndrome, toxic epidermal",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-20",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "necrolysis, drug reaction with eosinophilia and systemic symptoms syndrome (DRESS syndrome), acute generalized exanthematous pustulosis (AGEP), have been reported in association with taking Advil Liqui-Gels 200 and Advil Forte 400. Stop taking this medicine and seek medical advice immediately if you develop any type of skin rash, of lesions in the mucous membranes or of blisters, since they may be associated with the listed conditions. Medicines such as Advil Liqui-Gels 200 and Advil Forte 400 may be associated with a small increase in the risk of heart attack (myocardial infarction) or stroke. The likelihood of any risk increases with high dosages and prolonged treatment. Do not exceed the recommended dose or duration of treatment. See section 3. Infections – Advil Liqui-Gels 200 and Advil Forte 400 may mask signs of infection such as",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-21",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "fever and pain. Therefore, these medicines may delay appropriate treatment of infections, which may lead to a higher chance of complications. Such cases have been observed in pneumonia caused by a bacterial infection and in bacterial skin infections associated with chickenpox. If you are taking this medicine while you have an infection and the symptoms of the infection persist or worsen, you should seek medical advice immediately. Children and adolescents • Do not give the preparation to children under the age of 12, unless explicitly instructed to do so by the doctor. • If a child or adolescent aged 12-18 has not been drinking fluids or has lost fluids due to continuous vomiting or diarrhea, ask the doctor before using the preparation, as there is a risk of kidney impairment. Drug interactions Do not use this medicine if you are taking aspirin/acetylsalicylic acid at a daily dosage",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-22",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "higher than 75 mg, or other painkillers from the class of nonsteroidal anti- inflammatory drugs (NSAIDs). If you are taking, or have recently taken, other medicines including non-prescription medicines and nutritional supplements, tell the doctor or the pharmacist. Especially if you are taking: • Anticoagulant medicines (i.e. blood thinners/medicines that prevent clotting, such as aspirin/acetylsalicylic acid, warfarin, ticlopidine), diuretic medicines (increase the amount of urine your body produces). • Medicines that reduce high blood pressure (ACE inhibitors such as captopril, beta- blockers such as atenolol, angiotensin-II receptor antagonists such as losartan), or other medicines, as these may affect or be affected by treatment with ibuprofen. • Other medicines such as corticosteroids (used in the management of asthma and to",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-23",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "treat skin diseases and other conditions), anti-platelet preparations (commonly used to help prevent stroke or heart problems), cardiac glycosides (used in patients with heart problems), selective serotonin reuptake inhibitors (SSRIs) (used for treatment of depression) or lithium (used for treatment of bipolar disorder), methotrexate (used to treat certain types of cancer, and to treat psoriasis or rheumatoid arthritis), ciclosporin or tacrolimus (used in patients undergoing organ transplants, and to treat certain skin disorders), zidovudine (used to treat HIV infection), quinolone antibiotic medicines (a class of antibiotic medicines used to treat certain infections), phenytoin (used to treat epilepsy), or antacid medications (used to treat indigestion). Certain other medicines may also affect or be affected by the treatment with Advil Liqui-Gels",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-24",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "200 and Advil Forte 400. Therefore, you should always consult a doctor or pharmacist before taking Advil Liqui-Gels 200 or Advil Forte 400 along with other medicines. Fertility, pregnancy and breastfeeding Do not use Advil Liqui-Gels 200 or Advil Forte 400 if you are within the last 3 months of pregnancy. Using the preparation may cause kidney and heart problems in the fetus. The preparation may affect your and your fetus’s tendency to bleed and cause later or longer labor than expected. Do not use Advil Liqui-Gels 200 and Advil Forte 400 during the first 6 months of pregnancy unless it is essential and recommended by a doctor. If taken for more than a few days starting from the 20th week of pregnancy, Advil Liqui-Gels 200 and Advil Forte 400 can cause kidney problems in the fetus, which may cause",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-25",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "deficiency of amniotic fluid or constriction of the blood vessels in the heart of the fetus. If you need the treatment for more than a few days, the doctor may recommend additional supervision. Ibuprofen appears in breast milk in very low concentrations, but it is unlikely that the medicine will adversely affect the breastfed baby. Ibuprofen belongs to a class of medicines called NSAIDs, which may impair fertility in women. This effect is reversible after stopping the medicine. It is unlikely that occasional use of ibuprofen will affect your chances of becoming pregnant. However, if you have difficulty becoming pregnant or are trying to become pregnant, consult the doctor before using this medicine. If you are breastfeeding, pregnant, think that you might be pregnant or are planning to become pregnant, consult a doctor or pharmacist before using this medicine.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-26",
+   "section": "עלון לצרכן · 2. Before using the medicine",
+   "section_code": "consumer_leaflet",
+   "text": "Important information about some of the ingredients of the medicine Advil Liqui-Gels 200 contains 50.1 mg sorbitol in each liquid filled capsule. Advil Forte 400 contains 79.9 mg sorbitol in each capsule. Sorbitol is a source of fructose. If you have been told by your doctor that you (or your child) have an intolerance to certain sugars, or if you have been diagnosed with hereditary fructose intolerance (HFI), a rare genetic disorder in which a person cannot break down fructose, talk to your doctor before you (or your child) take or receive this medicine. Advil Liqui-Gels 200 and Advil Forte 400 capsules contain soy lecithin. If you have an allergy to peanuts or soy, do not use this medicine.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-27",
+   "section": "עלון לצרכן · 4. Side effects",
+   "section_code": "consumer_leaflet",
+   "text": "As with any medicine, using Advil Liqui-Gels 200 and Advil Forte 400 may cause side effects in some users. Do not be alarmed when reading the list of side effects. You may not experience any of them. The following effects are very rare – effects that occur in less than one user out of 10,000, but if you experience any of these, stop taking this medicine and refer to a doctor immediately: • Stomach ulceration or perforation: the symptoms may include severe abdominal pain, bloody vomit (or granulated coffee-like liquid), blood in the stool or black stool. • Inflammation of the membranes surrounding the brain (meningitis): the symptoms may include stiff neck, headache, nausea, vomiting, fever or a sense of confusion. • Severe allergic reactions (which may be life-threatening). The symptoms may include sudden allergy symptoms such as rash, itch or hives on the skin, fainting, hypotension,",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-28",
+   "section": "עלון לצרכן · 4. Side effects",
+   "section_code": "consumer_leaflet",
+   "text": "accelerated heart rate, swelling of the face, tongue and throat, shortness of breath, wheezing or breathing difficulties. • Asthma/worsening of asthma and other breathing difficulties. • Liver problems: the symptoms may include yellowing of the skin or of the whites of the eyes. • Chest pain, which may be a sign of a severe allergic reaction called Kounis syndrome. • Skin symptoms such as redness without swelling of the skin, target-like or circular lesions on the torso, sometimes with central blisters, peeling of the skin, ulcers in the mouth, throat, nose, genitals and eyes. These serious skin rashes can be accompanied by fever and flu-like symptoms (exfoliative dermatitis, erythema multiforme, Stevens- Johnson syndrome, toxic epidermal necrolysis). • Extensive rash, high body temperature and enlarged lymph nodes (DRESS syndrome).",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-29",
+   "section": "עלון לצרכן · 4. Side effects",
+   "section_code": "consumer_leaflet",
+   "text": "• Red, scaly rash, bumps under the skin and blisters, accompanied by fever. The symptoms usually appear at the beginning of treatment (AGEP – acute generalized exanthematous pustulosis). Medicines such as ibuprofen may be associated with a small increase in the risk of heart attack (myocardial infarction) or stroke. Additional side effects Uncommon side effects – effects that occur in 1-10 users out of 1,000 ● Allergic reactions such as hives, rash and itchy skin (or systemic lupus erythematosus – SLE) ● Abdominal pain, indigestion, heartburn and nausea ● Headache or dizziness. Rare side effects – effects that occur in 1-10 users out of 10,000 ● Diarrhea, flatulence, constipation and vomiting. Very rare side effects – effects that occur in less than one user out of 10,000 ● Reduction in blood cells, which can cause pale or yellow skin, increased temperature, sore",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-30",
+   "section": "עלון לצרכן · 4. Side effects",
+   "section_code": "consumer_leaflet",
+   "text": "throat, superficial mouth ulcers, flu-like symptoms, fatigue or weakness, tendency to bruise or bleeding from the skin or nose ● High blood pressure, heart failure or chest pain ● Nervousness, visual disturbance, ringing in the ears and dizziness ● Kidney problems: the symptoms may include swelling of the ankles ● Severe skin reactions: the symptoms may include blisters ● Blood in the urine, or foamy appearance of the urine. Side effects with unknown frequency (effects whose frequency has not yet been determined) ● Worsening of symptoms of inflammation of the large intestine and Crohn’s disease ● Skin sensitivity to light ● A severe skin reaction known as DRESS syndrome can occur. The symptoms of DRESS include: skin rash, fever, swelling of lymph nodes and an increase of eosinophils (a type of white blood cells) ● A widespread red and scaly rash with bumps",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-en-31",
+   "section": "עלון לצרכן · 4. Side effects",
+   "section_code": "consumer_leaflet",
+   "text": "under the skin and blisters located mainly in the skin folds, torso and upper extremities of the body and accompanied by fever, which appears at the beginning of treatment. Stop taking this medicine if you develop these symptoms and refer to the doctor immediately (see section 2). If a side effect occurs, if one of the side effects worsens, or if you suffer from a side effect not mentioned in this leaflet, consult your doctor. Reporting side effects Side effects may be reported to the Ministry of Health by clicking on the link \"Report side effects due to medicinal treatment\" found on the Ministry of Health website homepage (www.health.gov.il), which will direct you to the online form for reporting side effects, or by clicking on the following link: https://sideeffects.health.gov.il",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum01_28_123700226.pdf",
+    "updated_at": "2026-03-04",
+    "created_at": "2024-06-30",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-32",
+   "section": "עלון לצרכן · 1. למה מיועדת התרופה?",
+   "section_code": "consumer_leaflet",
+   "text": "● לשיכוך כאבים קלים עד בינוניים הקשורים בכאבי ראש, כאבי שיניים, כאבי גב, כאבי שרירים וכאבי מחזור ● להורדת חום● נוגדת דלקות במחלות ראומטיות● לטיפול בכאבים הקשורים במיגרנה. קבוצה תרפויטית: איבופרופן שייכת לקבוצת תרופות הנקראת נוגדי דלקת שאינם סטרואידים (NSAIDs ,) הפועלות על ידי שיכוך כאב והפחתה של דלקת, נפיחות וחום.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-33",
+   "section": "עלון לצרכן · 2. לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "אין להשתמש בתרופה אם: • הינך רגיש (אלרגי) לאיבופרופן, או לכל אחד מהמרכיבים הנוספים שמכילה תרופה זו (ראה פרק 6 ) . • ,הינך רגיש (אלרגי) לאספירין, או הינך סובל מהיצרות בדרכי הנשימה, מאסתמה, מדלקת באף מאנגיואדמה או מסרפדת הקשורה לנטילת תרופות מקבוצת התרופות נוגדי דלקת שאינם סטרואידים (NSAIDs .) • הנך סובל מכיב או מדימום בקיבה או שהיו לך בעבר שני אירועים או יותר של כיבי קיבה או דימום בקיבה. • סבלת בעבר מדימום או מהתנקבות במעי בגלל טיפול בתרופה זו או בתרופות מקבוצת התרופות נוגדי דלקת שאינם סטרואידים (NSAIDs .) • הינך סובל ממצבי דימום מוחי, דימומים פעילים אחרים או ממחלת דם. • הינך סובל מאי-ספיקה חמורה של הכבד, הכליות או הלב. • את בשליש האחרון של ההיריון. אזהרות מיוחדות הנוגעות לשימוש בתרופה דבר עם הרוקח או עם הרופא אם הינך: ● אסתמטי או סובל מקדחת השחת ● סובל מבעיות בכבד או בכליות● סובל ממחלות אוטואימוניות, לרבות",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-34",
+   "section": "עלון לצרכן · 2. לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "זאבת אדמנתית מערכתית (SLE )– מצב של המערכת החיסונית המשפיע על רקמת החיבור וגורם לכאב במפרקים, לשינויים בעור ולהפרעות באיברים אחרים ● סובל או סבלת בעבר מהפרעות במערכת העיכול, כגון דלקת כיבית במעי הגס (קוליטיס כיבית ( או מחלת קרוהן, מפני שתרופות כמו איבופרופן עלולות להחמיר מצבים אלה ● ב-6 חודשי ההיריון הראשונים● סובל מבעיות לב הכוללות אי- ספיקת לב, תעוקה (כאב בחזה) או אם היה לך התקף לב, ניתוח מעקפים, מחלת עורקים פריפריים (בעיה במחזור הדם ברגליים או בכפות הרגליים עקב היצרות או חסימה של עורקים), או כל סוג של שבץ (כולל \"מיני -שבץ\" או אירוע מוחי חולף - \"TIA )\"● סובל מלחץ דם גבוה, סוכרת, כולסטרול גבוה, היסטוריה משפחתית של מחלת לב או של שבץ, או שאתה מעשן ● סובל מזיהום– אנא ראה סעיף \"זיהומים\" בפרק זה. אזהרות נוספות תסמינים אלרגיים לתכשיר זה לרבות בעיות נשימה, התנפחות של הפנים והצוואר (אנגיואדמה), כאבים בחזה דווחו בשימוש באיבופרופן. יש להפסיק את השימוש באדויל ליקווי -ג'לס 200 ואדויל פורטה400",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-35",
+   "section": "עלון לצרכן · 2. לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": ".ולפנות מיד לרופא באם אתה מבחין בתסמינים אלו תגובות עוריות - תגובות עוריות חמורות לרבות דלקת עור הכוללת קילופים נרחבים של העור (exfoliative dermatitis ), אדמנת רב-צורתית (אריתמה מולטיפורמה), תסמונת סטיבנס -ג'ונסון, נמק אפידרמי רעלני (toxic epidermal necrolysis ), תסמונת התגובה התרופתית עם אאוזינופיליה ותסמינים מערכתיים (תסמונת DRESS( ), פוסטולוזיס תיפרחתית מפושטת חדהAGEP), דווחו כקשורות לנטילת אדויל ליקווי- ג'לס 200 ואדויל פורטה400 . יש להפסיק ליטול את התרופה ולפנות לקבלת ייעוץ רפואי מיידי אם מתפתח כל סוג של תפרחת עורית, של פצעים ברקמות ריריות או של שלפוחיות, או כל סימן אחר של אלרגיה , כיוון שהם עלולים להיות קשורים למצבים שצוינו . תרופות כמו אדויל ליקווי- ג'לס 200 ואדויל פורטה400 עשויות להיות קשורות לעלייה קטנה בסיכון להתקף לב (אוטם שריר הלב) או לשבץ. הסבירות של כל סיכון גוברת עם מינונים גבוהים וטיפול ממושך. אין לעבור על המנה המומלצת או על משך הטיפול המומלץ. ראה פרק 3 .",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-36",
+   "section": "עלון לצרכן · 2. לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "זיהומים- אדויל ליקווי- ג'לס 200 ואדויל פורטה400 עשויים למסך סימני זיהום כגון חום וכאב. על כן, תרופות אלו עשויות לעכב טיפול נאות בזיהומים , דבר העשוי להוביל לסיכוי גבוה יותר לסיבוכים. מקרים כאלו נצפו במצבים של דלקת ריאות שמקורה בזיהום חיידקי ובמקרים של זיהומי עור חיידקיים הקשורים לאבעבועות רוח. אם הינך נוטל תרופה זו בעת שיש לך זיהום ותסמיני הזיהום ממשיכים או מחמירים, יש לפנות לייעוץ רפואי באופן מיידי . ילדים ומתבגרים • אין לתת את התכשיר לילדים מתחת לגיל 12, אלא בהוראה מפורשת מהרופא. • אם ילד או מתבגר בגיל 12-18 ,לא שותה נוזלים או איבד נוזלים עקב הקאות או שלשולים מתמשכים שאל את הרופא לפני השימוש בתכשיר, מכיוון שקיים סיכון של פגיעה כלייתית. אינטראקציות/תגובות בין תרופתיות אין להשתמש בתרופה זו אם אתה נוטל אספירין/חומצה אצטילסליצילית במינון יומי הגבוה מ-75 מ\"ג, או תרופות אחרות לשיכוך כאב מקבוצת נוגדי דלקת שאינם סטרואידים (NSAIDs .)",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-37",
+   "section": "עלון לצרכן · 2. לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד אם אתה לוקח : • תרופות נוגדות קרישה (כלומר, מדללי דם/מונעי קרישה, כגון אספירין/חומצה אצטילסליצילית, וורפרין, טיקלופידין ), תרופות משתנות (מגבירות את כמות השתן שגופך מייצר(. • תרופות המפחיתות לחץ דם גבוה (מעכבי ACE כמו קפטופריל, חוסמי בטא כמו אטנולול, אנטגוניסטים לקולטן אנגיוטנסין- II כמו לוסרטן), או תרופות אחרות, מפני שהן עלולות להשפיע על הטיפול באיבופרופן או להיות מושפעות ממנו . • תרופות אחרות כמו קורטיקוסטרואידים (המשמשות לניהול אסתמה ולטיפול במחלות עור ובמצבים אחרים), תכשירים נוגדי טסיות (המשמשים בדרך כלל כדי לסייע במניעת שבץ או בעיות לב), גליקוזידים ללב (המשמשים במטופלים עם בעיות לב), מעכבי קליטה חוזרת בררניים של סרוטונין ( SSRIs ) (המשמשים לטיפול בדיכאון) או ליתיום (המשמש לטיפול במניה-דיפרסיה), מתוטרקסאט (המשמשת",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-38",
+   "section": "עלון לצרכן · 2. לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "לטיפול בסוגי סרטן מסוימים, ולטיפול בפסוריאזיס או בדלקת מפרקים שגרונית), ציקלוספורין או טקרולימוס (המשמשות במטופלים שעוברים השתלות איברים, ולטיפול בהפרעות עור מסוימות), זידובודין (המשמשת לטיפול בזיהום HIV ), תרופות אנטיביוטיות ממשפחת הקווינולונים (סוג של תרופות אנטיביוטיות המשמשות לטיפול בזיהומים מסוימים), פניטואין (משמשת לטיפול באפילפסיה), או תרופות נוגדות חומצה (משמשות לטיפול בהפרעות עיכול(. תרופות מסוימות אחרות עשויות גם הן להשפיע או להיות מושפעות מהטיפול באדויל ליקווי- ג'לס 200 ובאדויל פורטה 400 . על כן, עליך להתייעץ תמיד עם רופא או עם רוקח לפני נטילת אדויל ליקווי-ג'לס 200 או אדויל פורטה 400 יחד עם תרופות אחרות. פוריות, היריון והנקה אין להשתמש באדויל ליקווי- ג'לס 200 או באדויל פורטה400 אם הינךבמהלך 3 החודשים האחרונים של ההיריון. השימוש בתכשיר עלול לגרום לבעיות בכליות ובלב בעובר. התכשיר עלול להשפיע על הנטייה שלך",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-39",
+   "section": "עלון לצרכן · 2. לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "ושל העובר לדימומים ולגרום ללידה מאוחרת או ארוכה מהצפוי. אין להשתמש באדויל ליקווי-ג'לס 200 ובאדויל פורטה400 במהלך6 חודשי ההיריון הראשונים אלא אם הדבר הכרחי והומלץ על ידי רופא. אם נלקח ליותר מכמה ימים החל מהשבוע ה-20 ,להיריוןאיבופרופן יכול לגרום לבעיות בכליות של העובר, מה שעלול לגרום למיעוט מי שפיר או להיצרות של כלי הדם בלב העובר. אם הינך זקוקה לטיפול במשך יותר מכמה ימים, ייתכן כי הרופא ימליץ לך על השגחה נוספת. איבופרופן מופיע בחלב אם בריכוזים נמוכים מאוד, אולם לא סביר שהתרופה תשפיע לרעה על התינוק היונק. איבופרופן שייך לקבוצה של תרופות הנקראת NSAIDs , אשר עלולות לפגוע בפוריות בנשים. אפקט זה הוא הפיך לאחר הפסקת נטילת התרופה. אין זה סביר כי שימוש מעת לעת באיבופרופן ישפיע על סיכוייך להרות. עם זאת, אם נתקלת בקשיים להיכנס להיריון או שאת מנסה להיכנס להיריון, היוועצי ברופא בטרם השימוש בתרופה. אם הינך מניקה, בהיריון, חושבת שהינך בהיריון או מתכננת להיכנס להיריון, היוועצי ברופא או ברוקח בטרם",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-40",
+   "section": "עלון לצרכן · 2. לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "השימוש בתרופה. מידע חשוב על חלק מהמרכיבים של התרופה אדויל ליקווי -ג'לס 200 מכילה50.1 מ\"ג סורביטול בכל קפסולה ממולאת בנוזל. אדויל פורטה 400 מכילה79.9 מ\"ג סורביטול בכל קפסולה. סורביטול הינו מקור לפרוקטוז. אם נאמר לך על ידי הרופא שלך שיש לך ( או לילדך) אי-סבילות לסוכרים מסוימים או אם אובחנת עם אי-סבילות תורשתית לפרוקטוז (HFI ), הפרעה גנטית נדירה בה אדם לא יכול לפרק פרוקטוז, דבר עם הרופא שלך לפני שאתה ( או ילדך ) נוטל או מקבל תרופה זו . קפסולות אדויל ליקווי -ג'לס 200 ואדויל פורטה400 ,מכילות לציטין סויה. אם יש לך אלרגיה לבוטנים או לסויה אל תשתמש בתרופה זו .",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-41",
+   "section": "עלון לצרכן · 4. תופעות לוואי",
+   "section_code": "consumer_leaflet",
+   "text": "כמו בכל תרופה, השימוש באדויל ליקווי -ג'לס 200 ואדויל פורטה400 עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן. התופעות הבאות הן מאוד נדירות (very rare ) – תופעות שמופיעות בפחות ממשתמש אחד מתוך 10,000 ,אך אם תרגיש אחת מהן, הפסק לקחת תרופה זו ופנה מיד לרופא : • כיב או נקב בקיבה: התסמינים יכולים לכלול כאב בטן חמור, קיא דמי (או נוזל דמוי קפה מגורען ), דם בצואה או צואה שחורה . • דלקת קרום המוח (מנינגיטיס): התסמינים יכולים לכלול צוואר נוקשה, כאב ראש, בחילה, הקאה, חום או תחושת בלבול. • תגובות אלרגיות חמורות (שעלולות להיות מסכנות חיים). התסמינים יכולים לכלול תסמינים פתאומיים של אלרגיה כגון פריחה, גרד או סרפדת של העור, עילפון, תת לחץ דם, דופק מואץ, התנפחות הפנים, הלשון והגרון, קוצר נשימה, צפצופים או קשיי נשימה. • אסתמה/החמרה של אסתמה וקשיי נשימה אחרים. • בעיות בכבד: התסמינים יכולים לכלול הצהבה של העור או של לובן העיניים.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-42",
+   "section": "עלון לצרכן · 4. תופעות לוואי",
+   "section_code": "consumer_leaflet",
+   "text": "• כאבים בחזה, אשר עלולים להיות סימן לתגובה אלרגית חמורה הנקראת סינדרום קוניס (Kounis syndrome) . • כתמים אדמדמים שאינם מורמים, דמויי מטרה או עגולים על הגו, לעיתים עם שלפוחיות במרכז, קילוף העור, כיבים בפה, בגרון, באף, באברי המין ובעיניים. פריחות חמורות אלה בעור יכולות להיות מקדימות או מלוות בחום ובתסמינים דמויי שפעת (מצבים אלו כוללים [ דלקת עור קשקשיתexfoliative dermatitis, אדמנת רב]-[ צורתיתerythema multiforme, תסמונת סטיבנס] - ג'ונסון, נמק אפידרמי [ רעלניtoxic epidermal necrolysis] .) • פריחה מפושטת, חום גוף גבוה ובלוטות לימפה מוגדלות (תסמונתDRESS .) • פריחה אדומהמפושטת עם קשקשים, בליטות תחת העור ושלפוחיות, מלווה בחום. התסמינים מופיעים בדרך כלל בתחילת הטיפול ( AGEP – פוסטולוזיס תיפרחתית מפושטת חדה(. תרופות כמו איבופרופן עלולות להתקשר לעלייה קטנה בסיכון להתקף לב (אוטם שריר הלב) או לשבץ. תופעות לוואי נוספות תופעות לוואי שאינן שכיחות (uncommon ) – תופעות שמופיעות ב-1-10 משתמשים מתוך1,000",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-43",
+   "section": "עלון לצרכן · 4. תופעות לוואי",
+   "section_code": "consumer_leaflet",
+   "text": "● תגובות אלרגיות כגון סרפדת, פריחה וגרד בעור (או זאבת אדמנתית מערכתית- SLE) ● כאב בטן, בעיות עיכול, צרבת ובחילות ● כאב ראש או סחרחורת. תופעות לוואי נדירות (rare )– תופעות שמופיעות ב-1-10 משתמשים מתוך10,000 ● שלשול, גזים, עצירות והקאות. תופעות לוואי נדירות מאוד ( very rare )– תופעות שמופיעות בפחות ממשתמש אחד מתוך10,000 ● ,הפחתה בתאי דם, מה שיכול לגרום לעור חיוור או צהוב, לעליית חום, לכאב גרון, לכיבים שטחיים בפה לתסמינים דמויי שפעת, לתשישות או לחולשה, לנטייה לחבורות או לדימום מהעור או מהאף ● ,לחץ דם גבוה אי- ספיקת לב או כאב בחזה ● עצבנות, הפרעת ראייה, צלצולים באוזניים וסחרחורת● :בעיות בכליות התסמינים יכולים לכלול נפיחות בקרסוליים ● תגובות עור חמורות: התסמינים יכולים לכלול שלפוחיות● דם בשתן, או מראה קצפי של השתן. תופעות לוואי ששכיחותן אינה ידועה (תופעות ששכיחותן טרם נקבעה( ● החמרת תסמינים של דלקת המעי הגס ומחלת קרוהן ● רגישות של העור לאור● יכולה להתרחש תגובת",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#consumer_leaflet-he-44",
+   "section": "עלון לצרכן · 4. תופעות לוואי",
+   "section_code": "consumer_leaflet",
+   "text": "עור חמורה הידועה כתסמונת DRESS. התסמינים שלDRESS כוללים: פריחה בעור, חום, נפיחות של קשריות הלימפה ועלייה באאוזינופילים (סוג של תאי דם לבנים) ● תפרחת אדומה קשקשית רחבת היקף עם בליטות תת עוריות ושלפוחיות הממוקמות בעיקר בקפלי העור, בגו ובגפיים העליונות של הגוף ומלווה בחום, המופיעה בתחילת הטיפול (Acute Generalized Exanthematous Pustulosis) . הפסק את נטילת התרופה אם אתה מפתח תסמינים אלה ופנה מיד לרופא (ראה פרק2 .) אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה, או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא . דיווח על תופעות לוואי ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות (www.health.gov.il ) המפנה לטופס המקוון לדיווח על תופעות לוואי, או על ידי כניסה לקישור: https://sideeffects.health.gov.il",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_355948526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-45",
+   "section": "עלון לרופא · 4.1. Therapeutic indications",
+   "section_code": "doctor_leaflet",
+   "text": "For the relief of mild to moderate pain associated with headache, toothache, backache, muscular and menstrual pains. Antipyretic. Anti-inflammatory for rheumatic diseases. For the treatment of pain associated with migraine.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-46",
+   "section": "עלון לרופא · 4.3. Contraindications",
+   "section_code": "doctor_leaflet",
+   "text": "Hypersensitivity to ibuprofen or any of the excipients listed in section 6.1. Use in patients hypersensitive to aspirin or with bronchospasm, asthma, rhinitis, angioedema or urticaria associated with non-steroidal anti-inflammatory drugs (NSAIDs). Ibuprofen should not be given to patients with active or history of recurrent peptic ulcer/haemorrhage (two or more distinct episodes of proven ulceration or bleeding). History of gastrointestinal bleeding or perforation related to previous NSAID therapy. Cerebrovascular bleeding, other active bleeding, or haematological disease. Severe hepatic failure, severe renal failure or severe heart failure (NYHA Class IV). Last trimester of pregnancy (see section 4.6).",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-47",
+   "section": "עלון לרופא · 4.4. Special warnings and precautions for use",
+   "section_code": "doctor_leaflet",
+   "text": "Undesirable effects may be minimised by using the lowest effective dose for the shortest duration necessary to control symptoms (see gastrointestinal and cardiovascular risks below). Older people: Older people have an increased frequency of adverse reactions to NSAIDs, especially gastrointestinal bleeding and perforation which may be fatal. Respiratory: Bronchospasm may be precipitated in patients suffering from or with a previous history of bronchial asthma or allergic disease and Advil Liqui-Gels 200 and Advil Forte 400 mg should not be used where other NSAIDs have produced reactions. Other NSAIDs: The use of Advil Liqui-Gels 200 and Advil Forte 400 mg with concomitant NSAIDs including cyclooxygenase-2 selective inhibitors should be avoided (see section 4.5). Systemic Lupus Erythematosus (SLE) and mixed connective tissue disease:",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-48",
+   "section": "עלון לרופא · 4.4. Special warnings and precautions for use",
+   "section_code": "doctor_leaflet",
+   "text": "Caution should be taken when ibuprofen is given to patients with SLE and autoimmune diseases – increased risk of aseptic meningitis has been reported. (see section 4.8). Renal, Cardiac and Hepatic: Caution is required in patients with renal, cardiac or hepatic impairment since renal function may deteriorate (see sections 4.3 and 4.8). The dose should be as low as possible and renal function should be monitored. There is a risk of renal impairment in dehydrated children or adolescents between 12 -18 years of age. Cardiovascular and cerebrovascular effects: Caution (discussion with doctor or pharmacist) is required prior to starting treatment in patients with a history of hypertension and/or heart failure as fluid retention, hypertension and oedema have been reported in association with NSAID therapy.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-49",
+   "section": "עלון לרופא · 4.4. Special warnings and precautions for use",
+   "section_code": "doctor_leaflet",
+   "text": "Clinical studies suggest that use of ibuprofen, particularly at high doses (2400mg/day) may be associated with a small increased risk of arterial thrombotic events (for example myocardial infarction or stroke). Overall, epidemiological studies do not suggest that low dose ibuprofen (e.g. ≤ 1200mg/day) is associated with an increased risk of arterial thrombotic events. Patients with uncontrolled hypertension, congestive heart failure (NYHA II-III), established ischaemic heart disease, peripheral arterial disease, and/or cerebrovascular disease should only be treated with ibuprofen after careful consideration and high doses (2400 mg/day) should be avoided. Careful consideration should also be exercised before initiating long-term treatment of patients with risk factors for cardiovascular events (e.g. hypertension, hyperlipidaemia,",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-50",
+   "section": "עלון לרופא · 4.4. Special warnings and precautions for use",
+   "section_code": "doctor_leaflet",
+   "text": "diabetes mellitus and smoking), particularly if high doses of ibuprofen (2400 mg/day) are required. Cases of Kounis syndrome have been reported in patients treated with Advil Liqui -Gels 200 and Advil Forte 400 mg. Kounis syndrome has been defined as cardiovascular symptoms secondary to an allergic or hypersensitive reaction associated with constriction of coronary arteries and potentially leading to myocardial infarction. Impaired female fertility: There is limited evidence that drugs which inhibit cyclo-oxygenase/prostaglandin synthesis may cause impairment of female fertility by an effect on ovulation. This is reversible upon withdrawal of treatment. Gastrointestinal: NSAIDs should be given with care to patients with a history of gastrointestinal disease (e.g. ulcerative colitis, Crohn’s disease) as these conditions may be exacerbated (see section 4.8).",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-51",
+   "section": "עלון לרופא · 4.4. Special warnings and precautions for use",
+   "section_code": "doctor_leaflet",
+   "text": "GI bleeding, ulceration or perforation, which can be fatal, has been reported with all NSAIDs at any time during treatment, with or without warning symptoms or a previous history of serious GI events. The risk of GI bleeding, ulceration or perforation is higher with increasing NSAID doses in patients with a history of ulcer, particularly if complicated with haemorrhage or perforation (see section 4.3), and in the elderly. These patients should commence treatment on the lowest dose available. Patients with a history of GI toxicity, particularly when elderly, should report any unusual abdominal symptoms (especially GI bleeding), particularly in the initial stages of treatment. Caution should be advised in patients receiving concomitant medications which could increase the risk of ulceration or bleeding, such as oral corticosteroids, anticoagulants such",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-52",
+   "section": "עלון לרופא · 4.4. Special warnings and precautions for use",
+   "section_code": "doctor_leaflet",
+   "text": "as warfarin, selective serotonin-reuptake inhibitors (SSRIs) or anti-platelet agents such as aspirin (see section 4.5). When GI bleeding or ulceration occurs in patients receiving ibuprofen, the treatment should be withdrawn. Dermatological: Severe skin reactions Severe cutaneous reactions (SCARs): Severe cutaneous reactions (SCARs), including exfoliative dermatitis, erythema multiforme, Stevens-Johnson syndrome (SJS), and acute generalized exanthematous pustulosis (AGEP), which can be life-threatening or fatal, have been reported in association with the use of ibuprofen (see section 4.8). Most of these reactions occurred within the first month. If signs and symptoms suggestive of these reactions appear. Advil Liqui-Gels 200 and Advil Forte 400 should be withdrawn immediately and an alternative treatment considered (as appropriate)",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-53",
+   "section": "עלון לרופא · 4.4. Special warnings and precautions for use",
+   "section_code": "doctor_leaflet",
+   "text": "Exceptionally, varicella can be at the origin of serious cutaneous and soft tissue infectious complications. To date, the contributing role of NSAIDs in the worsening of these infections cannot be ruled out. Thus, it is advisable to avoid use of Advil Liqui-Gels 200 mg and Advil Forte 400 mg in case of varicella. Masking of symptoms of underlying infections Advil Liqui-gels 200 and Advil Forte 400 can mask symptoms of infection, which may lead to delayed initiation of appropriate treatment and thereby worsening the outcome of the infection. This has been observed in bacterial community acquired pneumonia and bacterial complications to varicella. When Advil Liqui-gels 200 and Advil Forte 400 are administered for fever or pain relief in relation to infection, monitoring of infection is advised. In non-hospital settings, the patient should consult a doctor if symptoms persist or worsen.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-54",
+   "section": "עלון לרופא · 4.4. Special warnings and precautions for use",
+   "section_code": "doctor_leaflet",
+   "text": "The pharmacological activity of ibuprofen may reduce fever and inflammation, thus diminishing their utility as diagnostic signs in detecting underlying conditions. Advil Liqui-gel 200 and Advil Forte 400 contain sorbitol. Patients with rare hereditary problems of fructose intolerance should not take this medicine . Advil Liqui-gels 200 and Advil Forte 400 Capsules contain soya lecithin. If you are allergic to peanut or soya, do not use this medicinal product.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-55",
+   "section": "עלון לרופא · 4.5. Interactions with other medicinal products and other forms of interaction",
+   "section_code": "doctor_leaflet",
+   "text": "Ibuprofen should be avoided in combination with: Aspirin: Concomitant administration of ibuprofen and aspirin is not generally recommended because of the potential of increased adverse effects. Experimental data suggest that ibuprofen may competitively inhibit the effect of low dose aspirin on platelet aggregation when they are dosed concomitantly. Although there are uncertainties regarding extrapolation of these data to the clinical situation, the possibility that regular, long-term use of ibuprofen, may reduce the cardioprotective effect of low-dose aspirin cannot be excluded. No clinically relevant effect is considered to be likely for occasional ibuprofen use (see section 5.1). Other NSAIDs: Ibuprofen should not be used with other pain relievers such as NSAIDs. Ibuprofen should be used with caution in combination with:",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-56",
+   "section": "עלון לרופא · 4.5. Interactions with other medicinal products and other forms of interaction",
+   "section_code": "doctor_leaflet",
+   "text": "Anticoagulants: NSAIDs may enhance the effects of anticoagulants such as warfarin (see section 4.4). When taking anticoagulants it should be taken into account that long-term use of ibuprofen may increase the risk of bleeding. Antihypertensives and diuretics: NSAIDs may diminish the effects of antihypertensives or thiazide diuretics. Diuretics can increase the risk of nephrotoxicity of NSAIDs. Corticosteroids: When taking corticosteroids and ibuprofen concomitantly there is an increased risk of gastrointestinal ulceration or bleeding. (see section 4.4). Anti-platelet agents and selective serotonin reuptake inhibitors (SSRIs): Increased risk of gastrointestinal bleeding (see section 4.4) Cardiac glycosides: Ibuprofen may increase serum digitalis concentrations. Serum digitalis concentrations should therefore be monitored in patients with decreased renal function or",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-57",
+   "section": "עלון לרופא · 4.5. Interactions with other medicinal products and other forms of interaction",
+   "section_code": "doctor_leaflet",
+   "text": "congestive heart failure. Lithium: Increases in serum lithium concentrations following administration of ibuprofen may be clinically significant. Methotrexate: Concomitant administration of ibuprofen with moderate and high doses of methotrexate may lead to serious and fatal methotrexate toxicity. Patients with reduced renal function may be at additional risk of toxicity from the combination even when low doses of methotrexate (≤ 20 mg/week) are used. Ciclosporin: Increased risk of nephrotoxicity. Tacrolimus: Possible increased risk of nephrotoxicity when NSAIDs are given with tacrolimus. Zidovudine: Increased risk of haematological toxicity when NSAIDs are given with zidovudine. There is evidence of an increased risk of haemarthroses and haematoma in HIV(+) haemophiliacs receiving concurrent treatment with zidovudine and ibuprofen.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-58",
+   "section": "עלון לרופא · 4.5. Interactions with other medicinal products and other forms of interaction",
+   "section_code": "doctor_leaflet",
+   "text": "Quinolone antibiotics: Animal data indicate that NSAIDs can increase the risk of convulsions associated with quinolone antibiotics. Patients taking NSAIDs and quinolones may have an increased risk of developing convulsions. Phenytoin: Ibuprofen may increase pharmacologically active free phenytoin. Patients taking ibuprofen for long-term use should be monitored. Antacids: Certain antacids may increase the gastrointestinal absorption of ibuprofen. This is considered to be of clinical relevance particularly during long-term use of ibuprofen.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-59",
+   "section": "עלון לרופא · 4.6 Fertility, pregnancy and lactation",
+   "section_code": "doctor_leaflet",
+   "text": "Pregnancy Inhibition of prostaglandin synthesis may adversely affect the pregnancy and/or the embryo/foetal development. Data from epidemiological studies suggest an increased risk of miscarriage and of cardiac malformation and gastroschisis after use of a prostaglandin synthesis inhibitor in early pregnancy. The absolute risk for cardiovascular malformation was increased from less than 1%, up to approximately 1.5 %. The risk is believed to increase with dose and duration of therapy. In animals, administration of a prostaglandin synthesis inhibitor has been shown to result in increased pre- and post-implantation loss and embryo-foetal lethality. In addition, increased incidences of various malformations, including cardiovascular, have been reported in animals given a prostaglandin synthesis inhibitor during",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-60",
+   "section": "עלון לרופא · 4.6 Fertility, pregnancy and lactation",
+   "section_code": "doctor_leaflet",
+   "text": "the organogenetic period. From the 20th week of pregnancy onward Advil Liqui-gel 200 and Advil Forte 400 use may cause oligohydramnios resulting from foetal renal dysfunction. This may occur shortly after treatment initiation and is usually reversible upon discontinuation. In addition, there have been reports of ductus arteriosus constriction following treatment in the second trimester, most of which resolved after treatment cessation. Therefore, during the first and second trimester of pregnancy, ibuprofen should not be given unless clearly necessary. If ibuprofen is used by a woman attempting to conceive, or during the first and second trimester of pregnancy, the dose should be kept as low and duration of treatment as short as possible. Antenatal monitoring for oligohydramnios and ductus arteriosus constriction should be",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-61",
+   "section": "עלון לרופא · 4.6 Fertility, pregnancy and lactation",
+   "section_code": "doctor_leaflet",
+   "text": "considered after exposure to Advil Liqui-gel 200 and Advil Forte 400 for several days from gestational week 20 onward. Advil Liqui-gel 200 and Advil Forte 400 should be discontinued if oligohydramnios or ductus arteriosus constriction are found. During the third trimester of pregnancy, all prostaglandin synthesis inhibitors may expose the foetus to: - cardiopulmonary toxicity (premature constriction/ closure of the ductus arteriosus and pulmonary hypertension); - renal dysfunction (see above), which may progress to renal failure with oligo- hydroamniosis; the mother and the neonate, at the end of pregnancy, to: - possible prolongation of bleeding time, an anti-aggregating effect which may occur even at very low doses. - inhibition of uterine contractions resulting in delayed or prolonged labour.Consequently, ibuprofen is contraindicated during the third trimester of pregnancy.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-62",
+   "section": "עלון לרופא · 4.6 Fertility, pregnancy and lactation",
+   "section_code": "doctor_leaflet",
+   "text": "(See sections 4.3 and 5.3). Lactation In limited studies, ibuprofen appears in breast milk in very low concentrations. Based upon the low level detected (0.0008% of maternal dose), it is unlikely to affect the breast -fed infant adversely. Fertility See section 4.4 regarding female fertility.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-63",
+   "section": "עלון לרופא · 4.7. Effects on ability to drive and use machines",
+   "section_code": "doctor_leaflet",
+   "text": "No studies on the effect of ability to drive or use machines have been performed.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-64",
+   "section": "עלון לרופא · 4.8. Undesirable effects",
+   "section_code": "doctor_leaflet",
+   "text": "The following list of adverse effects relates to those experienced with ibuprofen at OTC doses, for short term use. In the treatment of chronic conditions, under long-term treatment, additional adverse effects may occur. The adverse effects have been listed in order of decreasing frequency, using the following convention: very common (≥ 1/10); common (≥ 1/100 to <1/10); uncommon (≥ 1/1,000 to <1/100); rare (≥ 1/10,000 to <1/1,000); very rare <1/10,000), not known (cannot be estimated from the available data). Investigations: Very rare: Decreased haematocrit and haemoglobin levels. Cardiac Disorders: Not known: Oedema, hypertension, angina pectoris and cardiac failure, have been reported in association with NSAID treatment. Kounis syndrome. Clinical studies suggest that use of ibuprofen (particularly at a high dose (2400mg/day) may be associated with a small increased risk of",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-65",
+   "section": "עלון לרופא · 4.8. Undesirable effects",
+   "section_code": "doctor_leaflet",
+   "text": "arterial thrombotic events (for example myocardial infarction or stroke) (see section 4.4). Blood and Lymphatic System Disorders: Very rare: Haematopoietic disorders (anaemia, haemolytic anaemia, aplastic anaemia, leucopenia, thrombocytopenia, pancytopenia, agranulocytosis). First signs are: fever, sore throat, superficial mouth ulcers, influenza-like symptoms, severe exhaustion, unexplained bleeding and bruising. Nervous System Disorders: Uncommon: Headache, dizziness, cerebrovascular accident Very rare: Aseptic meningitis – single cases have been reported very rarely. Eye Disorders: Very rare: Visual impairment Ear and Labyrinth Disorders: Very rare: Tinnitus and vertigo. Respiratory, Thoracic and Mediastinal Disorders: Very rare: Asthma, bronchospasm, dyspnoea and wheezing. Gastrointestinal Disorders: The most commonly- observed adverse events are gastrointestinal in nature.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-66",
+   "section": "עלון לרופא · 4.8. Undesirable effects",
+   "section_code": "doctor_leaflet",
+   "text": "Uncommon: Abdominal pain, abdominal distension, nausea and dyspepsia. Rare: Diarrhoea, flatulence, constipation and vomiting. Very rare: Peptic ulcer, perforation or gastrointestinal haemorrhage, melaena, haematemesis, sometimes fatal, particularly in the elderly, ulcerative stomatitis, gastritis, mouth ulcer. Not known: Exacerbation of colitis and Crohn’s disease (see section 4.4). Renal and Urinary Disorders: Very rare: Acute renal failure, tubulointerstitial nephritis, nephritic syndrome, papillary necrosis, especially in long-term use, associated with increased serum urea and oedema; haematuria and proteinuria. Skin and Subcutaneous Tissue Disorders: Uncommon: Various skin rashes Very rare: Severe cutaneous adverse reactions (SCARs) (including Erythema multiforme, exfoliative dermatitis, Stevens-Johnson Syndrome, and toxic epidermal necrolysis. Not known: Drug reaction with",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-67",
+   "section": "עלון לרופא · 4.8. Undesirable effects",
+   "section_code": "doctor_leaflet",
+   "text": "eosinophilia and systemic symptoms (DRESS syndrome) Acute generalised exanthematous pustulosis (AGEP) Photosensitivity reactions. Infections and Infestations: Not known: Meningitis, aseptic meningitis. Vascular Disorders: Very rare: Hypertension. General Disorders and Administration Site Conditions: Very rare: Oedema, swelling and peripheral oedema. Immune System Disorders: Uncommon: Hypersensitivity reactions with urticaria and pruritis. Very rare: Severe hypersensitivity reactions. Symptoms could be: facial, tongue and laryngeal swelling, dyspnoea, tachycardia, hypotension (anaphylaxis, angioedema or severe shock). Not known: Non-specific allergic reactions Respiratory tract reactivity (e.g. asthma, aggravated asthma and bronchospasm). Various skin reactions including exfoliative and bullous dermatoses (including epidermal necrolysis and erythema multiforme). In patients with existing",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  },
+  {
+   "id": "il-moh-registry-ibuprofen#doctor_leaflet-en-68",
+   "section": "עלון לרופא · 4.8. Undesirable effects",
+   "section_code": "doctor_leaflet",
+   "text": "auto-immune disorders (such as systemic lupus erythematosus, mixed connective tissue disease) during treatment with ibuprofen, single cases of symptoms of aseptic meningitis, such as stiff neck, headache, nausea, vomiting, fever or disorientation have been observed (see section 4.4). Hepatobiliary Disorders: Very rare: Liver disorders, hepatitis and jaundice. Psychiatric Disorders: Very rare: Nervousness. Reporting of suspected adverse reactions Reporting suspected adverse reactions after authorisation of the medicinal product is important. It allows continued monitoring of the benefit/risk balance of the medicinal product. Any suspected adverse events should be reported to the Ministry of Health according to the National Regulation by using an online form https://sideeffects.health.gov.il)",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_3_357658526.pdf",
+    "updated_at": "2026-07-13",
+    "created_at": "2026-07-31",
+    "product": "ADVIL FORTE 400 / אדויל פורטה 400",
+    "reg_number": "145 20 32014 00",
+    "registry_url": "https://registries.health.gov.il/Medicines/3201400"
+   }
+  }
+ ]
+}

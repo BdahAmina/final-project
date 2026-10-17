@@ -1,0 +1,410 @@
+{
+ "id": "dailymed-ibuprofen-tablet",
+ "title": "Ibuprofen tablets (prescription) — prescribing information (FDA-submitted labeling)",
+ "publisher": "U.S. National Library of Medicine, DailyMed (labeling submitted to the U.S. FDA)",
+ "jurisdiction": "United States",
+ "population": "As stated in the label (adults; pediatric use per label)",
+ "medications": [
+  "ibuprofen"
+ ],
+ "type": "dailymed_spl",
+ "version": "SPL version 25",
+ "effective_date": "2026-10-07",
+ "label_title": "Ibuprofen Rx Tablets",
+ "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8804564c-9e1b-43c1-8b58-fd6ace645f00",
+ "retrieved_at": "2026-10-16T21:05:27Z",
+ "raw_sha256": "c5d78fa0e43ceca15ef1b6a8d4b91fae7968f8019b65cd7746f75d811ce5c0f9",
+ "passages_sha256": "3c99ce95f4863460277faa760c4281316e004d2d1d5f9dc3ede5898e78f98681",
+ "passages": [
+  {
+   "id": "dailymed-ibuprofen-tablet#34066-1-1",
+   "section": "BOXED WARNING > Cardiovascular Thrombotic Events",
+   "section_code": "34066-1",
+   "text": "Cardiovascular Thrombotic Events Non-steroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use (see WARNINGS and PRECAUTIONS) . Ibuprofen tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery (see CONTRAINDICATIONS and WARNINGS) ."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34066-1-2",
+   "section": "BOXED WARNING > Gastrointestinal Risk",
+   "section_code": "34066-1",
+   "text": "Gastrointestinal Risk NSAIDs cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients are at greater risk for serious gastrointestinal events (see WARNINGS )."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34067-9-3",
+   "section": "INDICATIONS AND USAGE",
+   "section_code": "34067-9",
+   "text": "Carefully consider the potential benefits and risks of ibuprofen tablets and other treatment options before deciding to use ibuprofen. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS ). Ibuprofen tablets are indicated for relief of the signs and symptoms of rheumatoid arthritis and osteoarthritis. Ibuprofen tablets are indicated for relief of mild to moderate pain. Ibuprofen tablets are also indicated for the treatment of primary dysmenorrhea. Controlled clinical trials to establish the safety and effectiveness of ibuprofen tablets in children have not been conducted."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34070-3-4",
+   "section": "CONTRAINDICATIONS",
+   "section_code": "34070-3",
+   "text": "Ibuprofen tablets are contraindicated in patients with known hypersensitivity to ibuprofen. Ibuprofen tablets should not be given to patients who have experienced asthma, urticarial, or allergic-type reactions after taking aspirin or other NSAIDs. Severe, rarely fatal, anaphylactic-like reactions to NSAIDs have been reported in such patients (see WARNINGS, Anaphylactoid Reactions and PRECAUTIONS, Preexisting Asthma ). Ibuprofen tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery (see WARNINGS )."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-5",
+   "section": "WARNINGS > Cardiovascular Effects",
+   "section_code": "34071-1",
+   "text": "Cardiovascular Effects"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-6",
+   "section": "WARNINGS > Cardiovascular Thrombotic Events",
+   "section_code": "34071-1",
+   "text": "Cardiovascular Thrombotic Events"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-7",
+   "section": "WARNINGS > Cardiovascular Thrombotic Events",
+   "section_code": "34071-1",
+   "text": "Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI) and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with and without known CV disease or risk factors for CV disease. However, patients with known CV disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events, due to their increased baseline rate. Some observational studies found that this increased risk of serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV thrombotic risk has been observed most consistently at higher doses."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-8",
+   "section": "WARNINGS > Cardiovascular Thrombotic Events",
+   "section_code": "34071-1",
+   "text": "To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms. Patients should be informed about the symptoms of serious CV events and the steps to take if they occur. There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, such as [active moiety], increases the risk of serious gastrointestinal (GI) events (see WARNINGS )."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-9",
+   "section": "WARNINGS > Status Post Coronary Artery Bypass Graft (CABG) Surgery",
+   "section_code": "34071-1",
+   "text": "Status Post Coronary Artery Bypass Graft (CABG) Surgery Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10 to 14 days following CABG surgery found an increased incidence of myocardial infarction and stroke. NSAIDs are contraindicated in the setting of CABG (see CONTRAINDICATIONS )."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-10",
+   "section": "WARNINGS > Post-MI Patients",
+   "section_code": "34071-1",
+   "text": "Post-MI Patients Observational studies conducted in the Danish National Registry have demonstrated that patients treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the incidence of death in the first year post MI was 20 per 100 person years in NSAID-treated patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years of follow-up."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-11",
+   "section": "WARNINGS > Post-MI Patients",
+   "section_code": "34071-1",
+   "text": "Avoid the use of Ibuprofen Tablets in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If Ibuprofen Tablets is used in patients with a recent MI, monitor patients for signs of cardiac ischemia."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-12",
+   "section": "WARNINGS > Hypertension",
+   "section_code": "34071-1",
+   "text": "Hypertension NSAIDs including ibuprofen tablets, can lead to onset of new hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking thiazides or loop diuretics may have impaired response to these therapies when taking NSAIDs. NSAIDs, including ibuprofen tablets, should be used with caution in patients with hypertension. Blood pressure (BP) should be monitored closely during the initiation of NSAID treatment and throughout the course of therapy."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-13",
+   "section": "WARNINGS > Heart Failure and Edema",
+   "section_code": "34071-1",
+   "text": "Heart Failure and Edema The Coxib and traditional NSAID Trialists’ Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebo-treated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death. Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs. Use of ibuprofen may blunt the CV effects of several therapeutic agents used to treat these medical conditions [e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers (ARBs)] [see Drug Interactions ]."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-14",
+   "section": "WARNINGS > Heart Failure and Edema",
+   "section_code": "34071-1",
+   "text": "Avoid the use of Ibuprofen Tablets in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If Ibuprofen Tablets is used in patients with severe heart failure, monitor patients for signs of worsening heart failure. Gastrointestinal Effects - Risk of Ulceration, Bleeding, and Perforation"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-15",
+   "section": "WARNINGS > Heart Failure and Edema",
+   "section_code": "34071-1",
+   "text": "NSAIDs, including ibuprofen tablets, can cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the stomach, small intestine or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients, who develop a serious upper GI adverse event on NSAID therapy, is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occur in approximately 1% of patients treated for 3 to 6 months, and in about 2 to 4% of patients treated for one year. These trends continue with longer duration of use, increasing the likelihood of developing a serious GI event at some time during the course of therapy. However, even short-term therapy is not without risk."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-16",
+   "section": "WARNINGS > Heart Failure and Edema",
+   "section_code": "34071-1",
+   "text": "NSAIDs should be prescribed with extreme caution in those with a prior history of ulcer disease or gastrointestinal bleeding. Patients with a prior history of peptic ulcer disease and/or gastrointestinal bleeding who use NSAIDs have a greater than 10-fold increased risk for developing a GI bleed compared to patients treated with neither of these risk factors. Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status. Most spontaneous reports of fatal GI events are in elderly or debilitated patients and therefore, special care should be taken in treating this population."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-17",
+   "section": "WARNINGS > Heart Failure and Edema",
+   "section_code": "34071-1",
+   "text": "To minimize the potential risk for an adverse GI event in patients treated with an NSAID, the lowest effective dose should be used for the shortest possible duration. Patients and physicians should remain alert for signs and symptoms of GI ulcerations and bleeding during NSAID therapy and promptly initiate additional evaluation and treatment if a serious GI event is suspected. This should include discontinuation of the NSAID until a serious GI adverse event is ruled out. For high-risk patients, alternate therapies that do not involve NSAIDs should be considered."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-18",
+   "section": "WARNINGS > Renal Effects",
+   "section_code": "34071-1",
+   "text": "Renal Effects Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-19",
+   "section": "WARNINGS > Advanced Renal Disease",
+   "section_code": "34071-1",
+   "text": "Advanced Renal Disease No information is available from controlled clinical studies regarding the use of ibuprofen tablets in patients with advanced renal disease. Therefore, treatment with ibuprofen tablets is not recommended in these patients with advanced renal disease. If ibuprofen tablet therapy must be initiated, close monitoring of the patients renal function is advisable."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-20",
+   "section": "WARNINGS > Anaphylactoid Reactions",
+   "section_code": "34071-1",
+   "text": "Anaphylactoid Reactions As with other NSAIDs, anaphylactoid reactions may occur in patients without known prior exposure to ibuprofen tablets. Ibuprofen tablets should not be given to patients with the aspirin triad. This symptom complex typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs (see CONTRAINDICATIONS and PRECAUTIONS, Preexisting Asthma ). Emergency help should be sought in cases where an anaphylactoid reaction occurs."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-21",
+   "section": "WARNINGS > Serious Skin Reactions",
+   "section_code": "34071-1",
+   "text": "Serious Skin Reactions NSAIDs, including ibuprofen, can cause serious skin adverse reactions such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. NSAIDs can also cause fixed drug eruption (FDE). FDE may present as a more severe variant known as generalized bullous fixed drug eruption (GBFDE), which can be life-threatening. These serious events may occur without warning. Inform patients about the signs and symptoms of serious skin reactions, and to discontinue the use of ibuprofen tablets at the first appearance of skin rash or any other sign of hypersensitivity. Ibuprofen tablets are contraindicated in patients with previous serious skin reactions to NSAIDs (see CONTRAINDICATIONS). Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-22",
+   "section": "WARNINGS > Serious Skin Reactions",
+   "section_code": "34071-1",
+   "text": "Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) has been reported in patients taking NSAIDs such as ibuprofen tablets. Some of these events have been fatal or life-threatening. DRESS typically, although not exclusively, presents with fever, rash, lymphadenopathy, and/or facial swelling. Other clinical manifestations may include hepatitis, nephritis, hematological abnormalities, myocarditis, or myositis. Sometimes symptoms of DRESS may resemble an acute viral infection. Eosinophilia is often present. Because this disorder is variable in its presentation, other organ systems not noted here may be involved. It is important to note that early manifestations of hypersensitivity, such as fever or lymphadenopathy, may be present even though rash is not evident. If such signs or symptoms are present, discontinue ibuprofen tablets and evaluate the patient immediately."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-23",
+   "section": "WARNINGS > Fetal Toxicity",
+   "section_code": "34071-1",
+   "text": "Fetal Toxicity Premature Closure of Fetal Ductus Arteriosus: Avoid use of NSAIDs, including ibuprofen tablets, in pregnant women at about 30 weeks gestation and later. NSAIDs including ibuprofen tablets, increase the risk of premature closure of the fetal ductus arteriosus at approximately this gestational age. Oligohydramnios/Neonatal Renal Impairment: Use of NSAIDs, including ibuprofen tablets, at about 20 weeks gestation or later in pregnancy may cause fetal renal dysfunction leading to oligohydramnios and, in some cases, neonatal renal impairment. These adverse outcomes are seen, on average, after days to weeks of treatment, although oligohydramnios has been infrequently reported as soon as 48 hours after NSAID initiation."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34071-1-24",
+   "section": "WARNINGS > Fetal Toxicity",
+   "section_code": "34071-1",
+   "text": "Oligohydramnios is often, but not always, reversible with treatment discontinuation. Complications of prolonged oligohydramnios may, for example, include limb contractures and delayed lung maturation. In some postmarketing cases of impaired neonatal renal function, invasive procedures such as exchange transfusion or dialysis were required. If NSAID treatment is necessary between about 20 weeks and 30 weeks gestation, limit ibuprofen tablets use to the lowest effective dose and shortest duration possible. Consider ultrasound monitoring of amniotic fluid if ibuprofen tablets treatment extends beyond 48 hours. Discontinue ibuprofen tablets if oligohydramnios occurs and follow up according to clinical practice [ see PRECAUTIONS; Pregnancy]."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-25",
+   "section": "PRECAUTIONS > General",
+   "section_code": "42232-9",
+   "text": "General Ibuprofen tablets cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to disease exacerbation. Patients on prolonged corticosteroid therapy should have their therapy tapered slowly if a decision is made to discontinue corticosteroids. The pharmacological activity of ibuprofen tablets in reducing fever and inflammation may diminish the utility of these diagnostic signs in detecting complications of presumed noninfectious, painful conditions."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-26",
+   "section": "PRECAUTIONS > Hepatic effects",
+   "section_code": "42232-9",
+   "text": "Hepatic effects Borderline elevations of one or more liver tests may occur in up to 15% of patients taking NSAIDs, including ibuprofen tablets. These laboratory abnormalities may progress, may remain unchanged, or maybe transient with continuing therapy. Notable elevations of ALT or AST (approximately three or more times the upper limit of normal) have been reported in approximately 1% of patients in clinical trials with NSAIDs. In addition, rare cases of severe hepatic reactions, including jaundice, fulminant hepatitis, liver necrosis, and hepatic failure, some of them with fatal outcomes have been reported."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-27",
+   "section": "PRECAUTIONS > Hepatic effects",
+   "section_code": "42232-9",
+   "text": "A patient with symptoms and/or signs suggesting liver dysfunction, or with abnormal liver test values, should be evaluated for evidence of the development of a more severe hepatic reaction while on therapy with ibuprofen tablets. If clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, etc.), ibuprofen tablets should be discontinued."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-28",
+   "section": "PRECAUTIONS > Hematological effects",
+   "section_code": "42232-9",
+   "text": "Hematological effects Anemia is sometimes seen in patients receiving NSAIDs, including ibuprofen tablets. This may be due to fluid retention, occult or gross GI blood loss, or an incompletely described effect upon erythropoiesis. Patients on long-term treatment with NSAIDs, including ibuprofen tablets, should have their hemoglobin or hematocrit checked if they exhibit any signs or symptoms of anemia. In two post marketing clinical studies the incidence of a decreased hemoglobin level was greater than previously reported. Decrease in hemoglobin of 1 gram or more was observed in 17.1% of 193 patients on 1,600 mg ibuprofen daily (osteoarthritis), and in 22.8% of 189 patients taking 2,400 mg of ibuprofen daily (rheumatoid arthritis). Positive stool occult blood tests and elevated serum creatinine levels were also observed in these studies."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-29",
+   "section": "PRECAUTIONS > Hematological effects",
+   "section_code": "42232-9",
+   "text": "NSAIDs inhibit platelet aggregation and have been shown to prolong bleeding time in some patients. Unlike aspirin, their effect on platelet function is quantitatively less, of shorter duration, and reversible. Patients receiving ibuprofen tablets who may be adversely affected by alterations in platelet function, such as those with coagulation disorders or patients receiving anticoagulants should be carefully monitored."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-30",
+   "section": "PRECAUTIONS > Preexisting asthma",
+   "section_code": "42232-9",
+   "text": "Preexisting asthma Patients with asthma may have aspirin-sensitive asthma. The use of aspirin in patients with aspirin-sensitive asthma has been associated with severe bronchospasm, which can be fatal. Since cross reactivity, including bronchospasm, between aspirin and NSAIDs has been reported in such aspirin-sensitive patients, ibuprofen tablets should not be administered to patients with this form of aspirin sensitivity and should be used with caution in patients with preexisting asthma."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-31",
+   "section": "PRECAUTIONS > Ophthalmological effects",
+   "section_code": "42232-9",
+   "text": "Ophthalmological effects Blurred and/or diminished vision, scotomata, and/or changes in color vision have been reported. If a patient develops such complaints while receiving ibuprofen tablets, the drug should be discontinued, and the patient should have an ophthalmologic examination which includes central visual fields and color vision testing."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-32",
+   "section": "PRECAUTIONS > Aseptic Meningitis",
+   "section_code": "42232-9",
+   "text": "Aseptic Meningitis Aseptic meningitis with fever and coma has been observed on rare occasions in patients on ibuprofen therapy. Although it is probably more likely to occur in patients with systemic lupus erythematosus and related connective tissue diseases, it has been reported in patients who do not have an underlying chronic disease. If signs or symptoms of meningitis develop in a patient on ibuprofen tablets, the possibility of its being related to ibuprofen tablets should be considered."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-33",
+   "section": "PRECAUTIONS > Information for Patients",
+   "section_code": "42232-9",
+   "text": "Information for Patients Patients should be informed of the following information before initiating therapy with an NSAID and periodically during the course of ongoing therapy. Patients should also be encouraged to read the NSAID Medication Guide that accompanies each prescription dispensed."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-34",
+   "section": "PRECAUTIONS > Cardiovascular Thrombotic Events",
+   "section_code": "42232-9",
+   "text": "Cardiovascular Thrombotic Events Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to their health care provider immediately (see WARNINGS). Ibuprofen tablets like other NSAIDs, may cause serious CV side effects, such as MI or stroke, which may result in hospitalization and even death. Although serious CV events can occur without warning symptoms, patients should be alert for the signs and symptoms of chest pain, shortness of breath, weakness, slurring of speech, and should ask for medical advice when observing any indicative sign or symptoms. Patients should be apprised of the importance of this follow-up (see WARNINGS, Cardiovascular Effects)."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-35",
+   "section": "PRECAUTIONS > Cardiovascular Thrombotic Events",
+   "section_code": "42232-9",
+   "text": "Ibuprofen tablets, like other NSAIDs, can cause GI discomfort, and rarely, serious GI side effects, such as ulcers and bleeding, which may result in hospitalization and even death. Although serious GI tract ulcerations and bleeding can occur without warning symptoms, patients should be alert for the signs and symptoms of ulcerations and bleeding, and should ask for medical advice when observing any indicative signs or symptoms including epigastric pain, dyspepsia, melena, and hematemesis. Patients should be apprised of the importance of this follow-up (see WARNINGS , Gastrointestinal Effects-Risk of Ulceration, Bleeding and Perforation). Serious skin Reaction, including DRESS Advise patients to stop taking ibuprofen tablets immediately if they develop any type of rash or fever and to contact their healthcare provider as soon as possible [see Warnings ]."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-36",
+   "section": "PRECAUTIONS > Heart Failure and Edema",
+   "section_code": "42232-9",
+   "text": "Heart Failure and Edema Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur (see WARNINGS). Patients should be informed of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, jaundice, right upper quadrant tenderness and “flu-like” symptoms). If these occur, patients should be instructed to stop therapy and seek immediate medical therapy. Patients should be informed of the signs of an anaphylactoid reaction (e.g. difficulty breathing, swelling of the face or throat). If these occur, patients should be instructed to seek immediate emergency help (see WARNINGS)."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-37",
+   "section": "PRECAUTIONS > Heart Failure and Edema > Fetal Toxicity",
+   "section_code": "42232-9",
+   "text": "Fetal Toxicity Inform pregnant women to avoid use of ibuprofen tablets and other NSAIDs starting at 30 weeks gestation because of the risk of the premature closing of the fetal ductus arteriosus. If treatment with ibuprofen tablets is needed for a pregnant woman between about 20 to 30 weeks gestation, advise her that she may need to be monitored for oligohydramnios, if treatment continues for longer than 48 hours [ see WARNINGS; Fetal Toxicity, PRECAUTIONS; Pregnancy ] . ​"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#42232-9-38",
+   "section": "PRECAUTIONS > Laboratory Tests",
+   "section_code": "42232-9",
+   "text": "Laboratory Tests Because serious GI tract ulcerations and bleeding can occur without warning symptoms, physicians should monitor for signs or symptoms of GI bleeding. Patients on long-term treatment with NSAIDs should have their CBC and chemistry profile checked periodically. If clinical signs and symptoms consistent with liver or renal disease develop, systemic manifestations occur. (e.g.,eosinophilia, rash etc.), or abnormal liver tests persist or worsen, ibuprofen tablets should be discontinued."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-39",
+   "section": "DRUG INTERACTION > ACE-inhibitors",
+   "section_code": "34073-7",
+   "text": "ACE-inhibitors Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE-inhibitors. This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE-inhibitors."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-40",
+   "section": "DRUG INTERACTION > Aspirin",
+   "section_code": "34073-7",
+   "text": "Aspirin Pharmacodynamic studies have demonstrated interference with the antiplatelet activity of aspirin when ibuprofen 400 mg, given three times daily, is administered with enteric coated low-dose aspirin. The interaction exists even following a once-daily regimen of ibuprofen 400 mg, particularly when ibuprofen is dosed prior to aspirin. The interaction is alleviated if immediate-release low-dose aspirin is dosed at least 2 hours prior to a once daily regimen of ibuprofen; however, this finding cannot be extended to enteric-coated low-dose aspirin [see Clinical Pharmacology /Pharmacodynamics]."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-41",
+   "section": "DRUG INTERACTION > Aspirin",
+   "section_code": "34073-7",
+   "text": "Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardio protection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate. When ibuprofen tablets are administered with aspirin, its protein binding is reduced, although the clearance of free ibuprofen tablets is not altered. The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of ibuprofen and aspirin is not generally recommended because of the potential for increased adverse effects."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-42",
+   "section": "DRUG INTERACTION > Diuretics",
+   "section_code": "34073-7",
+   "text": "Diuretics Clinical studies, as well as postmarketing observations, have shown that ibuprofen tablets can reduce the natriuretic effect-of furosemide and thiazides in some patients. This response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy with NSAIDs, the patient should be observed closely for signs of renal failure (see WARNINGS , Renal Effects), as well as to assure diuretic efficacy."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-43",
+   "section": "DRUG INTERACTION > Lithium",
+   "section_code": "34073-7",
+   "text": "Lithium Ibuprofen produced an elevation of plasma lithium levels and a reduction in renal lithium clearance in a study of eleven normal volunteers. The mean minimum lithium concentration increased 15% and the renal clearance of lithium was decreased by 19% during this period of concomitant drug administration. This effect has been attributed to inhibition of renal prostaglandin synthesis by ibuprofen. Thus, when ibuprofen and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity. (Read circulars for lithium preparation before use of such concurrent therapy.)"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-44",
+   "section": "DRUG INTERACTION > Methotrexate",
+   "section_code": "34073-7",
+   "text": "Methotrexate NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices. This may indicate that they could enhance the toxicity of methotrexate. Caution should be used when NSAIDs are administered concomitantly with methotrexate."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-45",
+   "section": "DRUG INTERACTION > Warfarin-type anticoagulants",
+   "section_code": "34073-7",
+   "text": "Warfarin-type anticoagulants Several short-term controlled studies failed to show that ibuprofen tablets significantly affected prothrombin times or a variety of other clotting factors when administered to individuals on coumarin-type anticoagulants. However, because bleeding has been reported when ibuprofen tablets and other NSAIDs have been administered to patients on coumarin-type anticoagulants, the physician should be cautious when administering ibuprofen tablets to patients on anticoagulants. The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that the users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-46",
+   "section": "DRUG INTERACTION > H-2 Antagonists",
+   "section_code": "34073-7",
+   "text": "H-2 Antagonists In studies with human volunteers, co-administration of cimetidine or ranitidine with ibuprofen had no substantive effect on ibuprofen serum concentrations. Pregnancy"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-47",
+   "section": "DRUG INTERACTION > Pregnancy > Risk Summary",
+   "section_code": "34073-7",
+   "text": "Risk Summary Use of NSAIDs, including ibuprofen tablets, can cause premature closure of the fetal ductus arteriosus and fetal renal dysfunction leading to oligohydramnios and, in some cases, neonatal renal impairment. Because of these risks, limit dose and duration of ibuprofen tablets use between about 20 and 30 weeks of gestation, and avoid ibuprofen tablets use at about 30 weeks of gestation and later in pregnancy [ see WARNINGS; Fetal Toxicity ]. The estimated background risk of major birth defects and miscarriage for the indicated population(s) is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-48",
+   "section": "DRUG INTERACTION > Pregnancy > Premature Closure of Fetal Ductus Arteriosus",
+   "section_code": "34073-7",
+   "text": "Premature Closure of Fetal Ductus Arteriosus Use of NSAIDs, including ibuprofen tablets, at about 30 weeks gestation or later in pregnancy increases the risk of premature closure of the fetal ductus arteriosus."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-49",
+   "section": "DRUG INTERACTION > Pregnancy > Oligohydramnios/Neonatal Renal Impairment",
+   "section_code": "34073-7",
+   "text": "Oligohydramnios/Neonatal Renal Impairment Use of NSAIDs at about 20 weeks gestation or later in pregnancy has been associated with cases of fetal renal dysfunction leading to oligohydramnios, and in some cases, neonatal renal impairment. Data from observational studies regarding other potential embryo fetal risks of NSAID use in women in the first or second trimesters of pregnancy are inconclusive. In animal reproductive studies conducted in rats and rabbits have not demonstrated evidence of developmental abnormalities. However, animal reproduction studies are not always predictive of human response. There are no adequate and well-controlled studies in pregnant women. Ibuprofen should be used in pregnancy only if the potential benefit justifies the potential risk to the fetus."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-50",
+   "section": "DRUG INTERACTION > Pregnancy > Oligohydramnios/Neonatal Renal Impairment",
+   "section_code": "34073-7",
+   "text": "Based on animal data, prostaglandins have been shown to have an important role in endometrial vascular permeability, blastocyst implantation, and decidualization. In animal studies, administration of prostaglandin synthesis inhibitors such as ibuprofen, resulted in increased pre- and post-implantation loss. Prostaglandins also have been shown to have an important role in fetal kidney development. In published animal studies, prostaglandin synthesis inhibitors have been reported to impair kidney development when administered at clinically relevant doses. Clinical Considerations"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-51",
+   "section": "DRUG INTERACTION > Pregnancy > Fetal/Neonatal Adverse Reactions",
+   "section_code": "34073-7",
+   "text": "Fetal/Neonatal Adverse Reactions Premature Closure of Fetal Ductus Arteriosus: Avoid use of NSAIDs in women at about 30 weeks gestation and later in pregnancy, because NSAIDs, including ibuprofen tablets, can cause premature closure of the fetal ductus arteriosus (see WARNINGS; Fetal Toxicity) ."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-52",
+   "section": "DRUG INTERACTION > Pregnancy > Oligohydramnios/Neonatal Renal Impairment",
+   "section_code": "34073-7",
+   "text": "Oligohydramnios/Neonatal Renal Impairment If an NSAID is necessary at about 20 weeks gestation or later in pregnancy, limit the use to the lowest effective dose and shortest duration possible. If ibuprofen tablets treatment extends beyond 48 hours, consider monitoring with ultrasound for oligohydramnios. If oligohydramnios occurs, discontinue ibuprofen tablets and follow up according to clinical practice (see WARNINGS; Fetal Toxicity) . Data"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-53",
+   "section": "DRUG INTERACTION > Pregnancy > Human Data",
+   "section_code": "34073-7",
+   "text": "Human Data Premature Closure of Fetal Ductus Arteriosus: Published literature reports that the use of NSAIDs at about 30 weeks of gestation and later in pregnancy may cause premature closure of the fetal ductus arteriosus. Oligohydramnios/Neonatal Renal Impairment:"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-54",
+   "section": "DRUG INTERACTION > Pregnancy > Human Data",
+   "section_code": "34073-7",
+   "text": "Published studies and postmarketing reports describe maternal NSAID use at about 20 weeks gestation or later in pregnancy associated with fetal renal dysfunction leading to oligohydramnios, and in some cases, neonatal renal impairment. These adverse outcomes are seen, on average, after days to weeks of treatment, although oligohydramnios has been infrequently reported as soon as 48 hours after NSAID initiation. In many cases, but not all, the decrease in amniotic fluid was transient and reversible with cessation of the drug. There have been a limited number of case reports of maternal NSAID use and neonatal renal dysfunction without oligohydramnios, some of which were irreversible. Some cases of neonatal renal dysfunction required treatment with invasive procedures, such as exchange transfusion or dialysis."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-55",
+   "section": "DRUG INTERACTION > Pregnancy > Human Data",
+   "section_code": "34073-7",
+   "text": "Methodological limitations of these postmarketing studies and reports include lack of a control group; limited information regarding dose, duration, and timing of drug exposure; and concomitant use of other medications. These limitations preclude establishing a reliable estimate of the risk of adverse fetal and neonatal outcomes with maternal NSAID use. Because the published safety data on neonatal outcomes involved mostly preterm infants, the generalizability of certain reported risks to the full-term infant exposed to NSAIDs through maternal use is uncertain."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-56",
+   "section": "DRUG INTERACTION > Labor and Delivery",
+   "section_code": "34073-7",
+   "text": "Labor and Delivery In rat studies with NSAIDs, as with other drugs known to inhibit prostaglandin synthesis, an increased incidence of dystocia, delayed parturition, and decreased pup survival occurred. The effects of ibuprofen tablets on labor and delivery in pregnant women are unknown."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-57",
+   "section": "DRUG INTERACTION > Nursing Mothers",
+   "section_code": "34073-7",
+   "text": "Nursing Mothers It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human-milk and because of the potential for serious adverse reactions in nursing infants from ibuprofen tablets, a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the importance of the drug to the mother."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-58",
+   "section": "DRUG INTERACTION > Pediatric Use",
+   "section_code": "34073-7",
+   "text": "Pediatric Use Safety and effectiveness of ibuprofen tablets in pediatric patients have not been established."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34073-7-59",
+   "section": "DRUG INTERACTION > Geriatric Use",
+   "section_code": "34073-7",
+   "text": "Geriatric Use As with any NSAIDs, caution should be exercised in treating the elderly (65 years and older)."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34084-4-60",
+   "section": "ADVERSE REACTIONS",
+   "section_code": "34084-4",
+   "text": "The most frequent type of adverse reaction occurring with ibuprofen tablets is gastrointestinal. In controlled clinical trials the percentage of patients reporting one or more gastrointestinal complaints ranged from 4% to 16%. In controlled studies when ibuprofen tablets were compared to aspirin and indomethacin in equally effective doses, the overall incidence of gastrointestinal complaints was about half that seen in either the aspirin or indomethacin treated patients. Adverse reactions observed during controlled clinical trials at an incidence greater than 1% are listed in the table. Those reactions listed in Column one encompass observations in approximately 3,000 patients. More than 500 of these patients were treated for periods of at least 54 weeks."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34084-4-61",
+   "section": "ADVERSE REACTIONS",
+   "section_code": "34084-4",
+   "text": "Still other reactions occurring less frequently than 1 in 100 were reported in controlled clinical trials and from marketing experience. These reactions have been divided into two categories: Column two of the table lists reactions with therapy with ibuprofen tablets where the probability of a causal relationship exists: for the reactions in Column three, a causal relationship with ibuprofen tablets has not been established. Reported side effects were higher at doses of 3,200 mg/day than at doses of 2,400 mg or less per day in clinical trials of patients with rheumatoid arthritis. The increases in incidence were slight and still within the ranges reported in the table."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34084-4-62",
+   "section": "ADVERSE REACTIONS",
+   "section_code": "34084-4",
+   "text": "Incidence Greater than 1% (but less than 3%) Probable Causal Relationship* Precise Incidence Unknown (but less than 1%) Probable Causal Relationship** Precise Incidence Unknown (but less than 1%) Causal Relationship Unknown** GASTROINTESTINAL Nausea*, epigastric pain*, heartburn*, diarrhea, abdominal distress, nausea and vomiting, indigestion, constipation, abdominal cramps or pain, fullness of Gl tract (bloating and flatulence) Gastric or duodenal ulcer with bleeding and/or perforation, gastrointestinal hemorrhage, melena, gastritis, hepatitis, jaundice, abnormal liver function tests; pancreatitis CENTRAL NERVOUS SYSTEM Dizziness*, headache, nervousness Depression, insomnia, confusion, emotional liability, somnolence, aseptic meningitis with fever and coma (see PRECAUTIONS ) Paresthesias, hallucinations, dream abnormalities, pseudotumor cerebri DERMATOLOGIC Rash*, (including maculopapul"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34084-4-63",
+   "section": "ADVERSE REACTIONS",
+   "section_code": "34084-4",
+   "text": "ar type), pruritus Vesiculobullous eruptions, urticaria, erythema multiforme, Stevens-Johnson syndrome, alopecia Toxic epidermal necrolysis, photoallergic skin reactions SPECIAL SENSES Tinnitus Hearing loss, amblyopia (blurred and/or diminished vision, scotomata and/or changes in color vision) (see PRECAUTIONS ) Conjunctivitis, diplopia, optic neuritis, cataracts HEMATOLOGIC Neutropenia, agranulocytosis, aplastic anemia, hemolytic anemia (sometimes Coombs positive), thrombocytopenia with or without purpura, eosinophilia, decreases in hemoglobin and hematocrit (see PRECAUTIONS ) Bleeding episodes (e.g., epistaxis, menorrhagia) METABOLIC/ENDOCRINE Decreased appetite Gynecomastia, hypoglycemic reaction, acidosis CARDIOVASCULAR Edema, fluid retention (generally responds promptly to drug discontinuation) (see PRECAUTIONS) Congestive heart failure in patients with marginal cardiac function, elevate blood pressure, palpitations Arrhythmias (sinus tachycardia, sinus bradycardia) ALLERGIC Syndrome of abdominal pain, fever, chills, nausea and vomiting; anaphylaxis; bronchospasm (see CONTRAINDICATIONS ) Serum sickness, lupus erythematosus syndrome. Henoch-Schonlein vasculitis, angioedema RENAL Acute renal failure (see PRECAUTIONS ), decreased creatinine clearance, polyuria, azotemia, cystitis, Hematuria Renal papillary necrosis MISCELLANEOUS Dry eyes and mouth, gingival ulcer, rhinitis"
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34084-4-64",
+   "section": "ADVERSE REACTIONS",
+   "section_code": "34084-4",
+   "text": "* Reactions occurring in 3% to 9% of patients treated with ibuprofen. (Those reactions occurring in less than 3% of the patients are unmarked). **Reactions are classified under “Probable Causal Relationship (PCR)” if there has been one positive rechallenge or if three or more cases occur which might be causally related. Reactions are classified under “Causal Relationship Unknown” if seven or more events have been reported but the criteria for PCR have not been met."
+  },
+  {
+   "id": "dailymed-ibuprofen-tablet#34084-4-65",
+   "section": "ADVERSE REACTIONS > Postmarketing Experience",
+   "section_code": "34084-4",
+   "text": "Postmarketing Experience The following adverse reactions have been identified during postapproval use of ibuprofen. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Skin and Appendages: Exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), toxic epidermal necrolysis (TEN), and fixed drug eruption (FDE)."
+  }
+ ]
+}

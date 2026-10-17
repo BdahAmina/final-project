@@ -1,0 +1,563 @@
+{
+ "id": "il-moh-registry-acetaminophen",
+ "title": "Paracetamol — Israeli registered product leaflets (Ministry of Health medicines registry)",
+ "publisher": "משרד הבריאות — מאגר התרופות (Israel Ministry of Health, medicines registry)",
+ "jurisdiction": "Israel",
+ "population": "As stated in the leaflet of the registered product",
+ "medications": [
+  "acetaminophen"
+ ],
+ "type": "il_moh_registry",
+ "audience": null,
+ "language": null,
+ "version": "registry 181 53 38471 99 · leaflets updated 2026-06-02",
+ "effective_date": "2026-06-02",
+ "url": "https://registries.health.gov.il/Medicines/3847100",
+ "organization": "משרד הבריאות — מאגר התרופות (אגף הרוקחות)",
+ "product": "TIPTIPOT NOVIMOL ORANGE",
+ "retrieved_at": "2026-10-17T11:33:54Z",
+ "raw_sha256": "b59817d8bf0ae219fed7849a0bf1ee4341fa1d0d51a2ce48b469134942a16926",
+ "passages_sha256": "75457945aadba7591d22e5b3e4a11bddbbf38456095d93795888bfefe6167714",
+ "passages": [
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-1",
+   "section": "עלון לצרכן · 1. What is the medicine intended for?",
+   "section_code": "consumer_leaflet",
+   "text": "The medicine is intended to relieve pain and reduce fever. Therapeutic class: analgesic and antipyretic.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-2",
+   "section": "עלון לצרכן · 2. Before using the medicine:",
+   "section_code": "consumer_leaflet",
+   "text": "Do not use this medicine if: • There is a known sensitivity to paracetamol or to any of the other ingredients the medicine contains (see section 6) • The patient suffers from severe hemolytic anemia (a disease caused by the destruction of red blood cells) • The patient suffers from severe liver disease (severe liver failure) Special warnings regarding the use of the medicine: Consult a doctor or pharmacist before treatment with the medicine. Use with caution in cases in which the patient: • Suffers from bulimia ( an eating disorder which involves episodes of binge eating followed by purging efforts) • Suffers from cachexia (a condition characterized by extreme thinness, reduced muscle mass and thinning of the skin caused by a chronic illness) • Follows an unbalanced diet for a long time ( chronic malnutrition) • Is dehydrated (severe loss of water/fluids in the body)",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-3",
+   "section": "עלון לצרכן · 2. Before using the medicine:",
+   "section_code": "consumer_leaflet",
+   "text": "• Suffers from low blood volume (hypovolemia) • Suffers from liver diseases that impair liver function ( liver damage, jaundice, Gilbert’s syndrome) • Concomitantly takes medicines that affect liver function (see “Drug interactions” below in this section) • Suffers from G6PD deficiency (a substance normally present in the body, a shortage of which can cause a blood disorder) • Suffers from hemolytic anemia ( a disease caused by the destruction of red blood cells) While using the medicine, inform the doctor straight away in case of severe illness, including severe kidney impairment or sepsis ( when bacteria and their toxins penetrate into the bloodstream leading to organ damage), malnutrition, chronic alcoholism or if you are taking flucloxacillin ( an antibiotic). A serious condition called metabolic acidosis (a blood and fluid abnormality) has been reported in patients in the situations",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-4",
+   "section": "עלון לצרכן · 2. Before using the medicine:",
+   "section_code": "consumer_leaflet",
+   "text": "listed when paracetamol is used at regular doses for prolonged periods or when paracetamol is taken together with flucloxacillin. Symptoms of metabolic acidosis may include: severe breathing difficulties with deep and rapid breathing, tiredness, nausea and vomiting. The use of this medicine in high doses and/or for prolonged periods can cause liver disorders (liver disease), kidney disorders and changes in the blood, some of which are serious. When used in this way, the doctor will perform tests to monitor liver and kidney function and blood composition over time. Before using the medicine in children, inform the doctor if the child suffers from any liver or kidney disorders. Tests and follow-up: The administration of paracetamol can interfere with the determination of uricemia and glycemia in blood tests. Drug interactions: If you are taking, or have recently taken, other medicines",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-5",
+   "section": "עלון לצרכן · 2. Before using the medicine:",
+   "section_code": "consumer_leaflet",
+   "text": "including non-prescription medicines and nutritional supplements, tell the doctor or the pharmacist. Especially if you are taking: • Medicines containing paracetamol. While using paracetamol, before giving the child any medicine, check that it does not contain paracetamol, in order to avoid high doses of paracetamol which can cause serious side effects. • Medicines that slow the emptying of the stomach (such as anticholinergic medicines, opioids) – delay the effect of Tiptipot Novimol. • Medicines that accelerate the emptying of the stomach (such as prokinetics) – accelerate the effect of Tiptipot Novimol. • Cholestyramine (a medicine for reducing cholesterol in the blood) – reduces the effect of paracetamol. • Chloramphenicol (an antibiotic) – may increase the risk of side effects. • Medicines against blood clotting. When these are being",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-6",
+   "section": "עלון לצרכן · 2. Before using the medicine:",
+   "section_code": "consumer_leaflet",
+   "text": "used, especially in case of prolonged treatment and high doses of paracetamol (4 grams per day for at least 4 days), Tiptipot Novimol can be given only under strict medical supervision. • Medicines or preparations that change liver function during chronic treatment, such as: ○ Rifampicin (an antibiotic) ○ Cimetidine (a medicine for treatment of stomach ulcers) ○ Anti-epileptic medicines such as glutethimide, phenobarbital or carbamazepine ○ Zidovudine (a medicine for treatment of HIV) ○ Flucloxacillin (an antibiotic), due to the serious risk of blood and fluid abnormality (high anion gap metabolic acidosis) which requires urgent treatment. Using these medicines together with Tiptipot Novimol requires close medical supervision. Pregnancy, breastfeeding and fertility: If you are pregnant or breastfeeding, consult a doctor before you start using the medicine. Use in children:",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-7",
+   "section": "עלון לצרכן · 2. Before using the medicine:",
+   "section_code": "consumer_leaflet",
+   "text": "Parents must inform the doctor about any side effects and any additional medicine given to the child. Important information about some of the ingredients of the medicine: This medicine contains 140 mg of sorbitol in each 1 ml. Sorbitol is a source of fructose. If there is a known intolerance to certain sugars, or a diagnosis of hereditary fructose intolerance (a rare hereditary disorder in which a person cannot break down fructose), consult with the doctor before taking this medicine. This medicine contains 1 mg of sodium benzoate in each 1 ml. Sodium benzoate may increase jaundice (yellowing of the skin and eyes) in infants up to 4 weeks of age. This medicine contains less than 23 mg of sodium per 1 ml, and is therefore considered sodium-free. Tiptipot Novimol Orange contains sunset yellow which may cause allergic reactions. Tiptipot Novimol Strawberry contains 2.25 mg propylene",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-8",
+   "section": "עלון לצרכן · 2. Before using the medicine:",
+   "section_code": "consumer_leaflet",
+   "text": "glycol in each 1 ml. In infants under 4 weeks of age, consult a doctor or pharmacist before using the preparation, especially if the infant is being treated with additional medicines containing propylene glycol or alcohol . In addition, the medicine contains FD&C Red No. 40 which may cause allergic reactions.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-9",
+   "section": "עלון לצרכן · 4. Side effects",
+   "section_code": "consumer_leaflet",
+   "text": "As with any medicine, use of Tiptipot Novimol may cause side effects, such as dizziness, in some users. Do not be alarmed when reading the list of side effects. You may not experience any of them. Stop using the medicine and refer to a doctor immediately if you experience allergic reactions with: • Redness of the skin accompanied by itching (hives) • Swelling of the throat • Swelling of the hands, feet, ankles, face, lips, tongue and/or throat (angioedema) • Severe allergic reactions (anaphylactic shock). Additional side effects with unknown frequency Effects involving the blood • Decrease in blood platelet count (thrombocytopenia) • Decrease in white blood cell count (leukopenia/agranulocytosis) • Reduced hemoglobin, the substance responsible for transporting oxygen in the blood (anemia). Effects involving the nervous system • Vertigo. Effects involving the stomach and digestive system",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-10",
+   "section": "עלון לצרכן · 4. Side effects",
+   "section_code": "consumer_leaflet",
+   "text": "• Stomach and bowel disorders. Effects involving the liver • Impaired liver function • Inflammation of the liver (hepatitis). Effects involving the skin and subcutaneous tissue • Red spots, blisters with areas of skin detachment, blisters, skin rash (erythema multiforme, Stevens-Johnson syndrome, toxic epidermal necrolysis). Serious skin reactions have been reported very rarely. Effects involving the kidney and urinary tract • Impaired kidney function ( acute kidney failure) • Kidney inflammation • Blood in the urine • Reduced or cessation of urine production. A serious condition that can make the blood more acidic (called metabolic acidosis), in patients with a serious disease taking paracetamol (see section 2). If a side effect occurs, if one of the side effects worsens, or if you suffer from a side effect not mentioned in this leaflet, consult the doctor.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-en-11",
+   "section": "עלון לצרכן · 4. Side effects",
+   "section_code": "consumer_leaflet",
+   "text": "Side effects may be reported to the Ministry of Health by clicking on the link “ Report side effects due to medicinal treatment” found on the Ministry of Health website homepage (www.health.gov.il), which will direct you to the online form for reporting side effects, or via the following link: https://sideeffects.health.gov.il",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_279711726.pdf",
+    "updated_at": "2026-06-02",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-he-12",
+   "section": "עלון לצרכן · 1 . למה מיועדת התרופה?",
+   "section_code": "consumer_leaflet",
+   "text": "יםלשיכוך כאב מיועדת התרופה ולהורדת חום . קבוצה תרפויטית:משכך כאבים ומוריד חום.",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911426.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-he-13",
+   "section": "עלון לצרכן · 2 . : לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": ": אםרופה אין להשתמש בת • ם מרכיביהאחד מכל ידועה רגישות לפראצטמול או ל הנוספים אשר מכילה התרופה )ראה סעיף 6 ( • המטופל המוליטיתסובל מאנמיה מחלהחמורה ) הנגרמת מהרס כדוריות דם אדומות ( • המטופל ספיקת סובל ממחלת כבד חמורה )אי כבד חמורה ( ש בתרופה ושימל אזהרות מיוחדות הנוגעות : לפנייש להיוועץ ברופא או ברוקח יש תרופה. בהטיפול בהםלהשתמש בזהירות במקרים המטופל : • סובל אכילהמבולימיה )הפרעת מאמצי בה ישנם התקפי זלילה ולאחריהם התרוקנות( • סובל מצבכיחשון )מ ןהמאופיינ והידקקותברזון קיצוני, מסת שריר מופחתת של העור הנגרמים ממחלה כרונית ( • בדיאטה לא מאוזנת במשך תקופה ארוכה תת ) תזונה כרונית( • מיובש חמור )איבוד של מים/בגוף נוזלים ( • סובל מנפח דם מופחת היפוולמיה)( • סובל פגיעהממחלות כבד הפוגעות בתפקוד הכבד ) גילברטבכבד, צהבת, תסמונת ( • נוטל ביןבמקביל תרופות המשפיעות על תפקודי הכבד )ראה \"אינטראקציות/תגובות \" בהמשך סעיף זהתרופתיות(",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911426.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-he-14",
+   "section": "עלון לצרכן · 2 . : לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "• סובל מחסר ב- G6PD )חומר אשר במצב תקין קיים בגוף, ואשר מחסור בו יכול לגרום להפרעה בדם( • סובל המוליטית מאנמיה )מחלה הנגרמת מהרס כדוריות דם אדומות( יש במהלך שימוש בתרופה, יש לידע את הרופא מיד אם רבות תחלואה חמורה, ל יתיליקוי כלי חמור או תת אלח דם )כאשר חיידקים והרעלנים שלהם חודרים למחזור הדם וגורמים לנזק באיברים(, תזונה, פלוקלוקסציליןאלכוהוליזם כרוני או אם נוטלים )אי מצב חמור הנקרא חמצת מטבולית )אנטיביוטיקה(. צטמול אתקינות בנוזלים ובדם( דווח במטופלים במצבים המפורטים הללו כאשר נעשה שימוש בפר . תסמינים פלוקלוקסציליןצטמול יחד עם אבמינונים רגילים למשך תקופות ממושכות או כאשר נוטלים פר של חמצת מטבולית עשויים לכלול: קשיי נשימה חמורים עם נשימה עמוקה ומהירה, עייפות, בחילה והקאות. ממושכות תקופות למשךאו / ו גבוהים במינונים שימוש הפרעותלבתרופה זו יכול לגרום בכבד )מחלת כבד( ובכליה שינוייםל ו בשימוש בדם, שחלקם חמורים. הרופא, שכזה יבצע בדיקות לניטור תפקודי",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911426.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-he-15",
+   "section": "עלון לצרכן · 2 . : לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "הכבד והכליות לפני ולהרכב הדם במשך הזמן. שימוש בתרופה יש, בילדים לדווח לרופא אם הילד סובל מהפרעות כלשהן בכבד או בכליות . : בדיקות ומעקב מתן פראצטמול יכול אוריצמיהלהפריע בקביעת וגליקמיה בבדיקות דם . 2 / תגובות בין תרופתיות: אינטראקציות על , ספר תזונהכולל תרופות ללא מרשם ותוספי תרופות אחרות לאחרונה,לקחת או אם , אם אתה לוקח כך לרופא או לרוקח. אם אתה לוקח במיוחד : • פראצטמולהמכילות תרופות. במהלך שימוש בפראצטמול, לפני מתן תרופה כלשהי לילד, יש לבדוק שאינה מכילה פראצטמול, כדי להימנע ממינוני פראצטמול גבוהים שיכולים לגרום לתופעות לוואי חמורות. • הקיבה ריקון את המאטות תרופות )כגון תרופות אנטיכולינרגיות, אופיואידים( - דוחות את השפעת טיפטיפות נובימול. • הקיבה ריקוןהמאיצות את תרופות פרוקינטיות)כגון - ( מאיצות טיפטיפות את השפעת נובימול. • כולסטירמין )תרופה להפחתת כולסטרול בדם( -מפחיתה את השפעת פראצטמול. • כלורמפניקול )אנטיביוטיקה( -עלולה להגביר את הסיכון לתופעות לוואי .",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911426.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-he-16",
+   "section": "עלון לצרכן · 2 . : לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "• דם קרישת נגד תרופות . , במיוחד בטיפול ממושך ובמינונים גבוהים של פראצטמול )בשימוש בהן 4 גרם ליום במשך 4 .ימים לפחות(, ניתן לתת טיפטיפות נובימול רק תחת השגחה רפואית קפדנית • במהלך טיפול כרוני כבדה תפקודי את המשנים תכשירים או תרופות , כגון: o ריפמפיצין )אנטיביוטיקה( o סימטידין )תרופה לטיפול בכיב בקיבה( o פנוברביטל, גלוטטימיד כגון תרופות לאפילפסיה קרבמזפין או o ודין ב זידו )תרופה לטיפול ב HIV ( o פלוקלוקסצילין , בשל הסיכון החמור לאי תקינות בדם ובנוזלים )חמצת מטבולית )אנטיביוטיקה( עם מרווח אניוני גבוה( המחייב טיפול בהול השגחה רפואית צמודה. מחייב השימוש בתרופות אלה יחד עם טיפטיפות נובימול ופוריות הנקה , ריוןיה : ריון או מניקה יש להיוועץ ברופא לפני התחלת השימוש בתרופה. י נך בהיאם ה שימוש בילדים: לוואי וכן על כל תרופה נוספת הניתנת לילד. ה על ההורים לדווח לרופא המטפל על כל תופעות מידע חשוב על חלק מהמרכיבים של התרופה:",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911426.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-he-17",
+   "section": "עלון לצרכן · 2 . : לפני השימוש בתרופה",
+   "section_code": "consumer_leaflet",
+   "text": "התרופה מכילה 140 סורביטולמ\"ג בכל 1 .מ\"ל סורביטול הינו מקור לפרוקטוז. באם ידועה אי סבילות לסוכרים מסוימים או באם קיימת אבחנה של אי סבילות תורשתית לפרוקטוז )הפרעה תורשתית נדירה שבה , יש להיוועץ ברופא טרם נטילת התרופה. אדם אינו מסוגל לפרק פרוקטוז( התרופה מכילה 1 מ\"ג נתרן בנזואט בכל1 . מ\"ל נתרן בנזואט עלול להגביר צהבת )הצהבה של העור ושל העיניים( בתינוקות עד גיל 4 ת.שבועו התרופה מכילה פחות מ-23 .מ\"ג נתרן במ\"ל ועל כן נחשבת נטולת נתרן נובימול תפוז טיפטיפותתגובות אלרגיות. לעלול לגרום המכילה צהוב סנסט נובימול תות טיפטיפות ה מכיל 2.25 מ\"ג פרופילן גליקול בכל1 .בתינוקות מתחת לגיל מ\"ל 4 שבועות, יש להתייעץ עם רופא או רוקח טרם השימוש בתכשיר, ובמיוחד אם התינוק מטופל בתרופות נוספות המכילות אלכוהול פרופילן גליקול או .מכילה התרופה בנוסף, FD&C Red No. 40 .העלול לגרום לתגובות אלרגיות",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911426.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-he-18",
+   "section": "עלון לצרכן · 4. תופעות לוואי",
+   "section_code": "consumer_leaflet",
+   "text": "בחלק כגון סחרחורת, עלול לגרום לתופעות לוואי טיפטיפות נובימול בכל תרופה, השימוש בכמו לא תסבול מאף אחת מהן. שתכן ימהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. י יש להפסיק השימושאת לפנותו מיד לרופא אם מופיעות אלרגיות תגובות עם: o (אדמומיות בעור המלווה בגרד )סרפדת o התנפחות של הגרון o ,, הפנים, השפתיים, הלשון ו/או הגרון הקרסוליים התנפחות של כפות הידיים, כפות הרגליים )אנגיואדמה( o (תגובות אלרגיות חמורות )שוק אנפילקטי תופעות לוואי נוספות ששכיחותן אינה ידועה תופעות המערבות את הדם • ירידה בספירת טסיות הדם )טרומבוציטופניה( • ירידה בספירת תאי הדם הלבנים לויקופניה) /אגרנולוציטוזיס ( • ירידה בהמוגלובין, החומר האחראי להעברת חמצן בדם )אנמיה( תופעות המערבות את מערכת העצבים • ורטיגו תופעות המערבות את הקיבה ומערכת העיכול • הפרעות בקיבה ובמעיים תופעות המערבות את הכבד • תפקוד כבד לקוי • דלקת בכבד הפטיטיס) ( תופעות המערבות את העור והרקמה התת עורית 5",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911426.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#consumer_leaflet-he-19",
+   "section": "עלון לצרכן · 4. תופעות לוואי",
+   "section_code": "consumer_leaflet",
+   "text": "• נקודות שלפוחיותאדומות, עם אזורים של היפרדות אריתמה העור, שלפוחיות, פריחה בעור ) סטיבנס , תסמונת מולטיפורם - ג', נמק אפידרמי רעלני(. ונסון תגובות עוריות חמורות דווחו בשכיחות נדירה מאד. תופעות המערבות את הכליות ואת מערכת השתן • תפקוד כליות לקוי ספיקת )אי כליות חריפה( • דלקת כליות • דם בשתן • הפחתה או הפסקה בייצור שתן מצב חמור שיכול להפוך את הדם לחומצי יותר )נקרא חמצת מטבולית(, בחולים עם מחלה קשה הנוטלים טמול )ראה סעיף אפרצ2 ( ,סובל מתופעת לוואי שלא כאשר אתהאם אחת מתופעות הלוואי מחמירה או אם הופיעה תופעת לוואי ך להתייעץ עם הרופא. בעלון, עליצוינה ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות )www.health.gov.il ( המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור: https://sideeffects.health.gov.il/",
+   "meta": {
+    "document_type": "consumer_leaflet",
+    "document_label": "עלון לצרכן",
+    "audience": "patient_education",
+    "language": "he",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911426.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-20",
+   "section": "עלון לרופא · 4.1 THERAPEUTIC INDICATIONS",
+   "section_code": "doctor_leaflet",
+   "text": "Analgesic and antipyretic.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-21",
+   "section": "עלון לרופא · 4.3 CONTRAINDICATIONS",
+   "section_code": "doctor_leaflet",
+   "text": "• Hypersensitivity to the active substance or any of its excipients listed in section 6.1. • Patients suffering from severe haemolytic anaemia • Severe hepatocellular insufficiency",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-22",
+   "section": "עלון לרופא · 4.4 SPECIAL WARNINGS AND PRECAUTIONS FOR USE",
+   "section_code": "doctor_leaflet",
+   "text": "In rare cases of allergic reactions, administration should be discontinued and appropriate treatment should be instituted. Use with caution in cases of chronic alcoholism, excessive alcohol intake (3 or more alcoholic drinks per day), anorexia, bulimia or cachexia, chronic malnutrition (low hepatic glutathione reserves), dehydration, hypovolaemia. Paracetamol should be administered with caution to patients with mild to moderate hepatocellular insufficiency (including Gilbert’s syndrome), severe hepatic impairment (Child-Pugh >9), acute hepatitis, under concomitant treatment with medicinal products that alter liver function, glucose-6-phosphate dehydrogenase deficiency, haemolytic anaemia. High or prolonged doses of the product may lead to kidney and blood alterations, some of which severe; therefore, the administration in subjects with renal",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-23",
+   "section": "עלון לרופא · 4.4 SPECIAL WARNINGS AND PRECAUTIONS FOR USE",
+   "section_code": "doctor_leaflet",
+   "text": "impairment should only be carried out if actually necessary and under direct medical supervision. In the case of prolonged use, it is advisable to monitor hepatic and renal function and blood crasis. Cases of high anion gap metabolic acidosis (HAGMA) due to pyroglutamic acidosis have been reported in patients with severe illness such as severe renal impairment and sepsis, or in patients with malnutrition or other sources of glutathione deficiency (e.g. chronic alcoholism) who were treated with paracetamol at therapeutic dose for a prolonged period or a combination of paracetamol and flucloxacillin. If HAGMA due to pyroglutamic acidosis is suspected, prompt discontinuation of paracetamol and close monitoring is recommended. The measurement of urinary 5-oxoproline may be useful to identify pyroglutamic acidosis as underlying cause of HAGMA in patients with multiple risk factors.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-24",
+   "section": "עלון לרופא · 4.4 SPECIAL WARNINGS AND PRECAUTIONS FOR USE",
+   "section_code": "doctor_leaflet",
+   "text": "During treatment with paracetamol, before taking any other medicinal product, check that it does not contain the same active substance, as when taken at high doses, paracetamol can result in severe adverse reactions. Instruct the patient to contact the doctor before combining any other medicinal product (see section 4.5). Important information on some excipients TIPTIPOT NOVIMOL contains sorbitol. Patients with hereditary fructose intolerance (HFI) should not take/ be given this medicine.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-25",
+   "section": "עלון לרופא · 4.5 INTERACTIONS WITH OTHER MEDICINES AND OTHER FORMS OF INTERACTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "The oral absorption of paracetamol depends on the rate of gastric emptying. Therefore, concomitant administration of medicinal products that slow (e.g. anticholinergics, opioids) or increase (e.g. prokinetics) the rate of gastric emptying may result in a decrease or increase in the bioavailability of the product, respectively. Concomitant administration of cholestyramine reduces the absorption of paracetamol. The simultaneous intake of paracetamol and chloramphenicol can induce an increase in the half-life of chloramphenicol, with the risk of elevating its toxicity. The concomitant use of paracetamol (4 g per day for at least 4 days) with oral anticoagulants can induce slight variations in the INR values. In these cases, more frequent monitoring of INR values must be conducted during concomitant use and after its discontinuation.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-26",
+   "section": "עלון לרופא · 4.5 INTERACTIONS WITH OTHER MEDICINES AND OTHER FORMS OF INTERACTIONS",
+   "section_code": "doctor_leaflet",
+   "text": "Use with extreme caution and under strict supervision during chronic treatment with medicinal products that can determine the induction of hepatic monooxygenases or in case of exposure to substances that can have this effect (for example rifampicin, cimetidine, antiepileptics such as glutethimide, phenobarbital, carbamazepine). The same is true in cases of alcoholism and in patients treated with zidovudine. Caution should be taken when paracetamol is used concomitantly with flucloxacillin as concurrent intake has been associated with high anion gap metabolic acidosis due to pyroglutamic acidosis, especially in patients with risks factors (see section 4.4). The administration of paracetamol can interfere with the determination of uricaemia (by the phosphotungstic acid method) and with that of blood sugar (by the glucose- oxidase-peroxidase method).",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-27",
+   "section": "עלון לרופא · 4.6 FERTILITY, PREGNANCY AND LACTATION",
+   "section_code": "doctor_leaflet",
+   "text": "Pregnancy: A large amount of data on pregnant women indicates neither malformative nor foetal / neonatal toxicity. Epidemiological studies on neurological development in children exposed to paracetamol in uterus show inconclusive results. If clinically necessary, paracetamol can be used during pregnancy; however, it should be used at the lowest effective dose for the shortest possible time and with the lowest possible frequency. Breast-feeding: It is advisable to take / administer this medicinal product only in cases of real need and under the direct supervision of the doctor.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-28",
+   "section": "עלון לרופא · 4.7 EFFECTS ON ABILITY TO DRIVE AND USE MACHINES",
+   "section_code": "doctor_leaflet",
+   "text": "TIPTIPOT NOVIMOL has no influence on the ability to drive or use machines.",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-29",
+   "section": "עלון לרופא · 4.8 ADVERSE EFFECTS (UNDESIRABLE EFFECTS)",
+   "section_code": "doctor_leaflet",
+   "text": "The undesirable effects of paracetamol organised according to MedDRA System Organ Classification are indicated below. Insufficient data are available to establish the frequency of the individual effects listed. Blood and lymphatic system disorders Thrombocytopenia, leukopenia, anaemia, agranulocytosis Immune system disorders Hypersensitivity reactions (urticaria, laryngeal oedema, angioedema, anaphylactic shock) Nervous system disorders Vertigo Gastrointestinal disorders Gastrointestinal reaction Hepatobiliary disorders Abnormal liver function, hepatitis Skin and subcutaneous tissue disorders Erythema multiforme, Stevens-Johnson syndrome, epidermal necrolysis, rash Renal and urinary disorders Acute renal impairment, interstitial nephritis, haematuria, anuria Metabolism and nutrition disorders High anion gap metabolic acidosis Description of selected adverse reactions",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  },
+  {
+   "id": "il-moh-registry-acetaminophen#doctor_leaflet-en-30",
+   "section": "עלון לרופא · 4.8 ADVERSE EFFECTS (UNDESIRABLE EFFECTS)",
+   "section_code": "doctor_leaflet",
+   "text": "High anion gap metabolic acidosis Cases of high anion gap metabolic acidosis due to pyroglutamic acidosis have been observed in patients with risk factors using paracetamol (see section 4.4). Pyroglutamic acidosis may occur as a consequence of low glutathione levels in these patients. Very rare cases of severe skin reactions have been reported. Reporting of suspected adverse reactions: Reporting suspected adverse reactions after authorisation of the medicinal product is important. It allows continued monitoring of the benefit/risk balance of the medicinal product. Any suspected adverse events should be reported to the Ministry of Health according to the National Regulation by using an online form https://sideeffects.health.gov.il/",
+   "meta": {
+    "document_type": "doctor_leaflet",
+    "document_label": "עלון לרופא",
+    "audience": "professional",
+    "language": "en",
+    "url": "https://mohpublic.z6.web.core.windows.net/IsraelDrugs/Rishum02_2_252911826.pdf",
+    "updated_at": "2026-05-18",
+    "created_at": "2026-05-31",
+    "product": "TIPTIPOT NOVIMOL ORANGE / טיפטיפות נובימול תפוז",
+    "reg_number": "181 53 38471 99",
+    "registry_url": "https://registries.health.gov.il/Medicines/3847100"
+   }
+  }
+ ]
+}

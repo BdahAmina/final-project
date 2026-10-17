@@ -1,0 +1,124 @@
+{
+  "collection": "medical-visit-assistant-references",
+  "description": "Curated, versioned reference collection for the doctor-only clinical assistant. Only sources listed here are retrievable. Ingest with: python tools/knowledge_ingest.py. Passages are stored verbatim in data/knowledge/passages/<id>.json with retrieval date and SHA-256.",
+  "curation_rules": [
+    "Only official primary sources (regulator-approved drug labeling, government or professional-society guidelines).",
+    "Pin an exact version (DailyMed set id + SPL version, or URL + update date). Never ingest summaries written by a model.",
+    "Dosage and administration sections are excluded: the assistant never produces doses.",
+    "Record jurisdiction and intended population; a source outside the patient's jurisdiction is shown with that warning.",
+    "A source whose automatic retrieval fails stays listed with status 'blocked' and contributes no passages.",
+    "Israeli Ministry of Health medicines registry: doctor leaflets (עלון לרופא) are professional prescribing information; consumer leaflets (עלון לצרכן) are patient education and are never used as prescribing guidance.",
+    "Ministry pages on gov.il block automated access; they are added as manual_import sources (official URL verified by the curator, file saved from that URL in a browser) and stay 'not ingested' until imported."
+  ],
+  "sources": [
+    {
+      "id": "dailymed-amoxicillin-capsule",
+      "type": "dailymed_spl",
+      "setid": "1d978882-d938-40cf-96be-59052d9599fe",
+      "title": "Amoxicillin capsules — prescribing information (FDA-submitted labeling)",
+      "publisher": "U.S. National Library of Medicine, DailyMed (labeling submitted to the U.S. FDA)",
+      "jurisdiction": "United States",
+      "population": "As stated in the label: adults and pediatric patients; see Use in Specific Populations",
+      "medications": [
+        "amoxicillin"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "dailymed-ibuprofen-tablet",
+      "type": "dailymed_spl",
+      "setid": "8804564c-9e1b-43c1-8b58-fd6ace645f00",
+      "title": "Ibuprofen tablets (prescription) — prescribing information (FDA-submitted labeling)",
+      "publisher": "U.S. National Library of Medicine, DailyMed (labeling submitted to the U.S. FDA)",
+      "jurisdiction": "United States",
+      "population": "As stated in the label (adults; pediatric use per label)",
+      "medications": [
+        "ibuprofen"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "dailymed-acetaminophen-otc-500",
+      "type": "dailymed_spl",
+      "setid": "c25bcfdc-3119-0e8e-e053-2995a90a9e49",
+      "title": "Acetaminophen 500 mg tablets (over-the-counter) — Drug Facts label",
+      "publisher": "U.S. National Library of Medicine, DailyMed (OTC labeling under FDA monograph)",
+      "jurisdiction": "United States",
+      "population": "As stated in the label: adults and children 12 years and over",
+      "medications": [
+        "acetaminophen"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "cdc-adult-outpatient-antibiotic-use",
+      "type": "html",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+      "title": "Adult Outpatient Treatment Recommendations (antibiotic stewardship)",
+      "publisher": "U.S. Centers for Disease Control and Prevention",
+      "jurisdiction": "United States",
+      "population": "Adults in outpatient settings",
+      "medications": [],
+      "status": "active"
+    },
+    {
+      "id": "il-moh-registry-amoxicillin",
+      "type": "il_moh_registry",
+      "ingredient": "amoxicillin",
+      "documents": [
+        "doctor_leaflet",
+        "consumer_leaflet"
+      ],
+      "title": "Amoxicillin — Israeli registered product leaflets (Ministry of Health medicines registry)",
+      "publisher": "משרד הבריאות — מאגר התרופות (Israel Ministry of Health, medicines registry)",
+      "jurisdiction": "Israel",
+      "population": "As stated in the leaflet of the registered product",
+      "medications": [
+        "amoxicillin"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "il-moh-registry-ibuprofen",
+      "type": "il_moh_registry",
+      "ingredient": "ibuprofen",
+      "documents": [
+        "doctor_leaflet",
+        "consumer_leaflet"
+      ],
+      "title": "Ibuprofen — Israeli registered product leaflets (Ministry of Health medicines registry)",
+      "publisher": "משרד הבריאות — מאגר התרופות (Israel Ministry of Health, medicines registry)",
+      "jurisdiction": "Israel",
+      "population": "As stated in the leaflet of the registered product",
+      "medications": [
+        "ibuprofen"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "il-moh-registry-acetaminophen",
+      "type": "il_moh_registry",
+      "ingredient": "paracetamol",
+      "documents": [
+        "doctor_leaflet",
+        "consumer_leaflet"
+      ],
+      "title": "Paracetamol — Israeli registered product leaflets (Ministry of Health medicines registry)",
+      "publisher": "משרד הבריאות — מאגר התרופות (Israel Ministry of Health, medicines registry)",
+      "jurisdiction": "Israel",
+      "population": "As stated in the leaflet of the registered product",
+      "medications": [
+        "acetaminophen"
+      ],
+      "status": "active"
+    }
+  ],
+  "allowed_domains": [
+    "dailymed.nlm.nih.gov",
+    "www.cdc.gov",
+    "registries.health.gov.il",
+    "mohpublic.z6.web.core.windows.net",
+    "www.gov.il",
+    "www.health.gov.il"
+  ]
+}

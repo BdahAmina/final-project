@@ -1,0 +1,21 @@
+# Example HTTPS reverse proxy (https://caddyserver.com) for use beyond this computer.
+# The application processes have no TLS of their own and bind to 127.0.0.1 only.
+# Replace visits.example.internal with a host name your organisation controls; Caddy obtains and renews
+# certificates automatically for public names, or use `tls internal` on a closed network.
+# Restrict who can reach this host (VPN / firewall) — this is an educational prototype.
+
+visits.example.internal {
+	encode gzip
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy no-referrer
+	}
+	handle_path /api/* {
+		reverse_proxy 127.0.0.1:8000
+	}
+	handle {
+		reverse_proxy 127.0.0.1:8501
+	}
+}

@@ -1,0 +1,36 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets: never commit. Copy .env.example to .env and fill it in locally.
+.env
+*.env
+!.env.example
+
+# Databases containing visit data, audit trails, pseudonym mappings and their backups
+data/database/
+data/runtime/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite.moved-to-data-database-*
+
+# Audio (temporary audio lives in data/runtime/tmp_audio; never commit recordings)
+data/recordings/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+*.webm
+
+# Model downloads (faster-whisper / Hugging Face / Ollama caches if pointed inside the project)
+models/
+.cache/
+huggingface/
+
+# Exported documents may contain clinical content
+exports/
+*.pdf

@@ -1,0 +1,315 @@
+/* Official clinical look. Base colours live in .streamlit/config.toml.
+   Palette: navy frame #0b2e59, teal actions #0f766e, page #f3f6f9, text #1f2a33, lines #d9e2e5.
+   Direction: every rule below uses logical sides (start/end, inline-start/inline-end), so the same sheet serves the
+   right-to-left interface (Hebrew, Arabic) and the left-to-right one (English). theme.DIRECTION_CSS sets the direction. */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700&display=swap');
+
+:root {
+    --mv-navy: #0b2e59;
+    --mv-navy-2: #12437d;
+    --mv-teal: #0f766e;
+    --mv-teal-soft: #e6f4f2;
+    --mv-bg: #f3f6f9;
+    --mv-line: #d9e2e5;
+    --mv-text: #1f2a33;
+    --mv-muted: #5b6b77;
+    --mv-bar: 68px;
+    --mv-font: 'Heebo', 'Noto Sans Arabic', 'Segoe UI', 'Noto Sans Hebrew', Arial, sans-serif;
+}
+
+.stApp {
+    text-align: start;
+    background: var(--mv-bg);
+    font-family: var(--mv-font);
+}
+.stApp, .stApp button, .stApp input, .stApp textarea, .stApp select, [data-testid="stDialog"] { font-family: var(--mv-font); }
+
+/* Streamlit sets text-align: left on every element; follow the page direction instead. */
+[data-testid="stElementContainer"],
+[data-testid="stMarkdownContainer"],
+[data-testid="stCaptionContainer"],
+[data-testid="stHeading"],
+[data-testid="stAlertContainer"],
+[data-testid="stExpander"] summary,
+[data-testid="stWidgetLabel"],
+.stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp p, .stApp li {
+    text-align: start;
+}
+.stApp ul, .stApp ol { padding-inline-start: 1.25rem; padding-inline-end: 0; }
+.stApp code, .stApp pre, [data-testid="stCode"] { direction: ltr; text-align: left; }
+[data-testid="stHeaderActionElements"] { display: none; }
+
+/* ---- Fixed top bar: user on the start side, system name centered, date + language on the end side ---- */
+header[data-testid="stHeader"] { background: transparent; height: var(--mv-bar); pointer-events: none; }
+header[data-testid="stHeader"] * { pointer-events: auto; }
+[data-testid="stToolbar"], [data-testid="stDecoration"], [data-testid="stStatusWidget"] { visibility: hidden; }
+/* The "open sidebar" button lives inside the hidden toolbar: show it below the top bar, on the sidebar's side. */
+[data-testid="stExpandSidebarButton"] {
+    visibility: visible !important;
+    position: fixed;
+    top: calc(var(--mv-bar) + 10px);
+    inset-inline-start: 12px;
+    z-index: 1000200;
+    background: #fff;
+    border: 1px solid var(--mv-line);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(11, 46, 89, 0.18);
+    padding: 4px;
+}
+[data-testid="stExpandSidebarButton"] * { visibility: visible !important; color: var(--mv-navy); }
+/* A collapsed sidebar is hidden rather than slid off-screen (sliding breaks in right-to-left). */
+[data-testid="stSidebar"][aria-expanded="false"] { display: none; }
+/* Page logout button: at the end of the first row, just under the top bar. */
+.st-key-mv_logout_bar { align-items: flex-end; margin-bottom: -2.6rem; position: relative; z-index: 2; }
+.st-key-mv_logout_bar button { min-height: 2.1rem; padding: .2rem .9rem; font-size: .88rem; }
+@media (max-width: 640px) { .st-key-mv_logout_bar { margin-bottom: 0; } }
+.mv-topbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: var(--mv-bar);
+    z-index: 1000100;  /* above Streamlit's sidebar so the bar spans the full width */
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 0 28px;
+    background: linear-gradient(90deg, var(--mv-navy) 0%, var(--mv-navy-2) 100%);
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(11, 46, 89, 0.25);
+}
+.mv-brand { display: flex; align-items: center; justify-content: center; gap: 12px; text-align: center; }
+.mv-brand-name { font-size: 1.25rem; font-weight: 800; letter-spacing: .2px; line-height: 1.1; color: #fff; }
+.mv-brand-tag { font-size: .78rem; opacity: .8; color: #e6eef8; text-align: start; }
+.mv-topbar-side { display: flex; align-items: center; }
+.mv-start { justify-content: flex-start; }
+.mv-end { justify-content: flex-end; padding-inline-end: 250px; }
+.mv-date { font-size: .85rem; opacity: .85; }
+@media (max-width: 900px) { .mv-date { display: none; } .mv-brand-tag { display: none; } }
+.mv-user { display: flex; align-items: center; gap: 10px; }
+.mv-avatar {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: var(--mv-teal); color: #fff; font-weight: 700;
+    display: inline-flex; align-items: center; justify-content: center;
+    border: 2px solid rgba(255,255,255,.55);
+}
+.mv-user-text { display: flex; flex-direction: column; line-height: 1.15; }
+.mv-user-text b { font-weight: 600; font-size: .92rem; }
+.mv-user-text small { opacity: .8; font-size: .75rem; }
+
+/* Language switch, placed inside the top bar on the end side */
+.st-key-mv_lang_switch {
+    position: fixed; top: 15px; inset-inline-end: 24px; z-index: 1000300; width: auto !important;
+}
+.st-key-mv_lang_switch [data-testid="stButtonGroup"] { gap: 0; }
+.st-key-mv_lang_switch button {
+    background: rgba(255, 255, 255, .10); color: #fff; border-color: rgba(255, 255, 255, .35);
+    min-height: 2.1rem; padding: .15rem .8rem; font-weight: 600; font-size: .85rem;
+}
+.st-key-mv_lang_switch button:hover { background: rgba(255, 255, 255, .22); color: #fff; border-color: #fff; }
+.st-key-mv_lang_switch button[aria-checked="true"], .st-key-mv_lang_switch button[aria-checked="true"]:hover {
+    background: #fff !important; color: var(--mv-navy) !important; border-color: #fff !important;
+}
+.st-key-mv_lang_switch button[aria-checked="true"] * { color: var(--mv-navy) !important; }
+
+/* Push content below the bar */
+[data-testid="stMainBlockContainer"] { padding-top: calc(var(--mv-bar) + 1.6rem); max-width: 1180px; }
+[data-testid="stSidebar"] > div:first-child { padding-top: var(--mv-bar); }
+
+/* ---- Centered page title ---- */
+.mv-page-title { text-align: center; margin: 0 auto 1.4rem; }
+.mv-page-title h1 { text-align: center !important; font-size: 1.85rem; font-weight: 800; color: var(--mv-navy); margin: 0; padding: 0; }
+.mv-page-title h1::after {
+    content: ""; display: block; width: 64px; height: 3px; margin: .55rem auto 0;
+    background: var(--mv-teal); border-radius: 2px;
+}
+.mv-page-sub { text-align: center !important; color: var(--mv-muted); margin: .55rem 0 0; font-size: .95rem; }
+
+/* ---- Headings, sections ---- */
+.stApp h2 {
+    font-size: 1.3rem; font-weight: 700; color: var(--mv-navy);
+    margin-top: .5rem; padding-bottom: .35rem; margin-bottom: .5rem;
+    border-bottom: 1px solid var(--mv-line);
+}
+.stApp h3 { font-size: 1.08rem; font-weight: 700; color: var(--mv-navy); }
+.mv-section { display: flex; align-items: center; gap: 10px; margin-top: 1rem; }
+.mv-section h2 { border-bottom: none; margin: 0; padding: 0; }
+.mv-step {
+    width: 28px; height: 28px; border-radius: 50%; flex: none;
+    background: var(--mv-navy); color: #fff; font-weight: 700; font-size: .9rem;
+    display: inline-flex; align-items: center; justify-content: center;
+}
+.mv-section-note { color: var(--mv-muted); font-size: .9rem; margin: .25rem 0 .6rem 0; }
+.mv-section-note.mv-indent { margin-inline-start: 38px; }
+
+/* ---- Tiles and chips ---- */
+.mv-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: .2rem 0 1.1rem; }
+.mv-tile {
+    background: #fff; border: 1px solid var(--mv-line); border-radius: 10px; padding: .65rem .9rem;
+    box-shadow: 0 1px 2px rgba(16, 42, 51, .04);
+}
+.mv-tile small { color: var(--mv-muted); font-size: .76rem; display: block; margin-bottom: .15rem; }
+.mv-tile div { font-weight: 600; color: var(--mv-text); }
+.mv-chip { display: inline-block; padding: .12rem .6rem; border-radius: 999px; font-size: .8rem; font-weight: 600; border: 1px solid transparent; }
+.mv-chip-neutral { background: #eef2f5; color: #3b4a56; border-color: #dbe3e8; }
+.mv-chip-ok { background: #e6f4ea; color: #1b6b3a; border-color: #c4e3cf; }
+.mv-chip-info { background: #e8f0fb; color: #1d4f91; border-color: #c9daf3; }
+.mv-chip-warn { background: #fff4e0; color: #8a5a00; border-color: #f3dcae; }
+.mv-chip-danger { background: #fdeceb; color: #a12a20; border-color: #f4c7c3; }
+
+/* ---- Cards: forms, bordered containers and expanders ---- */
+[data-testid="stForm"],
+[data-testid="stExpander"] details,
+[data-testid="stVerticalBlockBorderWrapper"] {
+    background: #ffffff;
+    border-color: var(--mv-line);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(16, 42, 51, 0.06);
+}
+[data-testid="stExpander"] summary { font-weight: 600; color: var(--mv-navy); }
+
+/* ---- Login card, centered ---- */
+.mv-login-head { text-align: center; margin: .5rem auto 1rem; }
+.mv-login-head .mv-login-icon {
+    width: 64px; height: 64px; border-radius: 18px; margin: 0 auto .6rem;
+    background: linear-gradient(135deg, var(--mv-navy), var(--mv-teal));
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 6px 18px rgba(11, 46, 89, .25);
+}
+.mv-login-head h3 { text-align: center !important; margin: 0; color: var(--mv-navy); font-size: 1.25rem; }
+.mv-login-head p { text-align: center !important; color: var(--mv-muted); margin: .3rem 0 0; font-size: .92rem; }
+[data-testid="stForm"]:has(.st-key-login_username) {
+    max-width: 440px; margin: 0 auto; padding: 1.6rem 1.6rem 1.2rem; border-top: 4px solid var(--mv-teal);
+}
+[data-testid="stForm"]:has(.st-key-login_username) button { width: 100%; }
+[data-testid="stForm"]:has(.st-key-login_username) [data-testid="stFormSubmitButton"] { width: 100%; }
+.mv-login-note { max-width: 440px; margin: 1rem auto 0; text-align: center; color: var(--mv-muted); font-size: .84rem; }
+
+/* ---- Tabs as a navigation strip ---- */
+[data-testid="stTabs"] [role="tablist"] { gap: 6px; border-bottom: 2px solid var(--mv-line); padding-bottom: 0; }
+[data-testid="stTabs"] [data-testid="stTab"] {
+    font-weight: 600; padding: .55rem 1.1rem; border-radius: 10px 10px 0 0; background: #e9eef3; color: #34485a;
+}
+[data-testid="stTabs"] [data-testid="stTab"][aria-selected="true"] {
+    background: #fff; color: var(--mv-navy); box-shadow: 0 -2px 0 var(--mv-teal) inset;
+}
+
+/* ---- Buttons ---- */
+.stApp button[kind^="primary"], [data-testid="stDialog"] button[kind^="primary"] {
+    background: var(--mv-teal); border-color: var(--mv-teal); font-weight: 700; color: #fff;
+}
+.stApp button[kind^="primary"]:hover, [data-testid="stDialog"] button[kind^="primary"]:hover { background: #0b5f58; border-color: #0b5f58; }
+.stApp button[kind^="secondary"] { background: #ffffff; font-weight: 600; }
+.stApp button[kind^="secondary"]:hover { border-color: var(--mv-teal); color: var(--mv-teal); }
+
+/* ---- Inputs ---- */
+textarea { direction: inherit; text-align: start; font-size: 17px !important; line-height: 1.6 !important; }
+input { text-align: start; }
+
+/* Tables are drawn on a canvas that expects left-to-right; keep the grid itself LTR so clicks line up. */
+[data-testid="stDataFrame"] { direction: ltr; }
+
+/* ---- Sidebar ---- */
+[data-testid="stSidebar"] { border-inline-end: 1px solid var(--mv-line); background: #fff; }
+[data-testid="stSidebarUserContent"] { padding-top: 0.8rem; }
+[data-testid="stSidebar"] [data-testid="stRadioOption"] { padding: 0.35rem 0; }
+.mv-side-title { font-weight: 700; color: var(--mv-navy); font-size: .95rem; margin: .4rem 0 .4rem; }
+
+/* ---- Chat messages (page and drawer) ---- */
+[data-testid="stChatMessage"] { background: #fff; border: 1px solid var(--mv-line); border-radius: 14px; }
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) { background: var(--mv-teal-soft); border-color: #c7e6e1; }
+
+/* ---- Footer ---- */
+.mv-footer {
+    text-align: center; color: var(--mv-muted); font-size: .8rem;
+    border-top: 1px solid var(--mv-line); margin-top: 2.5rem; padding-top: 1rem;
+}
+
+/* ================= Clinical assistant: floating launcher + side drawer ================= */
+.st-key-mv_agent_fab { position: fixed; inset-inline-end: 24px; bottom: 24px; z-index: 1000150; width: auto !important; }
+.st-key-mv_agent_fab button {
+    border-radius: 999px; padding: .6rem 1.3rem; min-height: 3.1rem; font-weight: 700;
+    background: linear-gradient(135deg, var(--mv-teal), #12867c) !important; border: none !important;
+    box-shadow: 0 8px 22px rgba(11, 46, 89, .32);
+}
+.st-key-mv_agent_fab button:hover { transform: translateY(-1px); box-shadow: 0 10px 26px rgba(11, 46, 89, .38); }
+body:has([data-testid="stDialog"] [role="dialog"]) .st-key-mv_agent_fab { display: none; }
+[data-testid="stDialog"] [role="dialog"] { text-align: start; background: #fbfcfd; }
+[data-testid="stDialog"] [data-testid="stMarkdownContainer"], [data-testid="stDialog"] p, [data-testid="stDialog"] li { text-align: start; }
+[data-testid="stDialog"] h2 { color: var(--mv-navy); font-weight: 800; }
+
+/* Patient header card */
+.mv-agent-head {
+    display: flex; align-items: center; gap: 12px; padding: .7rem .9rem; margin: .2rem 0 .4rem;
+    background: linear-gradient(135deg, var(--mv-navy), var(--mv-navy-2)); color: #fff; border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(11, 46, 89, .18);
+}
+.mv-agent-head > div { flex: 1; display: flex; flex-direction: column; line-height: 1.25; }
+.mv-agent-head b { font-size: 1.02rem; }
+.mv-agent-head small { opacity: .8; font-size: .78rem; }
+.mv-agent-avatar {
+    width: 40px; height: 40px; border-radius: 50%; background: var(--mv-teal); color: #fff; font-weight: 700;
+    display: inline-flex; align-items: center; justify-content: center; border: 2px solid rgba(255,255,255,.5); flex: none;
+}
+.mv-agent-head .mv-badge { background: rgba(255,255,255,.16); color: #fff; border-color: rgba(255,255,255,.35); }
+
+/* Quick actions as chips */
+.st-key-assistant_actions { margin: .2rem 0 .5rem; }
+.st-key-assistant_actions button {
+    border-radius: 999px !important; min-height: 2.15rem; padding: .2rem .85rem; font-size: .82rem; font-weight: 600;
+    background: #fff; border: 1px solid #cfe0e3; color: var(--mv-navy);
+}
+.st-key-assistant_actions button:hover { background: var(--mv-teal-soft); border-color: var(--mv-teal); color: var(--mv-teal); }
+
+/* Conversation area */
+[class*="st-key-assistant_thread_"] { background: #f4f7f9; border: 1px solid var(--mv-line); border-radius: 16px; padding: .35rem .4rem; }
+[class*="st-key-assistant_thread_"] [data-testid="stChatMessage"] { box-shadow: 0 1px 2px rgba(16, 42, 51, .05); }
+
+/* One answer: lead text, status note, section cards */
+.mv-msg { display: flex; flex-direction: column; gap: .55rem; }
+.mv-msg[dir="rtl"], .mv-msg[dir="rtl"] * { text-align: right; }
+.mv-msg[dir="ltr"], .mv-msg[dir="ltr"] * { text-align: left; }
+.mv-answer {
+    font-size: 1.02rem; line-height: 1.65; color: var(--mv-text); background: #fff;
+    border-inline-start: 4px solid var(--mv-teal); border-radius: 10px; padding: .55rem .85rem;
+}
+.mv-note { display: flex; gap: .5rem; align-items: flex-start; font-size: .92rem; border-radius: 10px; padding: .5rem .75rem; border: 1px solid; }
+.mv-note-ok, .mv-note-neutral { background: #f1f5f8; border-color: #dfe7ec; color: #34485a; }
+.mv-note-info { background: #e8f0fb; border-color: #c9daf3; color: #1d4f91; }
+.mv-note-warn { background: #fff4e0; border-color: #f3dcae; color: #7a5000; }
+.mv-note-danger { background: #fdeceb; border-color: #f4c7c3; color: #a12a20; }
+.mv-sec { border-radius: 12px; border: 1px solid var(--mv-line); background: #fff; overflow: hidden; }
+.mv-sec-head {
+    display: flex; align-items: center; gap: .45rem; font-weight: 700; font-size: .88rem; padding: .4rem .75rem;
+    border-bottom: 1px solid var(--mv-line);
+}
+.mv-sec-count { margin-inline-start: auto; font-size: .72rem; font-weight: 700; border-radius: 999px; padding: .05rem .5rem; background: rgba(0,0,0,.06); }
+.mv-sec ul { margin: .35rem 0 .45rem; padding-inline-start: 1.6rem; padding-inline-end: .75rem; }
+.mv-sec li { margin: .18rem 0; font-size: .92rem; line-height: 1.5; }
+.mv-sec li small { display: block; color: var(--mv-muted); font-size: .74rem; }
+.mv-sec-facts .mv-sec-head { background: #e9f6ef; color: #1b6b3a; }
+.mv-sec-missing .mv-sec-head { background: #fff4e0; color: #7a5000; }
+.mv-sec-questions .mv-sec-head { background: #e8f0fb; color: #1d4f91; }
+.mv-sec-uncertain .mv-sec-head { background: #fdeee6; color: #9a3d12; }
+.mv-sec-drug .mv-sec-head { background: #efe9fb; color: #4b2a91; }
+.mv-sec-compare .mv-sec-head { background: #eaf3f5; color: #0b524c; }
+.mv-muted { color: var(--mv-muted); font-size: .78rem; }
+.mv-badge {
+    display: inline-block; font-size: .7rem; font-weight: 700; border-radius: 999px; padding: .08rem .5rem;
+    background: var(--mv-teal-soft); color: var(--mv-teal); border: 1px solid #bfe3de; margin-inline-start: .4rem;
+}
+.mv-draft-tag { color: var(--mv-muted); font-size: .72rem; margin-top: .15rem; }
+.mv-draft-tag[dir="rtl"] { text-align: right; }
+.mv-draft-tag[dir="ltr"] { text-align: left; }
+
+/* Suggestion cards */
+[class*="st-key-assistant_sug_"] { border-inline-start: 4px solid var(--mv-teal) !important; }
+.mv-sug-kind { font-weight: 700; color: var(--mv-navy); font-size: .9rem; }
+.mv-sug-text { font-size: .98rem; margin: .3rem 0; line-height: 1.55; }
+.mv-sug-meta { color: var(--mv-muted); font-size: .76rem; margin-top: .15rem; }
+.mv-sug-warn { color: #8a5a00; font-size: .76rem; margin-top: .15rem; }
+.mv-sug[dir="rtl"], .mv-sug[dir="rtl"] * { text-align: right; }
+.mv-sug[dir="ltr"], .mv-sug[dir="ltr"] * { text-align: left; }
+[class*="st-key-assistant_sug_actions_"] button { min-height: 2rem; padding: .15rem .75rem; font-size: .82rem; }
+
+/* Answers keep their own direction whatever the page direction: Hebrew/Arabic right-to-left, English left-to-right. */
+[class*="_lang_en"] { direction: ltr; }
+[class*="_lang_ar"], [class*="_lang_he"] { direction: rtl; }
