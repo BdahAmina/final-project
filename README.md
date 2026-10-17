@@ -15,6 +15,63 @@ Ollama. No visit data is sent to a cloud service.
 
 ---
 
+## Screenshots
+
+All screenshots use fictional demo accounts and patients.
+
+### Sign in
+![Sign-in page](docs/screenshots/01-login.png)
+
+### Doctor — transcript review and speaker assignment
+The visit header, the three work tabs, and the reviewed transcript with each segment assigned to doctor or patient.
+![Transcript review](docs/screenshots/02-doctor-transcript-review.png)
+
+### Doctor — drafts
+The doctor's draft (every fact with its category and transcript segment) and the plain-language patient summary.
+![Drafts](docs/screenshots/03-doctor-drafts.png)
+
+### Doctor — patient safety data
+Age, pregnancy, lactation, allergies, regular medications and kidney/liver function, entered and confirmed by the doctor.
+![Patient safety data](docs/screenshots/04-doctor-patient-safety-data.png)
+
+### Doctor — plan, electronic signature and download
+The doctor's post-visit plan, the signed approval (name, UTC time, SHA-256) and the PDF / text / JSON downloads.
+![Plan and signature](docs/screenshots/05-doctor-plan-signature.png)
+
+### Clinical assistant — patient summary
+The side panel opened from the floating button: patient and visit selection, quick actions, and an answer organized
+into colored sections (known facts with their record references, missing information).
+![Assistant: summary](docs/screenshots/06-assistant-summary.png)
+
+### Clinical assistant — comparison with a previous visit
+![Assistant: compare visits](docs/screenshots/07-assistant-compare-visits.png)
+
+### Clinical assistant — clinical references
+Retrieved passages with document type, organization, update and retrieval dates, links, and applicability warnings.
+![Assistant: sources](docs/screenshots/08-assistant-sources.png)
+
+### Patient — signed visit summaries
+![Patient summaries](docs/screenshots/09-patient-summaries.png)
+
+### Administrator — users and roles
+![Admin: users](docs/screenshots/10-admin-users.png)
+
+### Administrator — doctor–patient assignments
+![Admin: assignments](docs/screenshots/11-admin-assignments.png)
+
+### Administrator — audit log
+![Admin: audit log](docs/screenshots/12-admin-audit-log.png)
+
+### English interface (left-to-right)
+![English interface](docs/screenshots/13-english-doctor.png)
+![English assistant](docs/screenshots/14-english-assistant.png)
+
+### Arabic interface (right-to-left)
+Each assistant answer keeps the language and direction it was written in (here an English answer above an Arabic one).
+![Arabic assistant](docs/screenshots/15-arabic-assistant.png)
+
+---
+
 ## Features
 
 ### Doctor
@@ -154,6 +211,7 @@ Ministry guidance pages on gov.il block automated access and are added by manual
 ```
 Medical_Visit_MVP/
 ├── README.md
+├── docs/screenshots/         # screenshots used in this README (fictional demo data)
 ├── venv/                      # Python environment (not committed)
 └── medical_visit_mvp/
     ├── app.py                 # Streamlit entry point
