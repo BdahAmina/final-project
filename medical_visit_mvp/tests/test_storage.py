@@ -313,11 +313,13 @@ class AuditTests(Base_):
         self.assertTrue(csv_text.startswith("seq,event_id,ts_utc"))
         self.assertIn('"approval_signed"', self.repo.audit_export(ADMIN, "json"))
 
-    def test_hmac_key_makes_chain_keyed(self):
-        with patch.dict("os.environ", {"AUDIT_HMAC_KEY": "fictional-test-key"}):
-            self.repo.authenticate("doctor_a", PASSWORD)
-            self.assertTrue(self.repo.verify_audit(ADMIN)["keyed"])
-        self.assertFalse(self.repo.verify_audit(ADMIN)["ok"])  # keyed events cannot be verified without the key
+    def test_chain_is_always_keyed_and_needs_the_key(self):
+        self.repo.authenticate("doctor_a", PASSWORD)
+        result = self.repo.verify_audit(ADMIN)
+        self.assertTrue(result["ok"] and result["keyed"])  # key derived from the data key when AUDIT_HMAC_KEY is unset
+        self.assertTrue(all(e["details"]["_alg"] == "hmac-sha256" for e in self.events()))
+        with patch.dict("os.environ", {"AUDIT_HMAC_KEY": "fictional-other-key"}):
+            self.assertFalse(self.repo.verify_audit(ADMIN)["ok"])  # a different key cannot recompute or verify the chain
 
 
 class MigrationTests(unittest.TestCase):
@@ -355,7 +357,7 @@ class MigrationTests(unittest.TestCase):
                 INSERT INTO visits VALUES ('v1','dr_old','pt_old','he','draft',NULL,1,'manual',1.0,1.0);
             """)
             con.commit(); con.close()
-            self.assertEqual(db.migrate(path), ["0002"])
+            self.assertEqual(db.migrate(path), ["0002", "0003"])
             counts = db.table_counts(path)
             self.assertEqual((counts["users"], counts["visits"], counts["care_assignments"]), (2, 1, 1))
             self.assertEqual(len(list((Path(d) / "backups").iterdir())), 1)

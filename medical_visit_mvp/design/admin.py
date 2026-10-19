@@ -15,7 +15,8 @@ def users_tab(repo, admin):
     users = repo.all_users(admin)
     st.dataframe(pd.DataFrame([{t("שם משתמש"): u["id"], t("שם"): u["display"], t("תפקיד"): t(ROLES[u["role"]]), t("פעיל"): u["active"],
                                 t("נעול"): u["locked"], t("כניסות כושלות"): u["failed_logins"],
-                                t("חייב/ת להחליף סיסמה"): u["must_change_password"], t("נוצר"): stamp(u["created_at"])} for u in users]),
+                                t("חייב/ת להחליף סיסמה"): u["must_change_password"], t("אימות דו־שלבי"): u["mfa_enabled"],
+                                t("נוצר"): stamp(u["created_at"])} for u in users]),
                  hide_index=True, width="stretch")
     with st.form("admin_new_user", clear_on_submit=True):
         st.markdown("**" + t("משתמש/ת חדש/ה") + "** — " + t("התפקיד נקבע כאן בלבד; אין הרשמה עצמית."))
@@ -42,6 +43,33 @@ def users_tab(repo, admin):
             act(repo.set_active, admin, target, active == "active", ok=t("הסטטוס עודכן."))
         if c3.form_submit_button(t("איפוס סיסמה ושחרור נעילה")):
             act(repo.reset_password, admin, target, reset, ok=t("הסיסמה אופסה; נדרשת החלפה בכניסה הבאה."))
+    with st.form("admin_reset_mfa", clear_on_submit=True):
+        st.markdown("**" + t("איפוס אימות דו־שלבי (אובדן טלפון)") + "**")
+        st.caption(t("דורש אישור של מנהל/ת מערכת נוסף/ת, כך שאף אדם יחיד אינו יכול להשתלט על חשבון. המשתמש/ת יגדיר/תגדיר אפליקציה מחדש בכניסה הבאה."))
+        cols = st.columns(4)
+        target = cols[0].selectbox(t("משתמש/ת"), ids, key="mfa_reset_target")
+        second = cols[1].text_input(t("מנהל/ת שני/ה: שם משתמש"))
+        second_password = cols[2].text_input(t("סיסמה של המנהל/ת השני/ה"), type="password")
+        second_code = cols[3].text_input(t("קוד אימות של המנהל/ת השני/ה"), max_chars=6)
+        if st.form_submit_button(t("איפוס אימות דו־שלבי")):
+            act(repo.reset_mfa, admin, target, second, second_password, second_code.strip() or None,
+                ok=t("האימות הדו־שלבי אופס; כל ההתחברויות של המשתמש/ת הסתיימו."))
+
+
+def security_alerts(repo, admin):
+    """Failed and denied security events of the last 24 hours, shown on every admin screen (21 CFR 11.300(d))."""
+    alerts = repo.security_alerts(admin)
+    if not alerts:
+        st.success(t("אין התראות אבטחה ב־24 השעות האחרונות."))
+        return
+    locks = sum(1 for a in alerts if a["action"] == "account_locked")
+    st.error(t("התראות אבטחה ב־24 השעות האחרונות: {n} אירועים, מתוכם {locks} נעילות חשבון. בדקו אותם לפי נוהל אירועי אבטחה.",
+               n=len(alerts), locks=locks))
+    with st.expander(t("פירוט התראות האבטחה")):
+        st.dataframe(pd.DataFrame([{t("זמן (UTC)"): a["ts_utc"], t("משתמש/ת"): a["actor_id"], t("פעולה"): a["action"],
+                                    t("תוצאה"): t(OUTCOMES.get(a["outcome"], a["outcome"])), t("רשומה"): a["record_id"],
+                                    t("פרטים"): str({k: v for k, v in (a["details"] or {}).items() if not k.startswith("_")})}
+                                   for a in alerts]), hide_index=True, width="stretch")
 
 
 def assignments_tab(repo, admin):
@@ -106,6 +134,7 @@ def audit_tab(repo, admin):
 
 def admin_view(repo, admin):
     page_title(t("ניהול מערכת"), t("משתמשים, הרשאות, שיוכי רופא–מטופל ויומן ביקורת · ללא גישה לתוכן קליני"))
+    security_alerts(repo, admin)
     users, assignments, audit_log = st.tabs([t("משתמשים ותפקידים"), t("שיוכי רופא–מטופל"), t("יומן ביקורת")])
     with users:
         users_tab(repo, admin)

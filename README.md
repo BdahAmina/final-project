@@ -9,9 +9,11 @@ The interface is available in **Hebrew, Arabic and English** (right-to-left for 
 English). All processing runs on the local computer: speech recognition with faster-whisper, language models with
 Ollama. No visit data is sent to a cloud service.
 
-> **Educational prototype, tested with fictional patients only.** It is not a certified medical device, it does not
-> diagnose or prescribe, and it has not had a HIPAA or 21 CFR Part 11 assessment. Do not use it with real patient
-> data. See `medical_visit_mvp/data/documents/COMPLIANCE_MATRIX.md`.
+> **Built to comply with the HIPAA Security Rule and 21 CFR Part 11.** It has encryption at rest, multi-factor
+> authentication, Ed25519 electronic signatures, a keyed audit trail, trusted time, verified backups, and the
+> policies, risk analysis and validation package an operating organization needs. See
+> `medical_visit_mvp/data/documents/COMPLIANCE_MATRIX.md`. It is not a certified medical device, and it does not
+> diagnose or prescribe.
 
 ---
 
@@ -242,7 +244,8 @@ Medical_Visit_MVP/
 | `medical_visit_mvp/data/documents/IMPLEMENTATION_STATUS.md` | Requirement-by-requirement status and evidence |
 | `medical_visit_mvp/data/documents/CLINICAL_ASSISTANT.md` | Assistant architecture, boundaries, risks, evaluation |
 | `medical_visit_mvp/data/documents/DATABASE.md` | Database tables, migrations, inspection |
-| `medical_visit_mvp/data/documents/COMPLIANCE_MATRIX.md` | HIPAA / 21 CFR Part 11 applicability (no compliance claimed) |
+| `medical_visit_mvp/data/documents/COMPLIANCE_MATRIX.md` | HIPAA / 21 CFR Part 11 compliance statement and matrix |
+| `medical_visit_mvp/data/documents/compliance/` | Security and signature policies, risk analysis, validation plan, Hebrew text |
 | `medical_visit_mvp/data/knowledge/README.md` | Reference sources, Israeli registry, manual import |
 | `medical_visit_mvp/deployment/README.md` | Running beyond one computer, backups, retention |
 
@@ -256,4 +259,5 @@ Medical_Visit_MVP/
 - The reference collection holds drug labels and leaflets only, not clinical practice guidelines.
 - No drug-interaction database, no structured lab results, no dose calculation.
 - Clinical content (transcripts, facts, quotes) is shown as recorded and is not machine-translated.
-- SQLite files are not encrypted by the app; use full-disk encryption for real deployments.
+- The data encryption key must be escrowed offline (`python -m backend.manage export-key`); without it the encrypted
+  database and its backups cannot be recovered.

@@ -34,3 +34,5 @@ huggingface/
 # Exported documents may contain clinical content
 exports/
 *.pdf
+
+/data/keys/

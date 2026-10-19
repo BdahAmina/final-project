@@ -3,9 +3,13 @@
 Mirrors real setup: the admin is bootstrapped (as `python -m backend.manage create-admin` does), then the
 admin creates doctors and patients and assigns doctor_a -> patient_a and doctor_b -> patient_b.
 """
-from backend import security
+import os
+os.environ.setdefault("DATA_ENCRYPTION_KEY", "dGVzdC1vbmx5LWRhdGEta2V5LTMyLWJ5dGVzLWxvbmc=")  # fixed test key, never the real one
+from backend import crypto, security  # noqa: E402
 
 security.PBKDF2_ITERATIONS = 1_000
+security.MFA_REQUIRED_ROLES = set()  # MFA is exercised explicitly in test_security.py
+crypto.TIME_SERVER = ""  # no network time check in tests
 PASSWORD = "correct-horse-battery-1"
 ADMIN = {"id": "admin_root", "role": "admin"}
 DOC = {"id": "doctor_a", "role": "doctor"}

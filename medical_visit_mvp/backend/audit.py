@@ -5,12 +5,10 @@ outcome, correlation id and a short session reference (a prefix of the session-t
 the token). `details` carries only small non-clinical values; keys that could carry secrets or
 clinical text are rejected.
 
-Integrity: each event's hash covers the previous event's hash and its own fields. With
-AUDIT_HMAC_KEY set (environment variable, kept outside the database) the hash is an HMAC, so
-rewriting the chain also requires the key. Without it the chain is plain SHA-256 and only detects
-edits by someone who does not recompute the chain. Database triggers reject UPDATE and DELETE.
-None of this makes an ordinary SQLite file tamper-proof: anyone who can write the file can drop
-the triggers; keep the database on access-controlled storage and back it up.
+Integrity: each event's hash covers the previous event's hash and its own fields and is an HMAC-SHA-256 keyed
+with AUDIT_HMAC_KEY, or, when that is not set, with a key derived from the data encryption key (backend/crypto.py),
+which is kept outside the database. Rewriting the chain therefore requires the key. Events written before keyed
+hashing (marked "_alg": "sha256") are still verified as plain SHA-256. Database triggers reject UPDATE and DELETE.
 """
 import csv
 import hashlib
@@ -45,7 +43,10 @@ def utc_iso(ts: float) -> str:
 
 def _key():
     raw = os.getenv("AUDIT_HMAC_KEY", "").strip()
-    return raw.encode() if raw else None
+    if raw:
+        return raw.encode()
+    from backend import crypto
+    return crypto.subkey("audit-hmac")
 
 
 def _safe_details(details: dict) -> dict:

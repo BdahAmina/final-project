@@ -1,4 +1,4 @@
-"""Password hashing, password policy, lockout and session-expiry settings.
+"""Password hashing, password policy, lockout, MFA and session-expiry settings.
 
 Passwords: salted PBKDF2-HMAC-SHA256 (600,000 iterations by default), compared in constant time.
 Session tokens: 256-bit random, stored only as SHA-256. All limits can be tightened through
@@ -17,6 +17,8 @@ LOCKOUT_MINUTES = int(os.getenv("LOCKOUT_MINUTES", "15"))
 SESSION_IDLE_MINUTES = int(os.getenv("SESSION_IDLE_MINUTES", "15"))
 SESSION_MAX_HOURS = int(os.getenv("SESSION_MAX_HOURS", "8"))
 PASSWORD_MAX_AGE_DAYS = int(os.getenv("PASSWORD_MAX_AGE_DAYS", "180"))
+# Roles that must use a one-time code (MFA) at every login and every signature. Patients may enrol voluntarily.
+MFA_REQUIRED_ROLES = {r.strip() for r in os.getenv("MFA_REQUIRED_ROLES", "admin,doctor").split(",") if r.strip()}
 USERNAME = re.compile(r"^[a-z0-9][a-z0-9._-]{2,39}$")
 COMMON = {"password", "password123", "123456789012", "qwertyuiop12", "letmein12345", "welcome12345", "admin1234567"}
 

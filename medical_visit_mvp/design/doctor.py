@@ -357,6 +357,10 @@ def approval_section(pipe, user, vid):
                      time=utc(sig["signed_at"]), hash=approved["content_sha256"][:16]))
         st.caption(t("משמעות: {meaning} · כל עריכה תבטל את האישור.",
                      meaning=t(sig["meaning"]) if sig["meaning"] else t("אישור מגרסה קודמת (ללא רכיבי חתימה)")))
+        if sig.get("algorithm"):
+            st.caption(t("חתימה קריפטוגרפית {alg} אומתה · מפתח {key}… · אימות דו־שלבי: {mfa} · מקור זמן: {source}",
+                         alg=sig["algorithm"], key=sig["key_fingerprint"][:16], mfa=t("כן") if sig["mfa"] else t("לא"),
+                         source=sig["time_source"] or "—"))
         downloads(repo, user, approved, True, f"doctor_{approved['approval_id']}")
         return
     history = repo.approvals(user, vid)
@@ -381,16 +385,18 @@ def approval_section(pipe, user, vid):
         st.error(t("לא ניתן לחתום: יש בעיות חוסמות או פריטי תוכנית שלא הוערכו מחדש."))
     with st.form(f"sign_{c['id']}_{p['id']}_{plan['id'] if plan else 0}", clear_on_submit=True):
         st.markdown("**" + t("חתימה אלקטרונית") + "** · " + t("משמעות:") + " " + t(SIGNATURE_MEANING))
-        st.caption(t("החתימה מחייבת הזנה מחדש של שם המשתמש והסיסמה שלך. היא תירשם עם שמך המלא, מועד UTC ותוכן הגרסאות החתומות."))
+        st.caption(t("החתימה מחייבת הזנה מחדש של שם המשתמש, הסיסמה וקוד האימות שלך. היא נחתמת קריפטוגרפית (Ed25519) ונרשמת עם שמך המלא, "
+                     "מועד UTC מאומת ותוכן הגרסאות החתומות."))
         reviewed = st.checkbox(t("בדקתי את הסיכומים והתוכנית מול התמלול"), key=f"approve_check_{c['id']}_{p['id']}")
         username = st.text_input(t("שם משתמש"), key=f"sign_user_{c['id']}_{p['id']}")
         password = st.text_input(t("סיסמה"), type="password", key=f"sign_pass_{c['id']}_{p['id']}")
+        code = st.text_input(t("קוד אימות (6 ספרות מהאפליקציה)"), max_chars=6, key=f"sign_code_{c['id']}_{p['id']}")
         if st.form_submit_button(t("חתימה ואישור"), type="primary", disabled=blocking):
             if not reviewed:
                 st.error(t("יש לסמן שבדקת את התוכן לפני החתימה."))
             else:
                 act(pipe.approve, user, vid, c["id"], p["id"], package["sha256"], username, password, plan["id"] if plan else None,
-                    ok=t("המסמך נחתם ואושר."))
+                    code.strip() or None, ok=t("המסמך נחתם ואושר."))
 
 
 def session_section(pipe, user, vid):

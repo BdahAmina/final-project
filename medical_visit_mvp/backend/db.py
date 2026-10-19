@@ -117,6 +117,7 @@ def migrate(path: Path) -> list[str]:
             current = "0001"
         if current == head:
             return []
+        backup = None
         if tables:
             backup = path.parent / "backups" / f"{path.stem}-{time.strftime('%Y%m%dT%H%M%SZ', time.gmtime())}-before-{head}.sqlite"
             copy_database(path, backup)
@@ -127,6 +128,9 @@ def migrate(path: Path) -> list[str]:
             problems = conn.exec_driver_sql("PRAGMA foreign_key_check").fetchall()
             if problems:
                 raise RuntimeError(f"Foreign-key violations after migration: {problems[:5]}")
+        if backup and (current or "0000") < "0003":
+            from backend import crypto  # the backup predates encryption at rest: encrypt the whole file
+            LOG.warning("Pre-encryption backup sealed: %s", crypto.seal_file(backup).name)
         script = ScriptDirectory.from_config(cfg)
         return [r.revision for r in script.iterate_revisions(head, current)][::-1]
     finally:

@@ -67,7 +67,7 @@ evaluation. Test suite: `..\venv\Scripts\python.exe -m unittest discover -s test
 | 6E | Structured validated response | implemented | `ModelAnswer`, response dict | `EvidenceTests.test_supported_medication_option_is_kept_with_verified_citation` |
 | 6F | Draft labelling, accept/edit/reject audited, plan revision with provenance, patient sees plan after approval, staleness | implemented | `decide_suggestion`, `save_plan`, `current_plan` | `ReviewAndStalenessTests.*` |
 | 7 | Fictional data for development; redaction with manual review; secrets in env; no sensitive logs; local by default, no silent cloud | implemented | `data/samples/`, `backend/redaction.py`, `.env.example`, `.gitignore` | `test_pipeline.LocalOnlyTests.*`, `test_pipeline.AudioTests.test_unrelated_failure_is_not_retried_and_not_logged_with_content` |
-| 7 | No HIPAA / Part 11 claim; controls and gaps documented | implemented | `data/documents/COMPLIANCE_MATRIX.md` | Document review |
+| 7 | HIPAA Security Rule and 21 CFR Part 11 compliance: encryption at rest, MFA, Ed25519 signatures, trusted time, security alerts, verified backups; policies, risk analysis, validation | implemented | `backend/crypto.py`, `backend/repository.py`, `tools/validate.py`, `data/documents/COMPLIANCE_MATRIX.md`, `data/documents/compliance/` | `test_security.*`, `python -m tools.validate` |
 | 8 | Folder organization | implemented | `backend/`, `design/`, `data/{database,documents,knowledge,samples,evaluation}`, `tests/`, `deployment/` | — |
 | 8 | Docker Compose packaging (from original proposal) | missing | — | Scripts + HTTPS example only |
 | 9 | Tests for every item in requirement 9 | implemented | `tests/` | 98 passing; mapping in `CLINICAL_ASSISTANT.md` and `COMPLIANCE_MATRIX.md` |

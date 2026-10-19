@@ -10,7 +10,11 @@ written to the audit trail as a denied event.
 Versioning: transcripts, summaries, patient context and plans are append-only versions. Any new
 version that affects approved content revokes the visit's approval in the same transaction and
 records an `approval_invalidated` audit event. Approval is an electronic signature (re-entered
-username + password, printed name, UTC time, meaning) bound to a SHA-256 of the exact versions.
+username + password and one-time code, printed name, UTC time, meaning) bound to a SHA-256 of the exact
+versions and signed with the signer's Ed25519 key, which only the signer's password can open (backend/crypto.py).
+
+Authentication: password, then a one-time code (MFA) for roles in security.MFA_REQUIRED_ROLES and for anyone
+who enrolled; create_session refuses a session for such a user without a verified code.
 
 Temporary audio is never stored here (see backend/retention.py). Pseudonym mappings live in a
 separate database file (PseudonymStore).
@@ -23,14 +27,16 @@ from contextlib import contextmanager
 from pathlib import Path
 from sqlalchemy import delete, func, select, update
 from sqlalchemy.orm import Session, sessionmaker
-from backend import audit, db, security
+from backend import audit, crypto, db, security
 from backend.models import (STATES, Approval, AssistantConversation, AssistantMessage, AssistantSuggestion, AuditEvent,
                             Base, CareAssignment, Job, LoginSession, MappingBase, PatientContextVersion, PlanVersion,
-                            PseudonymMapping, SpeakerAssignment, SummaryVersion, TranscriptSegment, TranscriptVersion,
-                            User, Visit)
+                            PseudonymMapping, SigningKey, SpeakerAssignment, SummaryVersion, TranscriptSegment,
+                            TranscriptVersion, User, Visit)
 
 RUNTIME = db.RUNTIME
 SIGNATURE_MEANING = "אישור: בדקתי ואני מאשר/ת את הסיכומים והתוכנית כמשקפים את הביקור (Reviewed and approved)"
+SECURITY_ACTIONS = ("login", "mfa_verified", "session_created", "approval_signed", "mfa_reset", "audit_verified",
+                    "password_changed")
 TRANSCRIPT_ACTIONS = {"auto": "transcription_saved", "manual": "transcript_manual_saved", "edited": "transcript_edited",
                       "redacted": "transcript_redacted"}
 __all__ = ["Repository", "PseudonymStore", "NotFound", "Conflict", "content_hash", "approval_hash", "Base", "User",
@@ -196,6 +202,7 @@ class Repository:
                 raise ValueError(problem)
             u.password_hash, u.must_change_password = security.hash_password(new_password), True
             u.failed_logins, u.locked_until, u.password_changed_at = 0, None, _now()
+            self._retire_keys(s, u, "password_reset")  # a new key pair is created at the next signature
             s.execute(delete(LoginSession).where(LoginSession.user_id == u.id))
             audit.record(s, actor, "password_reset", record_type="user", record_id=u.id)
 
@@ -208,7 +215,8 @@ class Repository:
         with self._tx(False) as s:
             return [u.to_dict() | {"active": u.active, "locked": bool(u.locked_until and u.locked_until > _now()),
                                    "failed_logins": u.failed_logins, "must_change_password": u.must_change_password,
-                                   "created_at": u.created_at} for u in s.scalars(select(User).order_by(User.role, User.id))]
+                                   "mfa_enabled": u.mfa_enabled, "created_at": u.created_at}
+                    for u in s.scalars(select(User).order_by(User.role, User.id))]
 
     # ---- login and sessions ------------------------------------------------------------
     def authenticate(self, username, password):
@@ -234,11 +242,124 @@ class Repository:
                                  details={"failed_logins": u.failed_logins, "minutes": security.LOCKOUT_MINUTES})
                 return None
             u.failed_logins, u.locked_until = 0, None
-            expired = bool(u.password_changed_at and _now() - u.password_changed_at > security.PASSWORD_MAX_AGE_DAYS * 86400)
-            audit.record(s, u.to_dict(), "login", "success", "user", u.id, details={"password_expired": expired})
-            return u.to_dict() | {"must_change_password": bool(u.must_change_password or expired)}
+            flags = self._login_flags(u)
+            audit.record(s, u.to_dict(), "login", "success", "user", u.id,
+                         details={"password_expired": flags["password_expired"], "mfa": flags["mfa"]})
+            return u.to_dict() | flags
+
+    @staticmethod
+    def _login_flags(u) -> dict:
+        """mfa: 'verify' (enrolled: a code is required), 'enroll' (required for the role, not enrolled yet) or 'off'."""
+        expired = bool(u.password_changed_at and _now() - u.password_changed_at > security.PASSWORD_MAX_AGE_DAYS * 86400)
+        mfa = "verify" if u.mfa_enabled else "enroll" if u.role in security.MFA_REQUIRED_ROLES else "off"
+        return {"must_change_password": bool(u.must_change_password or expired), "password_expired": expired, "mfa": mfa}
+
+    @staticmethod
+    def _lock_on_failure(s, u, action):
+        u.failed_logins = (u.failed_logins or 0) + 1
+        if u.failed_logins >= security.MAX_FAILED_LOGINS:
+            u.locked_until = _now() + security.LOCKOUT_MINUTES * 60
+            audit.record(s, audit.SYSTEM, "account_locked", "success", "user", u.id,
+                         details={"failed_logins": u.failed_logins, "minutes": security.LOCKOUT_MINUTES, "after": action})
+
+    # ---- multi-factor authentication -----------------------------------------------------------------
+    def verify_mfa(self, username, code):
+        """Second login step: the user dict with mfa_verified=True for a valid unused code, else None.
+        Wrong codes count toward the same lockout as wrong passwords."""
+        username = (username or "").strip().lower()
+        with self._tx() as s:
+            u = s.get(User, username)
+            if not u or not u.active or not u.mfa_enabled:
+                audit.record(s, {"id": username, "role": u.role if u else None}, "mfa_verified", "denied", "user", username,
+                             details={"reason": "not_enrolled"})
+                return None
+            if u.locked_until and u.locked_until > _now():
+                audit.record(s, u.to_dict(), "mfa_verified", "denied", "user", u.id, details={"reason": "locked"})
+                return None
+            step = crypto.totp_match(u.mfa_secret, code, u.mfa_last_step)
+            if step is None:
+                audit.record(s, u.to_dict(), "mfa_verified", "failure", "user", u.id, details={"reason": "bad_code"})
+                self._lock_on_failure(s, u, "mfa")
+                return None
+            u.mfa_last_step, u.failed_logins, u.locked_until = step, 0, None
+            audit.record(s, u.to_dict(), "mfa_verified", "success", "user", u.id)
+            return u.to_dict() | self._login_flags(u) | {"mfa_verified": True}
+
+    def begin_mfa_enrollment(self, user) -> dict:
+        """New secret for an authenticator app (not active until confirm_mfa). Refused if MFA is already active."""
+        secret = crypto.new_totp_secret()
+        with self._tx() as s:
+            u = s.get(User, user["id"])
+            if not u or not u.active:
+                raise NotFound("משתמש לא קיים")
+            if u.mfa_enabled:
+                raise Conflict("אימות דו־שלבי כבר פעיל בחשבון זה.")
+            u.mfa_secret = secret
+            audit.record(s, user, "mfa_enrollment_started", record_type="user", record_id=u.id)
+        return {"secret": secret, "uri": crypto.provisioning_uri(secret, user["id"])}
+
+    def confirm_mfa(self, user, code):
+        """Activate MFA with the first code from the app. Returns the user dict with mfa_verified=True."""
+        with self._tx() as s:
+            u = s.get(User, user["id"])
+            if not u or not u.active or not u.mfa_secret or u.mfa_enabled:
+                raise Conflict("אין הרשמה פתוחה לאימות דו־שלבי.")
+            step = crypto.totp_match(u.mfa_secret, code)
+            if step is None:
+                audit.record(s, user, "mfa_enabled", "failure", "user", u.id, details={"reason": "bad_code"})
+                failed = True
+            else:
+                u.mfa_enabled, u.mfa_last_step, failed = True, step, False
+                audit.record(s, user, "mfa_enabled", record_type="user", record_id=u.id)
+                result = u.to_dict() | self._login_flags(u) | {"mfa_verified": True}
+        if failed:
+            raise ValueError("הקוד שגוי. ודאו שהשעון בטלפון מדויק והזינו את הקוד הנוכחי.")
+        return result
+
+    def reset_mfa(self, actor, user_id, second_username, second_password, second_code=None):
+        """Lost authenticator: requires two different administrators (the second re-enters password and code),
+        so no single person can take over an account (21 CFR 11.200(a)(3)). The user enrols again at next login."""
+        self._admin(actor, "mfa_reset")
+        second = (second_username or "").strip().lower()
+        with self._tx(False) as s:
+            other = s.get(User, second)
+            ok = bool(other and other.id != actor["id"] and other.role == "admin" and other.active
+                      and security.check_password(second_password or "", other.password_hash)
+                      and (not other.mfa_enabled or crypto.totp_match(other.mfa_secret, second_code) is not None))
+        if not ok:
+            self._event(actor, "mfa_reset", "denied", "user", user_id, reason="second_admin_not_confirmed")
+            raise ValueError("איפוס אימות דו־שלבי דורש אישור של מנהל/ת מערכת נוסף/ת (שם משתמש, סיסמה וקוד).")
+        self._clear_mfa(user_id, actor, second_admin=second)
+
+    def reset_mfa_cli(self, user_id):
+        """Command-line reset (backend/manage.py) for a site with a single administrator; needs access to the server."""
+        self._clear_mfa(user_id, audit.SYSTEM, via="cli")
+
+    def _clear_mfa(self, user_id, actor, **details):
+        with self._tx() as s:
+            u = s.get(User, user_id)
+            if not u:
+                raise NotFound("משתמש לא קיים")
+            u.mfa_secret, u.mfa_enabled, u.mfa_last_step = None, False, None
+            s.execute(delete(LoginSession).where(LoginSession.user_id == u.id))
+            audit.record(s, actor, "mfa_reset", record_type="user", record_id=u.id, details=details)
+
+    def security_alerts(self, actor, hours=24) -> list[dict]:
+        """Failed or denied security events and lockouts of the last `hours`, for the admin console (21 CFR 11.300(d))."""
+        self._admin(actor, "security_alerts_viewed")
+        since = audit.utc_iso(_now() - hours * 3600)
+        with self._tx(False) as s:
+            q = (select(AuditEvent).where(AuditEvent.ts_utc >= since,
+                                          ((AuditEvent.outcome != "success") & AuditEvent.action.in_(SECURITY_ACTIONS))
+                                          | AuditEvent.action.in_(("account_locked", "mfa_reset")))
+                 .order_by(AuditEvent.seq.desc()).limit(100))
+            return [{k: e.to_dict()[k] for k in ("seq", "ts_utc", "actor_id", "action", "outcome", "record_id", "details")}
+                    for e in s.scalars(q)]
 
     def create_session(self, user) -> str:
+        if (user.get("role") in security.MFA_REQUIRED_ROLES or user.get("mfa") == "verify") and not user.get("mfa_verified"):
+            self._event(user, "session_created", "denied", "user", user.get("id"), reason="mfa_not_verified")
+            raise Conflict("נדרש אימות דו־שלבי לפני הכניסה.")
         token, digest = security.new_token()
         now = _now()
         with self._tx() as s:
@@ -284,6 +405,11 @@ class Repository:
             if security.check_password(new, u.password_hash):
                 raise ValueError("הסיסמה החדשה חייבת להיות שונה מהקודמת.")
             u.password_hash, u.must_change_password, u.password_changed_at = security.hash_password(new), False, _now()
+            if u.sign_key_wrapped:  # the signing key stays openable only by the (new) password
+                try:
+                    u.sign_key_wrapped = crypto.rewrap(u.sign_key_wrapped, old, new, security.PBKDF2_ITERATIONS)
+                except crypto.CryptoError:
+                    self._retire_keys(s, u, "unreadable")
             s.execute(delete(LoginSession).where(LoginSession.user_id == u.id))
             audit.record(s, user, "password_changed", record_type="user", record_id=u.id)
 
@@ -343,8 +469,8 @@ class Repository:
         with self._tx(False) as s:
             q = (select(User).join(CareAssignment, CareAssignment.patient_id == User.id)
                  .where(CareAssignment.doctor_id == actor["id"], CareAssignment.revoked_at.is_(None), User.active.is_(True))
-                 .order_by(User.display).distinct())
-            return [u.to_dict() for u in s.scalars(q)]
+                 .distinct())
+            return sorted((u.to_dict() for u in s.scalars(q)), key=lambda d: d["display"])  # names are encrypted: sort here
 
     # ---- access ----------------------------------------------------------------------------------
     def _visit(self, s: Session, user, visit_id, doctor_only=True) -> Visit:
@@ -730,13 +856,30 @@ class Repository:
 
     # ---- approval (electronic signature) and export ------------------------------------------------------------
     def approve(self, user, visit_id, clinician_version_id, patient_version_id, expected_sha256,
-                username=None, password=None, plan_version_id=None, meaning=SIGNATURE_MEANING):
-        """Sign the exact current versions. Requires re-entering username and password at every signing."""
+                username=None, password=None, plan_version_id=None, meaning=SIGNATURE_MEANING, totp_code=None):
+        """Sign the exact current versions. Every signing requires username, password and (when enrolled or required
+        for the role) a fresh one-time code; the manifest is signed with the signer's Ed25519 key."""
         with self._tx(False) as s:
             u = s.get(User, (username or "").strip().lower())
         if not u or u.id != (user or {}).get("id") or not security.check_password(password or "", u.password_hash):
             self._event(user, "approval_signed", "failure", "visit", visit_id, reason="signature_credentials")
             raise ValueError("החתימה נכשלה: שם המשתמש או הסיסמה שגויים. החתימה דורשת את פרטי הכניסה שלך.")
+        if not u.mfa_enabled and u.role in security.MFA_REQUIRED_ROLES:
+            self._event(user, "approval_signed", "failure", "visit", visit_id, reason="mfa_not_enrolled")
+            raise ValueError("החתימה דורשת אימות דו־שלבי פעיל בחשבון.")
+        if u.mfa_enabled:
+            with self._tx() as s:
+                signer = s.get(User, u.id)
+                step = crypto.totp_match(signer.mfa_secret, totp_code, signer.mfa_last_step)
+                if step is not None:
+                    signer.mfa_last_step = step  # each code is used once
+            if step is None:
+                self._event(user, "approval_signed", "failure", "visit", visit_id, reason="signature_mfa_code")
+                raise ValueError("החתימה נכשלה: קוד האימות שגוי או שכבר נוצל. הזינו את הקוד הנוכחי מהאפליקציה.")
+        clock = crypto.clock_check()
+        if clock["verified"] and abs(clock["offset_seconds"]) > crypto.MAX_CLOCK_SKEW_SECONDS:
+            self._event(user, "approval_signed", "failure", "visit", visit_id, reason="clock_skew", offset=clock["offset_seconds"])
+            raise Conflict(f"שעון המחשב סוטה ב־{abs(clock['offset_seconds']):.0f} שניות משעון הזמן המאומת. סנכרנו את השעון לפני החתימה.")
         with self._clinical(user, visit_id, "approval_signed", write=True) as (s, v):
             t_latest = self._latest_transcript_id(s, visit_id)
             c, p = self._latest_summary(s, visit_id, "clinician"), self._latest_summary(s, visit_id, "patient")
@@ -755,17 +898,67 @@ class Repository:
             if sha != expected_sha256:
                 raise Conflict("תוכן הטיוטות השתנה מאז הבדיקה. בדקו שוב לפני האישור.")
             self._revoke(s, user, visit_id, "superseded")
+            private, fp = self._signing_key(s, s.get(User, u.id), password)
+            now = _now()
+            manifest = {"visit_id": visit_id, "clinician_version_id": c.id, "patient_version_id": p.id,
+                        "plan_version_id": plan.id if plan else None, "transcript_version_id": t_latest, "content_sha256": sha,
+                        "signer_id": u.id, "signer_name": u.display, "meaning": meaning, "signed_at_utc": audit.utc_iso(now),
+                        "mfa": bool(u.mfa_enabled), "time_source": clock["source"], "clock_offset_seconds": clock["offset_seconds"],
+                        "key_fingerprint": fp, "algorithm": "Ed25519"}
+            method = "username + password" + (" + one-time code" if u.mfa_enabled else "") + " re-entry; Ed25519 signature"
             a = Approval(visit_id=visit_id, clinician_version_id=c.id, patient_version_id=p.id,
                          plan_version_id=plan.id if plan else None, transcript_version_id=t_latest, content_sha256=sha,
-                         approved_by=user["id"], approved_at=_now(), signer_name=u.display, meaning=meaning,
-                         signature_method="username+password re-entry")
+                         approved_by=user["id"], approved_at=now, signer_name=u.display, meaning=meaning,
+                         signature_method=method, manifest=json.dumps(manifest, ensure_ascii=False, sort_keys=True),
+                         signature=crypto.sign(private, manifest), key_fingerprint=fp, mfa_verified=bool(u.mfa_enabled),
+                         time_source=clock["source"], clock_offset=clock["offset_seconds"])
             s.add(a)
             v.state, v.updated_at = "approved", _now()
             s.flush()
             audit.record(s, user, "approval_signed", record_type="approval", record_id=a.id,
                          record_version=f"c{c.version}/p{p.version}" + (f"/plan{plan.version}" if plan else ""),
-                         details={"visit": visit_id, "sha256": sha[:16]})
+                         details={"visit": visit_id, "sha256": sha[:16], "key": fp[:16], "mfa": bool(u.mfa_enabled),
+                                  "time_source": clock["source"][:60]})
             return a.id
+
+    # ---- signing keys -----------------------------------------------------------------------------------------
+    def _signing_key(self, s, signer, password):
+        """(private key, fingerprint) of the signer's current key, created on first use (or after a reset)."""
+        if signer.sign_key_wrapped:
+            try:
+                private = crypto.unwrap_private(signer.sign_key_wrapped, password)
+                return private, crypto.fingerprint(crypto.public_key_b64(private))
+            except crypto.CryptoError:
+                self._retire_keys(s, signer, "unreadable")
+        public, wrapped = crypto.new_signing_key(password, security.PBKDF2_ITERATIONS)
+        fp = crypto.fingerprint(public)
+        s.add(SigningKey(fingerprint=fp, user_id=signer.id, public_key=public, created_at=_now()))
+        s.flush()
+        signer.sign_key_wrapped = wrapped
+        audit.record(s, signer.to_dict(), "signing_key_created", record_type="signing_key", record_id=fp)
+        return crypto.unwrap_private(wrapped, password), fp
+
+    @staticmethod
+    def _retire_keys(s, u, reason):
+        for k in s.scalars(select(SigningKey).where(SigningKey.user_id == u.id, SigningKey.retired_at.is_(None))):
+            k.retired_at, k.retired_reason = _now(), reason
+            audit.record(s, audit.SYSTEM, "signing_key_retired", record_type="signing_key", record_id=k.fingerprint,
+                         details={"user": u.id, "reason": reason})
+        u.sign_key_wrapped = None
+
+    @staticmethod
+    def signature_valid(s, a) -> bool:
+        """True for a legacy approval without a cryptographic signature; otherwise the Ed25519 check of its manifest,
+        its key (which must belong to the signer) and the manifest's binding to the approval's content hash."""
+        if not a.signature:
+            return True
+        key = s.get(SigningKey, a.key_fingerprint)
+        try:
+            manifest = json.loads(a.manifest or "")
+        except ValueError:
+            return False
+        return bool(key and key.user_id == a.approved_by and manifest.get("content_sha256") == a.content_sha256
+                    and manifest.get("signer_id") == a.approved_by and crypto.verify(key.public_key, manifest, a.signature))
 
     def _live_approval(self, s, visit_id):
         """The visit's valid approval with its signed versions, or None (also None if the hash no longer matches)."""
@@ -775,6 +968,8 @@ class Repository:
         c, p = s.get(SummaryVersion, a.clinician_version_id), s.get(SummaryVersion, a.patient_version_id)
         plan = s.get(PlanVersion, a.plan_version_id) if a.plan_version_id else None
         if approval_hash(c.content, p.content, c.transcript_version_id, plan.content if plan else None) != a.content_sha256:
+            return None
+        if not self.signature_valid(s, a):
             return None
         latest_c, latest_p, latest_plan = (self._latest_summary(s, visit_id, "clinician"), self._latest_summary(s, visit_id, "patient"),
                                            self._latest_plan(s, visit_id))
@@ -796,7 +991,9 @@ class Repository:
                       "versions": {"clinician": [c.id, c.version], "patient": [p.id, p.version],
                                    "plan": [plan.id, plan.version] if plan else None, "transcript": c.transcript_version_id},
                       "signature": {"signer_name": a.signer_name, "signer_id": a.approved_by, "signed_at": a.approved_at,
-                                    "meaning": a.meaning, "method": a.signature_method},
+                                    "meaning": a.meaning, "method": a.signature_method, "algorithm": "Ed25519" if a.signature else None,
+                                    "key_fingerprint": a.key_fingerprint, "signature": a.signature, "verified": bool(a.signature),
+                                    "mfa": a.mfa_verified, "time_source": a.time_source, "clock_offset": a.clock_offset},
                       "plan": [{"text": i["text"], "source": i["source"]} for i in plan.content["items"]] if plan else []}
             if user["role"] == "doctor":
                 result["clinician"] = c.content
@@ -810,7 +1007,8 @@ class Repository:
             rows = s.scalars(select(Approval).where(Approval.visit_id == visit_id).order_by(Approval.id.desc()))
             return [{c: getattr(a, c) for c in ("id", "clinician_version_id", "patient_version_id", "plan_version_id", "content_sha256",
                                                 "approved_by", "approved_at", "signer_name", "meaning", "signature_method",
-                                                "revoked_at", "revoked_reason")} for a in rows]
+                                                "key_fingerprint", "mfa_verified", "time_source", "revoked_at", "revoked_reason")}
+                    | {"signature_valid": self.signature_valid(s, a)} for a in rows]
 
     def record_export(self, user, visit_id):
         """Complete structured record with every version, for the treating doctor; patients get only approved content."""
@@ -837,8 +1035,15 @@ class Repository:
                                               s.scalars(select(AssistantSuggestion).where(AssistantSuggestion.visit_id == visit_id).order_by(AssistantSuggestion.id))],
                     "approvals": [{c: getattr(a, c) for c in ("id", "clinician_version_id", "patient_version_id", "plan_version_id",
                                                               "transcript_version_id", "content_sha256", "approved_by", "approved_at",
-                                                              "signer_name", "meaning", "signature_method", "revoked_at", "revoked_reason")}
+                                                              "signer_name", "meaning", "signature_method", "manifest", "signature",
+                                                              "key_fingerprint", "mfa_verified", "time_source", "clock_offset",
+                                                              "revoked_at", "revoked_reason")}
+                                  | {"signature_valid": self.signature_valid(s, a)}
                                   for a in s.scalars(select(Approval).where(Approval.visit_id == visit_id).order_by(Approval.id))]}
+            fps = {a["key_fingerprint"] for a in data["approvals"] if a["key_fingerprint"]}
+            data["signing_keys"] = [{"fingerprint": k.fingerprint, "user_id": k.user_id, "public_key_ed25519": k.public_key,
+                                     "created_at": k.created_at, "retired_at": k.retired_at}
+                                    for k in s.scalars(select(SigningKey).where(SigningKey.fingerprint.in_(fps)))] if fps else []
             live = self._live_approval(s, visit_id)
             data["approval_status"] = {"approved": True, "approval_id": live[0].id} if live else {"approved": False}
             for x in data["assistant_suggestions"]:
@@ -914,6 +1119,11 @@ class PseudonymStore:
         engine = db.engine(self.path, immediate=True)
         MappingBase.metadata.create_all(engine)
         self._session = sessionmaker(engine)
+        with engine.begin() as conn:  # mappings written before encryption at rest
+            for visit_id, placeholder, original in conn.exec_driver_sql("SELECT visit_id, placeholder, original FROM mappings").all():
+                if not crypto.is_encrypted(original):
+                    conn.exec_driver_sql("UPDATE mappings SET original = ? WHERE visit_id = ? AND placeholder = ?",
+                                         (crypto.encrypt(original), visit_id, placeholder))
 
     def dispose(self):
         self._session.kw["bind"].dispose()

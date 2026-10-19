@@ -98,6 +98,13 @@ def attachment(content, media_type, name):
 class Login(BaseModel):
     username: str
     password: str
+    totp: Optional[str] = None  # one-time code, required for MFA users
+
+
+class MfaReset(BaseModel):
+    second_admin: str
+    second_password: str
+    second_totp: Optional[str] = None
 
 
 class NewUser(BaseModel):
@@ -179,6 +186,7 @@ class ApprovalRequest(BaseModel):
     sha256: str
     username: str
     password: str
+    totp: Optional[str] = None
 
 
 # ---- auth -------------------------------------------------------------------------------------------------
@@ -193,6 +201,12 @@ def login(body: Login):
     user = repo.authenticate(body.username, body.password)
     if not user:
         raise HTTPException(401, "wrong username or password, or account locked")
+    if user["mfa"] == "enroll":
+        raise HTTPException(403, "MFA enrolment required: sign in once through the app to set up an authenticator")
+    if user["mfa"] == "verify":
+        user = repo.verify_mfa(user["id"], body.totp)
+        if not user:
+            raise HTTPException(401, "one-time code missing, wrong or already used")
     return {"token": repo.create_session(user), "user": user}
 
 
@@ -234,6 +248,17 @@ def set_role(user_id: str, body: RoleChange, user=Depends(admin)):
 def set_active(user_id: str, body: Activation, user=Depends(admin)):
     guard(services().repo.set_active, user, user_id, body.active)
     return {"changed": True}
+
+
+@app.post("/admin/users/{user_id}/mfa-reset")
+def reset_mfa(user_id: str, body: MfaReset, user=Depends(admin)):
+    guard(services().repo.reset_mfa, user, user_id, body.second_admin, body.second_password, body.second_totp)
+    return {"mfa_reset": True}
+
+
+@app.get("/admin/security-alerts")
+def security_alerts(hours: int = 24, user=Depends(admin)):
+    return guard(services().repo.security_alerts, user, hours)
 
 
 @app.post("/admin/users/{user_id}/password-reset")
@@ -418,7 +443,7 @@ def review(visit_id: str, user=Depends(doctor)):
 @app.post("/visits/{visit_id}/approval")
 def approve(visit_id: str, body: ApprovalRequest, user=Depends(doctor)):
     return {"approval_id": guard(services().approve, user, visit_id, body.clinician_version_id, body.patient_version_id,
-                                 body.sha256, body.username, body.password, body.plan_version_id)}
+                                 body.sha256, body.username, body.password, body.plan_version_id, body.totp)}
 
 
 @app.get("/visits/{visit_id}/export")

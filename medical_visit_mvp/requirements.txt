@@ -14,6 +14,9 @@ fastapi>=0.110
 uvicorn>=0.29
 python-multipart>=0.0.9
 httpx>=0.27
+# Encryption at rest, Ed25519 signatures (backend/crypto.py) and the QR code for MFA enrolment.
+cryptography>=42
+qrcode>=7.4
 # PDF export with Hebrew/Arabic shaping (backend/export.py).
 fpdf2>=2.7
 uharfbuzz>=0.39

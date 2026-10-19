@@ -71,6 +71,10 @@
   "ar": "نموذج أولي تعليمي جُرِّب على مرضى وهميين. ليس جهازًا طبيًا معتمدًا.",
   "en": "Educational prototype tested with fictional patients. Not an approved medical device."
  },
+ "או הזינו ידנית את המפתח:": {
+  "ar": "أو أدخلوا المفتاح يدويًا:",
+  "en": "Or enter the key manually:"
+ },
  "אוסף המקורות כולל תוויות תרופה של ה־FDA (ארה״ב) ועלונים ממאגר התרופות של משרד הבריאות. הרישום והתוויות בישראל עשויים להיות שונים מהתוויות האמריקאיות.": {
   "ar": "تشمل مجموعة المصادر نشرات أدوية من الـ FDA (الولايات المتحدة) ونشرات من مستودع الأدوية لوزارة الصحة. قد يختلف التسجيل والنشرات في إسرائيل عن النشرات الأمريكية.",
   "en": "The source collection includes FDA (U.S.) drug labels and leaflets from the Ministry of Health medicines registry. Israeli registration and labels may differ from the U.S. labels."
@@ -119,6 +123,18 @@
   "ar": "ما الأدوية التي يتناولها المريض/ة حاليًا؟ (بما فيها بدون وصفة؛ يلزم تأكيد حتى لو لا يوجد)",
   "en": "Which medications is the patient taking now? (including over-the-counter; confirmation is required even if none)"
  },
+ "אימות דו־שלבי": {
+  "ar": "المصادقة الثنائية",
+  "en": "Two-factor authentication"
+ },
+ "אימות דו־שלבי בעת החתימה: {mfa} · מקור זמן: {source}": {
+  "ar": "مصادقة ثنائية عند التوقيع: {mfa} · مصدر الوقت: {source}",
+  "en": "Two-factor authentication at signing: {mfa} · Time source: {source}"
+ },
+ "אימות דו־שלבי כבר פעיל בחשבון זה.": {
+  "ar": "المصادقة الثنائية مفعّلة بالفعل في هذا الحساب.",
+  "en": "Two-factor authentication is already active for this account."
+ },
  "אימות סיסמה חדשה": {
   "ar": "تأكيد كلمة المرور الجديدة",
   "en": "Confirm new password"
@@ -150,6 +166,14 @@
  "אין הערות": {
   "ar": "لا ملاحظات",
   "en": "No notes"
+ },
+ "אין הרשמה פתוחה לאימות דו־שלבי.": {
+  "ar": "لا يوجد تسجيل مفتوح للمصادقة الثنائية.",
+  "en": "There is no open two-factor enrolment."
+ },
+ "אין התראות אבטחה ב־24 השעות האחרונות.": {
+  "ar": "لا توجد تنبيهات أمنية خلال الـ24 ساعة الأخيرة.",
+  "en": "No security alerts in the last 24 hours."
  },
  "אין טיוטת רופא עדכנית.": {
   "ar": "لا توجد مسودة طبيب محدّثة.",
@@ -203,9 +227,25 @@
   "ar": "لا أدوية دائمة (مؤكَّد)",
   "en": "No regular medications (confirmed)"
  },
+ "איפוס אימות דו־שלבי": {
+  "ar": "إعادة تعيين المصادقة الثنائية",
+  "en": "Reset two-factor authentication"
+ },
+ "איפוס אימות דו־שלבי (אובדן טלפון)": {
+  "ar": "إعادة تعيين المصادقة الثنائية (فقدان الهاتف)",
+  "en": "Reset two-factor authentication (lost phone)"
+ },
+ "איפוס אימות דו־שלבי דורש אישור של מנהל/ת מערכת נוסף/ת (שם משתמש, סיסמה וקוד).": {
+  "ar": "إعادة تعيين المصادقة الثنائية تتطلب موافقة مسؤول نظام آخر (اسم المستخدم وكلمة المرور والرمز).",
+  "en": "Resetting two-factor authentication requires confirmation by a second administrator (username, password and code)."
+ },
  "איפוס סיסמה ושחרור נעילה": {
   "ar": "إعادة تعيين كلمة المرور وفك القفل",
   "en": "Reset password and unlock"
+ },
+ "אישור": {
+  "ar": "تأكيد",
+  "en": "Confirm"
  },
  "אישור בדיקת ההשחרה": {
   "ar": "تأكيد فحص الإخفاء",
@@ -427,6 +467,10 @@
   "ar": "متحدث إضافي",
   "en": "Other speaker"
  },
+ "דורש אישור של מנהל/ת מערכת נוסף/ת, כך שאף אדם יחיד אינו יכול להשתלט על חשבון. המשתמש/ת יגדיר/תגדיר אפליקציה מחדש בכניסה הבאה.": {
+  "ar": "يتطلب موافقة مسؤول نظام آخر، حتى لا يتمكن شخص واحد من الاستيلاء على حساب. سيعيد المستخدم إعداد التطبيق عند الدخول التالي.",
+  "en": "Requires a second administrator, so no single person can take over an account. The user sets up the app again at the next sign-in."
+ },
  "דחייה": {
   "ar": "رفض",
   "en": "Reject"
@@ -438,6 +482,10 @@
  "האודיו הזמני ומיפוי הפרטים נמחקו.": {
   "ar": "حُذف الصوت المؤقت وربط التفاصيل.",
   "en": "The temporary audio and the identifier mapping were deleted."
+ },
+ "האימות הדו־שלבי אופס; כל ההתחברויות של המשתמש/ת הסתיימו.": {
+  "ar": "تمت إعادة تعيين المصادقة الثنائية؛ انتهت جميع جلسات المستخدم.",
+  "en": "Two-factor authentication was reset; all of the user's sessions ended."
  },
  "האישור מ־{date} בוטל: {reason}. נדרשת חתימה מחדש.": {
   "ar": "أُلغيت المصادقة من {date}: {reason}. يلزم توقيع جديد.",
@@ -494,6 +542,10 @@
  "הבקשה כוללת הוראות לשינוי כללי העוזר ולכן נדחתה.": {
   "ar": "يتضمن الطلب تعليمات لتغيير قواعد المساعد ولذلك رُفض.",
   "en": "The request contains instructions to change the assistant's rules and was therefore refused."
+ },
+ "הגדרת אימות דו־שלבי": {
+  "ar": "إعداد المصادقة الثنائية",
+  "en": "Set up two-factor authentication"
  },
  "הגרסה שאושרה אינה הגרסה האחרונה. רעננו ובדקו שוב.": {
   "ar": "النسخة التي صودق عليها ليست الأحدث. حدّث الصفحة وراجع من جديد.",
@@ -615,13 +667,29 @@
   "ar": "حسابي",
   "en": "My account"
  },
+ "החשבון שלך מחייב קוד חד־פעמי. סרקו את הקוד באפליקציית אימות (Google Authenticator, Microsoft Authenticator וכדומה) והזינו את הקוד בן 6 הספרות שמופיע בה.": {
+  "ar": "يتطلب حسابك رمزًا لمرة واحدة. امسحوا الرمز بتطبيق مصادقة (Google Authenticator أو Microsoft Authenticator وما شابه) وأدخلوا الرمز المكوّن من 6 أرقام الظاهر فيه.",
+  "en": "Your account requires a one-time code. Scan the code with an authenticator app (Google Authenticator, Microsoft Authenticator or similar) and enter the 6-digit code it shows."
+ },
  "החשבונות נוצרים על ידי מנהל/ת המערכת בלבד · ההתחברות מסתיימת אחרי 15 דקות ללא פעילות · חמש סיסמאות שגויות נועלות את החשבון זמנית": {
   "ar": "تُنشأ الحسابات من قِبل مدير/ة النظام فقط · تنتهي الجلسة بعد 15 دقيقة من عدم النشاط · خمس كلمات مرور خاطئة تقفل الحساب مؤقتًا",
   "en": "Accounts are created by the system administrator only · the session ends after 15 minutes of inactivity · five wrong passwords lock the account temporarily"
  },
+ "החתימה דורשת אימות דו־שלבי פעיל בחשבון.": {
+  "ar": "يتطلب التوقيع مصادقة ثنائية مفعّلة في الحساب.",
+  "en": "Signing requires active two-factor authentication on the account."
+ },
  "החתימה מחייבת הזנה מחדש של שם המשתמש והסיסמה שלך. היא תירשם עם שמך המלא, מועד UTC ותוכן הגרסאות החתומות.": {
   "ar": "يتطلب التوقيع إعادة إدخال اسم المستخدم وكلمة المرور. سيُسجَّل باسمك الكامل وموعد UTC ومحتوى النسخ الموقّعة.",
   "en": "Signing requires re-entering your username and password. It is recorded with your full name, the UTC time and the content of the signed versions."
+ },
+ "החתימה מחייבת הזנה מחדש של שם המשתמש, הסיסמה וקוד האימות שלך. היא נחתמת קריפטוגרפית (Ed25519) ונרשמת עם שמך המלא, מועד UTC מאומת ותוכן הגרסאות החתומות.": {
+  "ar": "يتطلب التوقيع إعادة إدخال اسم المستخدم وكلمة المرور ورمز التحقق. يُوقَّع تشفيريًا (Ed25519) ويُسجَّل مع اسمك الكامل ووقت UTC موثَّق ومحتوى النسخ الموقّعة.",
+  "en": "Signing requires re-entering your username, password and verification code. It is signed cryptographically (Ed25519) and recorded with your full name, a verified UTC time and the content of the signed versions."
+ },
+ "החתימה נכשלה: קוד האימות שגוי או שכבר נוצל. הזינו את הקוד הנוכחי מהאפליקציה.": {
+  "ar": "فشل التوقيع: رمز التحقق خاطئ أو مستخدم سابقًا. أدخلوا الرمز الحالي من التطبيق.",
+  "en": "Signing failed: the verification code is wrong or already used. Enter the current code from the app."
  },
  "החתימה נכשלה: שם המשתמש או הסיסמה שגויים. החתימה דורשת את פרטי הכניסה שלך.": {
   "ar": "فشل التوقيع: اسم المستخدم أو كلمة المرور خاطئة. يتطلب التوقيع بيانات الدخول الخاصة بك.",
@@ -875,6 +943,14 @@
   "ar": "اقتراح أسئلة متابعة",
   "en": "Suggest follow-up questions"
  },
+ "הקוד שגוי או שפג תוקפו.": {
+  "ar": "الرمز خاطئ أو منتهي الصلاحية.",
+  "en": "The code is wrong or has expired."
+ },
+ "הקוד שגוי. ודאו שהשעון בטלפון מדויק והזינו את הקוד הנוכחי.": {
+  "ar": "الرمز خاطئ. تأكدوا من دقة ساعة الهاتف وأدخلوا الرمز الحالي.",
+  "en": "Wrong code. Make sure the phone's clock is correct and enter the current code."
+ },
  "הקטגוריה אינה מתאימה לדובר (רופא/מטופל).": {
   "ar": "الفئة لا تناسب المتحدث (طبيب/مريض).",
   "en": "The category does not match the speaker (doctor/patient)."
@@ -1003,6 +1079,10 @@
   "ar": "قُبل كما هو",
   "en": "Accepted as written"
  },
+ "התראות אבטחה ב־24 השעות האחרונות: {n} אירועים, מתוכם {locks} נעילות חשבון. בדקו אותם לפי נוהל אירועי אבטחה.": {
+  "ar": "تنبيهات أمنية خلال الـ24 ساعة الأخيرة: {n} أحداث، منها {locks} حالات قفل حساب. راجعوها وفق إجراء الحوادث الأمنية.",
+  "en": "Security alerts in the last 24 hours: {n} events, including {locks} account lockouts. Review them under the security incident procedure."
+ },
  "התרופה": {
   "ar": "الدواء",
   "en": "the medication"
@@ -1027,9 +1107,17 @@
   "ar": "ذكر",
   "en": "Male"
  },
+ "זמן (UTC)": {
+  "ar": "الوقت (UTC)",
+  "en": "Time (UTC)"
+ },
  "חושב… (מודל מקומי, עד כחצי דקה)": {
   "ar": "أفكّر… (نموذج محلي، حتى نصف دقيقة تقريبًا)",
   "en": "Thinking… (local model, up to about half a minute)"
+ },
+ "חזרה למסך הכניסה": {
+  "ar": "العودة إلى شاشة الدخول",
+  "en": "Back to sign-in"
  },
  "חייב/ת להחליף סיסמה": {
   "ar": "يجب تغيير كلمة المرور",
@@ -1066,6 +1154,14 @@
  "חתימה ואישור": {
   "ar": "توقيع ومصادقة",
   "en": "Sign and approve"
+ },
+ "חתימה קריפטוגרפית {alg} אומתה · מפתח {key}… · אימות דו־שלבי: {mfa} · מקור זמן: {source}": {
+  "ar": "تم التحقق من التوقيع التشفيري {alg} · المفتاح {key}… · مصادقة ثنائية: {mfa} · مصدر الوقت: {source}",
+  "en": "Cryptographic signature {alg} verified · key {key}… · two-factor: {mfa} · time source: {source}"
+ },
+ "חתימה קריפטוגרפית: {alg} · טביעת מפתח: {key}": {
+  "ar": "توقيع تشفيري: {alg} · بصمة المفتاح: {key}",
+  "en": "Cryptographic signature: {alg} · key fingerprint: {key}"
  },
  "טיוטה": {
   "ar": "مسودة",
@@ -1258,6 +1354,10 @@
  "כניסות כושלות": {
   "ar": "محاولات دخول فاشلة",
   "en": "Failed logins"
+ },
+ "לא": {
+  "ar": "لا",
+  "en": "No"
  },
  "לא (אושר)": {
   "ar": "لا (مؤكَّد)",
@@ -1627,6 +1727,10 @@
   "ar": "مدير/ة النظام",
   "en": "System administrator"
  },
+ "מנהל/ת שני/ה: שם משתמש": {
+  "ar": "مسؤول ثانٍ: اسم المستخدم",
+  "en": "Second administrator: username"
+ },
  "מניקה": {
   "ar": "مرضعة",
   "en": "Breastfeeding"
@@ -1758,6 +1862,10 @@
  "נדחה": {
   "ar": "مرفوض",
   "en": "Denied"
+ },
+ "נדרש אימות דו־שלבי לפני הכניסה.": {
+  "ar": "المصادقة الثنائية مطلوبة قبل الدخول.",
+  "en": "Two-factor authentication is required before signing in."
  },
  "נדרש נוסח ערוך.": {
   "ar": "يلزم نص معدّل.",
@@ -2043,6 +2151,10 @@
   "ar": "كلمة المرور الحالية",
   "en": "Current password"
  },
+ "סיסמה של המנהל/ת השני/ה": {
+  "ar": "كلمة مرور المسؤول الثاني",
+  "en": "Second administrator's password"
+ },
  "סתירה בתיעוד הביקור:": {
   "ar": "تناقض في توثيق الزيارة:",
   "en": "Contradiction in the visit documentation:"
@@ -2135,6 +2247,10 @@
   "ar": "تعديل وقبول في الخطة",
   "en": "Edit and accept into the plan"
  },
+ "ערך החתימה (Base64): {value}": {
+  "ar": "قيمة التوقيع (Base64): {value}",
+  "en": "Signature value (Base64): {value}"
+ },
  "פגוע": {
   "ar": "متضرر",
   "en": "Impaired"
@@ -2142,6 +2258,14 @@
  "פורטל קליני לרופאים ולמטופלים": {
   "ar": "بوابة سريرية للأطباء والمرضى",
   "en": "Clinical portal for doctors and patients"
+ },
+ "פירוט התראות האבטחה": {
+  "ar": "تفاصيل التنبيهات الأمنية",
+  "en": "Security alert details"
+ },
+ "פעולה": {
+  "ar": "الإجراء",
+  "en": "Action"
  },
  "פעולה (לדוגמה login)": {
   "ar": "إجراء (مثال login)",
@@ -2171,6 +2295,10 @@
   "ar": "تفصيل دواء غير موجود في الاقتباس.",
   "en": "A medication detail that does not appear in the quote."
  },
+ "פרטים": {
+  "ar": "التفاصيل",
+  "en": "Details"
+ },
  "פריטים בתוכנית נוצרו לפני שינוי בנתוני המטופל. בצעו הערכה מחדש של התוכנית לפני האישור.": {
   "ar": "بنود في الخطة أُنشئت قبل تغيير بيانات المريض. أعد تقييم الخطة قبل المصادقة.",
   "en": "Plan items were created before the patient data changed. Reassess the plan before approval."
@@ -2194,6 +2322,22 @@
  "קובץ אודיו עד 24MB ועד עשר דקות": {
   "ar": "ملف صوتي حتى 24MB وحتى عشر دقائق",
   "en": "Audio file up to 24MB and up to ten minutes"
+ },
+ "קוד אימות": {
+  "ar": "رمز التحقق",
+  "en": "Verification code"
+ },
+ "קוד אימות (6 ספרות מהאפליקציה)": {
+  "ar": "رمز التحقق (6 أرقام من التطبيق)",
+  "en": "Verification code (6 digits from the app)"
+ },
+ "קוד אימות של המנהל/ת השני/ה": {
+  "ar": "رمز تحقق المسؤول الثاني",
+  "en": "Second administrator's verification code"
+ },
+ "קוד בן 6 ספרות מהאפליקציה": {
+  "ar": "رمز من 6 أرقام من التطبيق",
+  "en": "6-digit code from the app"
  },
  "קטגוריה": {
   "ar": "الفئة",
@@ -2230,6 +2374,10 @@
  "רקע רפואי שנמסר": {
   "ar": "الخلفية الطبية التي ذُكرت",
   "en": "Medical history reported"
+ },
+ "רשומה": {
+  "ar": "السجل",
+  "en": "Record"
  },
  "רשומות": {
   "ar": "مسجّلة",

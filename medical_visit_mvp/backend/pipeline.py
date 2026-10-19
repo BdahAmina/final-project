@@ -218,9 +218,9 @@ class Pipeline:
                 "sha256": approval_hash(c["content"], p["content"], c["transcript_version_id"], plan["content"] if plan else None)}
 
     def approve(self, user, visit_id, clinician_version_id, patient_version_id, sha256, username=None, password=None,
-                plan_version_id=None):
+                plan_version_id=None, totp_code=None):
         return self.repo.approve(user, visit_id, clinician_version_id, patient_version_id, sha256,
-                                 username=username, password=password, plan_version_id=plan_version_id)
+                                 username=username, password=password, plan_version_id=plan_version_id, totp_code=totp_code)
 
     # ---- retention ---------------------------------------------------------
     def end_session(self, user, visit_id):

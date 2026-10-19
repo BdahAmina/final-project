@@ -3,23 +3,27 @@
 Everything shown is reloaded from the database on each rerun. The browser session holds only a
 login token; the server checks it on every rerun (idle and absolute expiry in backend/security.py).
 Authorization is enforced in backend/repository.py, so hiding a button here is never the control.
+Login is two steps for MFA users: password, then a one-time code (or enrolment of an authenticator app); the
+password step is remembered for MFA_STEP_SECONDS only, and the repository refuses a session without the code.
 All processing is local: faster-whisper for transcription, Ollama for drafts and the assistant.
 """
 import os
+import time
 from pathlib import Path
 import streamlit as st
 from dotenv import load_dotenv
-from backend import audit, db
+from backend import audit, crypto, db
 from backend.assistant import ClinicalAssistant
 from backend.llm_client import OllamaClient
 from backend.pipeline import Pipeline
-from backend.repository import PseudonymStore, Repository
+from backend.repository import Conflict, PseudonymStore, Repository
 from design.common import act
 from design.i18n import clear_session, t
 from design.theme import footer, inject_css, page_title, topbar
 from design.editors import edited_draft, edited_transcript, fact_rows, item_rows  # noqa: F401 (re-exported for tests)
 
 ROOT = Path(__file__).resolve().parents[1]
+MFA_STEP_SECONDS = 300
 
 
 @st.cache_resource
@@ -61,6 +65,11 @@ def login_screen(repo):
     if not repo.has_admin():
         st.info(t("עדיין אין מנהל/ת מערכת. משתמשים קיימים יכולים להיכנס; ניהול משתמשים ושיוכים דורש מנהל/ת "
                   "(python -m backend.manage create-admin)."))
+    pending = st.session_state.get("mfa_pending")
+    if pending and time.time() - pending["at"] < MFA_STEP_SECONDS:
+        mfa_step(repo, pending)
+        return
+    st.session_state.pop("mfa_pending", None)
     with st.form("login"):
         st.markdown('<div class="mv-login-head"><div class="mv-login-icon">'
                     '<svg viewBox="0 0 40 40" width="34" height="34"><path d="M16 8h8v8h8v8h-8v8h-8v-8H8v-8h8z" fill="#fff"/></svg>'
@@ -72,12 +81,55 @@ def login_screen(repo):
             user = repo.authenticate(username, password)
             if not user:
                 st.error(t("שם משתמש או סיסמה שגויים, או שהחשבון נעול זמנית."))
-            else:
+            elif user["mfa"] != "off":
                 clear_session()
-                st.session_state.token = repo.create_session(user)
+                st.session_state.mfa_pending = {"user": user, "at": time.time()}
                 st.rerun()
+            else:
+                start_session(repo, user)
     st.markdown('<div class="mv-login-note">' + t("החשבונות נוצרים על ידי מנהל/ת המערכת בלבד · ההתחברות מסתיימת אחרי 15 דקות ללא פעילות "
                                                   "· חמש סיסמאות שגויות נועלות את החשבון זמנית") + '</div>', unsafe_allow_html=True)
+
+
+def start_session(repo, user):
+    clear_session()
+    st.session_state.token = repo.create_session(user)
+    st.rerun()
+
+
+def mfa_step(repo, pending):
+    """Second login step: a code from the authenticator app, or first-time enrolment of the app."""
+    user = pending["user"]
+    if user["mfa"] == "enroll":
+        st.markdown(f'<div class="mv-login-note"><b>{t("הגדרת אימות דו־שלבי")}</b><br>'
+                    + t("החשבון שלך מחייב קוד חד־פעמי. סרקו את הקוד באפליקציית אימות (Google Authenticator, Microsoft Authenticator וכדומה) "
+                        "והזינו את הקוד בן 6 הספרות שמופיע בה.") + '</div>', unsafe_allow_html=True)
+        if "secret" not in pending:
+            pending.update(repo.begin_mfa_enrollment(user))
+        png = crypto.qr_png(pending["uri"])
+        cols = st.columns([1, 2, 1])
+        with cols[1]:
+            if png:
+                st.image(png, width=220)
+            st.caption(t("או הזינו ידנית את המפתח:"))
+            st.code(pending["secret"], language=None)
+    with st.form("mfa"):
+        st.markdown(f"**{t('קוד אימות')}**")
+        code = st.text_input(t("קוד בן 6 ספרות מהאפליקציה"), max_chars=6, key="mfa_code")
+        if st.form_submit_button(t("אישור"), type="primary"):
+            try:
+                verified = repo.confirm_mfa(user, code) if user["mfa"] == "enroll" else repo.verify_mfa(user["id"], code)
+            except (ValueError, Conflict) as exc:  # wrong first code, or no open enrolment
+                verified = None
+                st.error(t(str(exc)))
+            else:
+                if not verified:
+                    st.error(t("הקוד שגוי או שפג תוקפו."))
+            if verified:
+                start_session(repo, verified)
+    if st.button(t("חזרה למסך הכניסה"), key="mfa_back"):
+        st.session_state.pop("mfa_pending", None)
+        st.rerun()
 
 
 def password_form(repo, user, forced=False):

@@ -3,10 +3,14 @@
 Schema changes go through Alembic migrations in backend/migrations; these
 models must match the latest migration. Timestamps are UTC epoch seconds
 (`time.time()`); audit events also store an ISO-8601 UTC string.
+
+Encryption at rest: columns typed EncryptedText / EncryptedJSON hold clinical content and personal names as
+AES-256-GCM ciphertext (backend/crypto.py). They cannot be searched or sorted in SQL.
 """
 from typing import Optional
 from sqlalchemy import JSON, Boolean, CheckConstraint, Float, ForeignKey, Integer, String, Text, UniqueConstraint
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+from backend.crypto import EncryptedJSON, EncryptedText
 
 STATES = ("received", "transcribing", "source_review", "extracting", "draft", "approved", "failed")
 ROLES = ("admin", "doctor", "patient")
@@ -22,7 +26,7 @@ class User(Base):
     __tablename__ = "users"
     id: Mapped[str] = mapped_column(String(40), primary_key=True)
     role: Mapped[str] = mapped_column(String(10))
-    display: Mapped[str] = mapped_column(String(80))
+    display: Mapped[str] = mapped_column(EncryptedText)
     password_hash: Mapped[str] = mapped_column(String(200))
     active: Mapped[bool] = mapped_column(Boolean, default=True)
     created_by: Mapped[Optional[str]] = mapped_column(ForeignKey("users.id"))
@@ -31,10 +35,27 @@ class User(Base):
     locked_until: Mapped[Optional[float]] = mapped_column(Float)
     password_changed_at: Mapped[Optional[float]] = mapped_column(Float)
     must_change_password: Mapped[bool] = mapped_column(Boolean, default=False)
+    # MFA (RFC 6238): secret encrypted at rest; last_step blocks replay of a used code.
+    mfa_secret: Mapped[Optional[str]] = mapped_column(EncryptedText)
+    mfa_enabled: Mapped[bool] = mapped_column(Boolean, default=False)
+    mfa_last_step: Mapped[Optional[int]] = mapped_column(Integer)
+    # Current Ed25519 signing key; the private key is wrapped with the user's password (backend/crypto.py).
+    sign_key_wrapped: Mapped[Optional[str]] = mapped_column(Text)
     __table_args__ = (CheckConstraint("role IN ('admin','doctor','patient')", name="ck_users_role"),)
 
     def to_dict(self):
         return {"id": self.id, "role": self.role, "display": self.display}
+
+
+class SigningKey(Base):
+    """Every public signing key a user has had, kept forever so old signatures stay verifiable."""
+    __tablename__ = "signing_keys"
+    fingerprint: Mapped[str] = mapped_column(String(32), primary_key=True)
+    user_id: Mapped[str] = mapped_column(ForeignKey("users.id"), index=True)
+    public_key: Mapped[str] = mapped_column(String(64))
+    created_at: Mapped[float] = mapped_column(Float)
+    retired_at: Mapped[Optional[float]] = mapped_column(Float)
+    retired_reason: Mapped[Optional[str]] = mapped_column(String(40))
 
 
 class LoginSession(Base):
@@ -87,7 +108,7 @@ class TranscriptVersion(Base):
     source: Mapped[str] = mapped_column(String(20))
     roles_confirmed: Mapped[bool] = mapped_column(Boolean, default=False)
     redaction_reviewed: Mapped[bool] = mapped_column(Boolean, default=False)
-    notices: Mapped[list] = mapped_column(JSON, default=list)
+    notices: Mapped[list] = mapped_column(EncryptedJSON, default=list)
     created_by: Mapped[str] = mapped_column(ForeignKey("users.id"))
     created_at: Mapped[float] = mapped_column(Float)
     segments: Mapped[list["TranscriptSegment"]] = relationship(order_by="TranscriptSegment.position", cascade="all, delete-orphan")
@@ -111,8 +132,8 @@ class TranscriptSegment(Base):
     start: Mapped[float] = mapped_column(Float)
     end: Mapped[float] = mapped_column(Float)
     speaker_label: Mapped[str] = mapped_column(String(40))
-    text: Mapped[str] = mapped_column(Text)
-    words: Mapped[list] = mapped_column(JSON, default=list)
+    text: Mapped[str] = mapped_column(EncryptedText)
+    words: Mapped[list] = mapped_column(EncryptedJSON, default=list)
     flags: Mapped[list] = mapped_column(JSON, default=list)
     __table_args__ = (UniqueConstraint("transcript_version_id", "segment_key"),)
 
@@ -145,7 +166,7 @@ class SummaryVersion(Base):
     transcript_version_id: Mapped[int] = mapped_column(ForeignKey("transcript_versions.id"))
     parent_id: Mapped[Optional[int]] = mapped_column(ForeignKey("summary_versions.id"))
     origin: Mapped[str] = mapped_column(String(10))
-    content: Mapped[dict] = mapped_column(JSON)
+    content: Mapped[dict] = mapped_column(EncryptedJSON)
     blocking: Mapped[bool] = mapped_column(Boolean)
     created_by: Mapped[str] = mapped_column(ForeignKey("users.id"))
     created_at: Mapped[float] = mapped_column(Float)
@@ -164,7 +185,7 @@ class PatientContextVersion(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     visit_id: Mapped[str] = mapped_column(ForeignKey("visits.id"), index=True)
     version: Mapped[int] = mapped_column(Integer)
-    content: Mapped[dict] = mapped_column(JSON)
+    content: Mapped[dict] = mapped_column(EncryptedJSON)
     created_by: Mapped[str] = mapped_column(ForeignKey("users.id"))
     created_at: Mapped[float] = mapped_column(Float)
     __table_args__ = (UniqueConstraint("visit_id", "version"),)
@@ -178,7 +199,7 @@ class PlanVersion(Base):
     visit_id: Mapped[str] = mapped_column(ForeignKey("visits.id"), index=True)
     version: Mapped[int] = mapped_column(Integer)
     parent_id: Mapped[Optional[int]] = mapped_column(ForeignKey("plan_versions.id"))
-    content: Mapped[dict] = mapped_column(JSON)
+    content: Mapped[dict] = mapped_column(EncryptedJSON)
     reason: Mapped[str] = mapped_column(String(40))
     created_by: Mapped[str] = mapped_column(ForeignKey("users.id"))
     created_at: Mapped[float] = mapped_column(Float)
@@ -205,6 +226,13 @@ class Approval(Base):
     signer_name: Mapped[Optional[str]] = mapped_column(String(80))
     meaning: Mapped[Optional[str]] = mapped_column(String(200))
     signature_method: Mapped[Optional[str]] = mapped_column(String(40))
+    # Cryptographic signature (Ed25519) over `manifest` (JSON: visit, versions, sha256, signer, meaning, time).
+    manifest: Mapped[Optional[str]] = mapped_column(Text)
+    signature: Mapped[Optional[str]] = mapped_column(String(128))
+    key_fingerprint: Mapped[Optional[str]] = mapped_column(ForeignKey("signing_keys.fingerprint"))
+    mfa_verified: Mapped[Optional[bool]] = mapped_column(Boolean)
+    time_source: Mapped[Optional[str]] = mapped_column(String(80))
+    clock_offset: Mapped[Optional[float]] = mapped_column(Float)
     revoked_at: Mapped[Optional[float]] = mapped_column(Float)
     revoked_reason: Mapped[Optional[str]] = mapped_column(String(40))
 
@@ -227,7 +255,7 @@ class AssistantMessage(Base):
     visit_id: Mapped[str] = mapped_column(ForeignKey("visits.id"), index=True)
     author: Mapped[str] = mapped_column(String(10))
     status: Mapped[str] = mapped_column(String(20))
-    content: Mapped[dict] = mapped_column(JSON)
+    content: Mapped[dict] = mapped_column(EncryptedJSON)
     context_version: Mapped[Optional[str]] = mapped_column(String(64))
     model: Mapped[Optional[str]] = mapped_column(String(80))
     created_at: Mapped[float] = mapped_column(Float)
@@ -241,14 +269,14 @@ class AssistantSuggestion(Base):
     message_id: Mapped[int] = mapped_column(ForeignKey("assistant_messages.id"), index=True)
     visit_id: Mapped[str] = mapped_column(ForeignKey("visits.id"), index=True)
     kind: Mapped[str] = mapped_column(String(30))
-    text: Mapped[str] = mapped_column(Text)
-    rationale: Mapped[str] = mapped_column(Text)
-    citations: Mapped[list] = mapped_column(JSON, default=list)
-    medication: Mapped[Optional[dict]] = mapped_column(JSON)
-    safety: Mapped[Optional[dict]] = mapped_column(JSON)
+    text: Mapped[str] = mapped_column(EncryptedText)
+    rationale: Mapped[str] = mapped_column(EncryptedText)
+    citations: Mapped[list] = mapped_column(EncryptedJSON, default=list)
+    medication: Mapped[Optional[dict]] = mapped_column(EncryptedJSON)
+    safety: Mapped[Optional[dict]] = mapped_column(EncryptedJSON)
     context_version: Mapped[str] = mapped_column(String(64))
     status: Mapped[str] = mapped_column(String(20), default="pending")
-    final_text: Mapped[Optional[str]] = mapped_column(Text)
+    final_text: Mapped[Optional[str]] = mapped_column(EncryptedText)
     decided_by: Mapped[Optional[str]] = mapped_column(ForeignKey("users.id"))
     decided_at: Mapped[Optional[float]] = mapped_column(Float)
     __table_args__ = (CheckConstraint("status IN ('pending','accepted','edited','rejected')"),)
@@ -307,5 +335,5 @@ class PseudonymMapping(MappingBase):
     __tablename__ = "mappings"
     visit_id: Mapped[str] = mapped_column(String(32), primary_key=True)
     placeholder: Mapped[str] = mapped_column(String(40), primary_key=True)
-    original: Mapped[str] = mapped_column(Text)
+    original: Mapped[str] = mapped_column(EncryptedText)
     created_at: Mapped[float] = mapped_column(Float)

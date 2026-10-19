@@ -66,6 +66,11 @@ def manifest_lines(approved: dict, lang: str = "he") -> list[str]:
                   T("מועד החתימה (UTC): {time}", time=utc_iso(sig["signed_at"])),
                   T("משמעות החתימה: {meaning}", meaning=T(sig["meaning"])),
                   T("אופן החתימה: {method}", method=sig["method"])]
+        if sig.get("algorithm"):
+            lines += [T("חתימה קריפטוגרפית: {alg} · טביעת מפתח: {key}", alg=sig["algorithm"], key=sig["key_fingerprint"]),
+                      T("אימות דו־שלבי בעת החתימה: {mfa} · מקור זמן: {source}", mfa=T("כן") if sig["mfa"] else T("לא"),
+                        source=sig["time_source"] or "—"),
+                      T("ערך החתימה (Base64): {value}", value=sig["signature"])]
     else:
         lines += [T("אישור מגרסה קודמת של המערכת (ללא רכיבי חתימה אלקטרונית), מועד (UTC): {time}", time=utc_iso(sig["signed_at"]))]
     return lines + [""]
@@ -237,7 +242,7 @@ def to_pdf(approved: dict, include_clinician: bool, lang: str = "he") -> bytes:
     top = pdf.get_y()
     pdf.set_draw_color(*NAVY)
     pdf.set_fill_color(*SOFT)
-    box_h = 34 if sig.get("signer_name") else 22
+    box_h = (46 if sig.get("algorithm") else 34) if sig.get("signer_name") else 22
     pdf.rect(pdf.l_margin, top, epw, box_h, "DF")
     pdf.set_xy(pdf.l_margin + 4, top + 3)
     pdf.set_font("body", size=11)
@@ -248,7 +253,10 @@ def to_pdf(approved: dict, include_clinician: bool, lang: str = "he") -> bytes:
     if sig.get("signer_name"):
         for text in (T("נחתם על ידי: {name} ({id})", name=sig["signer_name"], id=sig["signer_id"]),
                      T("מועד החתימה: {local} (UTC {utc})", local=_local(sig["signed_at"]), utc=utc_iso(sig["signed_at"])),
-                     T("משמעות החתימה: {meaning}", meaning=T(sig["meaning"]))):
+                     T("משמעות החתימה: {meaning}", meaning=T(sig["meaning"])),
+                     *([T("חתימה קריפטוגרפית: {alg} · טביעת מפתח: {key}", alg=sig["algorithm"], key=sig["key_fingerprint"][:16] + "…"),
+                        T("אימות דו־שלבי בעת החתימה: {mfa} · מקור זמן: {source}", mfa=T("כן") if sig["mfa"] else T("לא"),
+                          source=sig["time_source"] or "—")] if sig.get("algorithm") else [])):
             pdf.cell(epw - 8, 6, text, align=START, new_x="LEFT", new_y="NEXT")
     else:
         pdf.cell(epw - 8, 6, T("אושר בגרסה קודמת של המערכת (ללא רכיבי חתימה) · {time}", time=_local(sig["signed_at"])), align=START,
